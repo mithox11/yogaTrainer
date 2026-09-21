@@ -1,0 +1,2845 @@
+{
+  "info": {
+    "title": "Yoga App Master Dataset",
+    "version": "8.0.0",
+    "description": "Base de datos estructurada de posturas, rutinas y ejercicios de respiración adaptada para proyectos Angular con marco base de 4 fases estandarizado y sin duplicados consecutivos.",
+    "imagesPath": "/assets/images/yoga/",
+    "availableRoutineCategories": [
+      "Relaxation",
+      "Stretch",
+      "Exercise",
+      "Foundation",
+      "Balance and Flexibility",
+      "Stretch and Balance",
+      "Core Strength",
+      "Flexibility"
+    ]
+  },
+  "poses": [
+    {
+      "id": "tadasana",
+      "nameSanskrit": "Tadasana",
+      "nameSpanish": "Postura de la Montaña",
+      "category": "De pie / Alineación",
+      "difficulty": "Principiante",
+      "targetArea": "Cuerpo completo, postura, enraizamiento",
+      "benefits": "Mejora la postura, fortalece muslos y rodillas, estabiliza la mente.",
+      "imageFileName": "tadasana_mountain_pose.png",
+      "yogaType": "Hatha / Vinyasa (Fundamental)",
+      "recommendedDuration": "5-8 respiraciones (30-60 s) / 1-3 min en centramiento",
+      "holdTimeByStyle": {
+        "hatha": "30 - 60 segundos (5-8 respiraciones profundas)",
+        "vinyasa": "1 - 3 respiraciones de transición activa",
+        "yin": "N/A (Suelo y pasivo)"
+      }
+    },
+    {
+      "id": "vrksasana",
+      "nameSanskrit": "Vrksasana",
+      "nameSpanish": "Postura del Árbol",
+      "category": "Equilibrio",
+      "difficulty": "Principiante",
+      "targetArea": "Tobillos, piernas, enfoque mental",
+      "benefits": "Desarrolla el equilibrio, la concentración y fortalece los tobillos.",
+      "imageFileName": "vrksasana_tree_pose.png",
+      "yogaType": "Hatha / Vinyasa (Equilibrio)",
+      "recommendedDuration": "5-8 respiraciones por lado (30-60 s)",
+      "holdTimeByStyle": {
+        "hatha": "45 - 60 segundos por lado",
+        "vinyasa": "5 respiraciones por lado",
+        "yin": "N/A"
+      }
+    },
+    {
+      "id": "virabhadrasana_i",
+      "nameSanskrit": "Virabhadrasana I",
+      "nameSpanish": "Guerrero I",
+      "category": "De pie / Fuerza",
+      "difficulty": "Principiante / Intermedio",
+      "targetArea": "Cuádriceps, flexores de cadera, pecho",
+      "benefits": "Aumenta la fuerza de las piernas, abre el pecho y la cadera.",
+      "imageFileName": "virabhadrasana_i_warrior_1.png",
+      "yogaType": "Hatha / Vinyasa (Fuerza)",
+      "recommendedDuration": "5-8 respiraciones por lado (30-45 s)",
+      "holdTimeByStyle": {
+        "hatha": "45 - 60 segundos por lado",
+        "vinyasa": "3 - 5 respiraciones por lado",
+        "yin": "N/A"
+      }
+    },
+    {
+      "id": "virabhadrasana_ii",
+      "nameSanskrit": "Virabhadrasana II",
+      "nameSpanish": "Guerrero II",
+      "category": "De pie / Fuerza",
+      "difficulty": "Principiante",
+      "targetArea": "Caderas, muslos, hombros",
+      "benefits": "Fuerza en piernas, apertura de la pelvis y resistencia física.",
+      "imageFileName": "virabhadrasana_ii_warrior_2.png",
+      "yogaType": "Hatha / Vinyasa (Fuerza)",
+      "recommendedDuration": "5-8 respiraciones por lado (30-45 s)",
+      "holdTimeByStyle": {
+        "hatha": "45 - 60 segundos por lado",
+        "vinyasa": "3 - 5 respiraciones por lado",
+        "yin": "N/A"
+      }
+    },
+    {
+      "id": "adho_mukha_svanasana",
+      "nameSanskrit": "Adho Mukha Svanasana",
+      "nameSpanish": "Perro Boca Abajo",
+      "category": "Inversión suave / Estiramiento",
+      "difficulty": "Principiante",
+      "targetArea": "Isquiotibiales, hombros, columna",
+      "benefits": "Alarga la columna, flexibiliza piernas y calma la mente.",
+      "imageFileName": "adho_mukha_svanasana_downward_dog.png",
+      "yogaType": "Hatha / Vinyasa (Transición / Estiramiento)",
+      "recommendedDuration": "5-10 respiraciones (1-3 min)",
+      "holdTimeByStyle": {
+        "hatha": "1 - 2 minutos continuos",
+        "vinyasa": "5 respiraciones entre secuencias",
+        "yin": "N/A"
+      }
+    },
+    {
+      "id": "balasana",
+      "nameSanskrit": "Balasana",
+      "nameSpanish": "Postura del Niño",
+      "category": "Restaurativa",
+      "difficulty": "Principiante",
+      "targetArea": "Espalda baja, caderas, sistema nervioso",
+      "benefits": "Relajación profunda, alivio de tensión lumbar e introspección.",
+      "imageFileName": "balasana_childs_pose.png",
+      "yogaType": "Todos los estilos (Restaurativa / Descanso)",
+      "recommendedDuration": "1 - 5 minutos (o según necesidad)",
+      "holdTimeByStyle": {
+        "hatha": "1 - 3 minutos",
+        "vinyasa": "3 - 5 respiraciones de descanso",
+        "yin": "3 - 5 minutos (Child's Pose pasiva)"
+      }
+    },
+    {
+      "id": "bhujangasana",
+      "nameSanskrit": "Bhujangasana",
+      "nameSpanish": "Postura de la Cobra",
+      "category": "Extensión de columna",
+      "difficulty": "Principiante",
+      "targetArea": "Espalda alta y media, pecho",
+      "benefits": "Abre el tórax, fortalece la espina dorsal y estimula órganos abdominales.",
+      "imageFileName": "bhujangasana_cobra_pose.png",
+      "yogaType": "Hatha / Vinyasa (Backbend)",
+      "recommendedDuration": "3-5 respiraciones (20-40 s)",
+      "holdTimeByStyle": {
+        "hatha": "30 - 45 segundos por repetición",
+        "vinyasa": "1 - 3 respiraciones (Vinyasa flow)",
+        "yin": "Ver Sphinx pose (3-5 min)"
+      }
+    },
+    {
+      "id": "salamba_sirsasana",
+      "nameSanskrit": "Salamba Sirsasana",
+      "nameSpanish": "Parado de Cabeza",
+      "category": "Inversión avanzada",
+      "difficulty": "Avanzado",
+      "targetArea": "Core, hombros, circulación sanguínea",
+      "benefits": "Mejora la circulación cerebral, fortalece el centro y desarrolla valor.",
+      "imageFileName": "sirkasana_headstand.png",
+      "yogaType": "Hatha / Vinyasa Avanzado (Inversión)",
+      "recommendedDuration": "5-25 respiraciones (1-5 min)",
+      "holdTimeByStyle": {
+        "hatha": "1 - 3 minutos de retención estable",
+        "vinyasa": "5 - 10 respiraciones",
+        "yin": "N/A"
+      }
+    },
+    {
+      "id": "paschimottanasana",
+      "nameSanskrit": "Paschimottanasana",
+      "nameSpanish": "Pinza Sentada",
+      "category": "Flexión sentada",
+      "difficulty": "Intermedio",
+      "targetArea": "Cadena posterior, isquiotibiales, espalda",
+      "benefits": "Estiramiento profundo de piernas y espalda, estimula la digestión.",
+      "imageFileName": "paschimottanasana_seated_forward_bend.png",
+      "yogaType": "Hatha / Yin (Flexión sentada)",
+      "recommendedDuration": "5-10 respiraciones en Hatha / 3-5 min en Yin (Caterpillar)",
+      "holdTimeByStyle": {
+        "hatha": "1 - 3 minutos",
+        "vinyasa": "5 respiraciones",
+        "yin": "3 - 5 minutos (Oruga / Caterpillar)"
+      }
+    },
+    {
+      "id": "ustrasana",
+      "nameSanskrit": "Ustrasana",
+      "nameSpanish": "Postura del Camello",
+      "category": "Extensión / Backbend",
+      "difficulty": "Intermedio",
+      "targetArea": "Cuádriceps, psoas, pecho, garganta",
+      "benefits": "Apertura profunda del corazón (Chakra Anahata), flexibiliza espina.",
+      "imageFileName": "ustrasana_camel_pose.png",
+      "yogaType": "Hatha / Vinyasa (Extensión)",
+      "recommendedDuration": "3-5 respiraciones (20-30 s)",
+      "holdTimeByStyle": {
+        "hatha": "30 - 45 segundos (2-3 repeticiones)",
+        "vinyasa": "3 - 5 respiraciones",
+        "yin": "N/A (Saddle Pose como alternativa)"
+      }
+    },
+    {
+      "id": "utkatasana",
+      "nameSanskrit": "Utkatasana",
+      "nameSpanish": "Postura de la Silla",
+      "category": "De pie / Fuerza",
+      "difficulty": "Principiante",
+      "targetArea": "Cuádriceps, tobillos, espalda baja",
+      "benefits": "Desarrolla calor interno, tonifica piernas y fortalece la columna.",
+      "imageFileName": "utkatasana_chair_pose.png",
+      "yogaType": "Hatha / Vinyasa (Fuerza)",
+      "recommendedDuration": "5-8 respiraciones (30-45 s)",
+      "holdTimeByStyle": {
+        "hatha": "30 - 60 segundos",
+        "vinyasa": "3 - 5 respiraciones",
+        "yin": "N/A"
+      }
+    },
+    {
+      "id": "utthita_trikonasana",
+      "nameSanskrit": "Utthita Trikonasana",
+      "nameSpanish": "Triángulo Extendido",
+      "category": "De pie / Lateral",
+      "difficulty": "Principiante",
+      "targetArea": "Isquiotibiales, costados, caderas",
+      "benefits": "Expande el tórax, aumenta la movilidad de caderas y estira costados.",
+      "imageFileName": "utthita_trikonasana_triangle_pose.png",
+      "yogaType": "Hatha / Vinyasa (Lateral)",
+      "recommendedDuration": "5-8 respiraciones por lado (30-45 s)",
+      "holdTimeByStyle": {
+        "hatha": "45 - 60 segundos por lado",
+        "vinyasa": "5 respiraciones por lado",
+        "yin": "N/A"
+      }
+    },
+    {
+      "id": "ardha_chandrasana",
+      "nameSanskrit": "Ardha Chandrasana",
+      "nameSpanish": "Media Luna",
+      "category": "Equilibrio de pie",
+      "difficulty": "Intermedio",
+      "targetArea": "Piernas, caderas, torso lateral",
+      "benefits": "Mejora la coordinación, abre caderas y fortalece tobillos.",
+      "imageFileName": "ardha_chandrasana_half_moon.png",
+      "yogaType": "Hatha / Vinyasa (Equilibrio)",
+      "recommendedDuration": "5 respiraciones por lado (30 s)",
+      "holdTimeByStyle": {
+        "hatha": "30 - 45 segundos por lado",
+        "vinyasa": "5 respiraciones por lado",
+        "yin": "N/A"
+      }
+    },
+    {
+      "id": "natarajasana",
+      "nameSanskrit": "Natarajasana",
+      "nameSpanish": "Postura del Bailarín",
+      "category": "Equilibrio / Arco",
+      "difficulty": "Intermedio",
+      "targetArea": "Pecho, hombros, cuádriceps, enfoque",
+      "benefits": "Abre el corazón, entrena la concentración y el equilibrio sobre una pierna.",
+      "imageFileName": "natarajasana_dancer_pose.png",
+      "yogaType": "Hatha / Vinyasa (Equilibrio / Arco)",
+      "recommendedDuration": "5 respiraciones por lado (30 s)",
+      "holdTimeByStyle": {
+        "hatha": "30 - 45 segundos por lado",
+        "vinyasa": "5 respiraciones por lado",
+        "yin": "N/A"
+      }
+    },
+    {
+      "id": "garudasana",
+      "nameSanskrit": "Garudasana",
+      "nameSpanish": "Postura del Águila",
+      "category": "Equilibrio / Cierre",
+      "difficulty": "Intermedio",
+      "targetArea": "Hombros, caderas, tobillos",
+      "benefits": "Comprime articulaciones para liberación fascial, potencia la atención.",
+      "imageFileName": "garudasana_eagle_pose.png",
+      "yogaType": "Hatha / Vinyasa (Equilibrio)",
+      "recommendedDuration": "5 respiraciones por lado (30 s)",
+      "holdTimeByStyle": {
+        "hatha": "30 - 45 segundos por lado",
+        "vinyasa": "5 respiraciones por lado",
+        "yin": "N/A"
+      }
+    },
+    {
+      "id": "eka_pada_rajakapotasana",
+      "nameSanskrit": "Eka Pada Rajakapotasana",
+      "nameSpanish": "Postura de la Paloma / Cisne",
+      "category": "Apertura de cadera",
+      "difficulty": "Intermedio",
+      "targetArea": "Glúteos, piriforme, flexores de cadera",
+      "benefits": "Libera tensión acumulada en la pelvis y emociones atascadas.",
+      "imageFileName": "eka_pada_rajakapotasana_pigeon_pose.png",
+      "yogaType": "Hatha / Yin (Apertura de Cadera)",
+      "recommendedDuration": "5-10 respiraciones en Hatha / 3-5 min en Yin (Sleeping Swan)",
+      "holdTimeByStyle": {
+        "hatha": "1 - 2 minutos por lado",
+        "vinyasa": "5 - 8 respiraciones por lado",
+        "yin": "3 - 5 minutos por lado (Cisne durmiente)"
+      }
+    },
+    {
+      "id": "baddha_konasana",
+      "nameSanskrit": "Baddha Konasana",
+      "nameSpanish": "Mariposa / Ángulo Atado",
+      "category": "Suelo / Pelvis",
+      "difficulty": "Principiante",
+      "targetArea": "Ingles, caderas, zona lumbar",
+      "benefits": "Aumenta la flexibilidad inguinal y alivia molestias menstruales.",
+      "imageFileName": "baddha_konasana_butterfly_pose.png",
+      "yogaType": "Hatha / Yin (Suelo)",
+      "recommendedDuration": "1 - 3 min en Hatha / 3-5 min en Yin (Butterfly)",
+      "holdTimeByStyle": {
+        "hatha": "1 - 2 minutos",
+        "vinyasa": "5 respiraciones",
+        "yin": "3 - 5 minutos (Mariposa Yin)"
+      }
+    },
+    {
+      "id": "malasana",
+      "nameSanskrit": "Malasana",
+      "nameSpanish": "Postura de la Guirnalda",
+      "category": "Sentadilla yógica",
+      "difficulty": "Principiante",
+      "targetArea": "Piso pélvico, caderas, tobillos",
+      "benefits": "Enraizamiento profundo y apertura del piso pélvico.",
+      "imageFileName": "malasana_garland_pose.png",
+      "yogaType": "Hatha / Vinyasa / Yin (Pelvis)",
+      "recommendedDuration": "5-10 respiraciones (1-3 min)",
+      "holdTimeByStyle": {
+        "hatha": "1 - 2 minutos",
+        "vinyasa": "5 - 8 respiraciones",
+        "yin": "3 - 5 minutos (Squat pasivo)"
+      }
+    },
+    {
+      "id": "utthan_pristhasana",
+      "nameSanskrit": "Utthan Pristhasana",
+      "nameSpanish": "Postura del Lagarto",
+      "category": "Apertura de cadera",
+      "difficulty": "Intermedio",
+      "targetArea": "Isquiotibiales, psoas, ingle",
+      "benefits": "Estiramiento intenso de los flexores de cadera y muslos.",
+      "imageFileName": "utthan_pristhasana_lizard_pose.png",
+      "yogaType": "Hatha / Vinyasa / Yin (Apertura de Cadera)",
+      "recommendedDuration": "5-8 respiraciones por lado / 3-5 min en Yin (Dragon Pose)",
+      "holdTimeByStyle": {
+        "hatha": "1 - 2 minutos por lado",
+        "vinyasa": "5 - 8 respiraciones por lado",
+        "yin": "3 - 5 minutos por lado (Postura del Dragón)"
+      }
+    },
+    {
+      "id": "anjaneyasana",
+      "nameSanskrit": "Anjaneyasana",
+      "nameSpanish": "Luna Creciente / Lunge Bajo",
+      "category": "Apertura frontal",
+      "difficulty": "Principiante",
+      "targetArea": "Psoas, cuádriceps, tórax",
+      "benefits": "Extensión frontal y alineación de la pelvis.",
+      "imageFileName": "anjaneyasana_crescent_lunge.png",
+      "yogaType": "Hatha / Vinyasa (Lunge Bajo)",
+      "recommendedDuration": "5-8 respiraciones por lado (30-45 s)",
+      "holdTimeByStyle": {
+        "hatha": "45 - 60 segundos por lado",
+        "vinyasa": "5 respiraciones por lado",
+        "yin": "2 - 4 minutos (Lunge pasivo)"
+      }
+    },
+    {
+      "id": "anahatasana",
+      "nameSanskrit": "Anahatasana",
+      "nameSpanish": "Corazón Derretido",
+      "category": "Yin / Apertura de hombros",
+      "difficulty": "Principiante",
+      "targetArea": "Hombros, escápulas, pecho",
+      "benefits": "Apertura de la espalda alta y liberación de tensión escapular.",
+      "imageFileName": "anahatasana_melting_heart.png",
+      "yogaType": "Yin Yoga / Restaurativo",
+      "recommendedDuration": "3 - 5 minutos",
+      "holdTimeByStyle": {
+        "hatha": "1 - 2 minutos",
+        "vinyasa": "5 respiraciones pasivas",
+        "yin": "3 - 5 minutos (Corazón derretido pasivo)"
+      }
+    },
+    {
+      "id": "sphinx_pose",
+      "nameSanskrit": "Sphinx Pose",
+      "nameSpanish": "Postura de la Esfinge",
+      "category": "Yin / Extensión lumbar",
+      "difficulty": "Principiante",
+      "targetArea": "Zona lumbar, sacro",
+      "benefits": "Compresión suave pasiva en lumbares para rehidratar discos.",
+      "imageFileName": "sphinx_pose.png",
+      "yogaType": "Yin Yoga / Restaurativo",
+      "recommendedDuration": "3 - 5 minutos",
+      "holdTimeByStyle": {
+        "hatha": "1 - 2 minutos",
+        "vinyasa": "3 - 5 respiraciones",
+        "yin": "3 - 5 minutos (Esfinge Yin)"
+      }
+    },
+    {
+      "id": "caterpillar_pose",
+      "nameSanskrit": "Caterpillar Pose",
+      "nameSpanish": "Postura de la Oruga",
+      "category": "Yin / Flexión pasiva",
+      "difficulty": "Principiante",
+      "targetArea": "Toda la cadena posterior",
+      "benefits": "Estimula el meridiano de la vejiga y relaja el cuello.",
+      "imageFileName": "caterpillar_pose.png",
+      "yogaType": "Yin Yoga",
+      "recommendedDuration": "3 - 5 minutos",
+      "holdTimeByStyle": {
+        "hatha": "Ver Paschimottanasana",
+        "vinyasa": "N/A",
+        "yin": "3 - 5 minutos pasivos con cojín"
+      }
+    },
+    {
+      "id": "bananasana",
+      "nameSanskrit": "Bananasana",
+      "nameSpanish": "Postura de la Banana",
+      "category": "Yin / Estiramiento lateral",
+      "difficulty": "Principiante",
+      "targetArea": "Banda iliotibial, oblicuos, intercostales",
+      "benefits": "Abre todo el costado del cuerpo y aumenta capacidad respiratoria.",
+      "imageFileName": "bananasana_pose.png",
+      "yogaType": "Yin Yoga",
+      "recommendedDuration": "3 - 5 minutos por lado",
+      "holdTimeByStyle": {
+        "hatha": "1 - 2 minutos por lado",
+        "vinyasa": "N/A",
+        "yin": "3 - 5 minutos por lado"
+      }
+    },
+    {
+      "id": "snail_pose",
+      "nameSanskrit": "Snail Pose",
+      "nameSpanish": "Postura del Caracol",
+      "category": "Yin / Inversión pasiva",
+      "difficulty": "Intermedio / Avanzado",
+      "targetArea": "Columna vertebral, cuello",
+      "benefits": "Masaje profundo de órganos y tracción completa espinal.",
+      "imageFileName": "snail_pose.png",
+      "yogaType": "Yin Yoga (Avanzado)",
+      "recommendedDuration": "3 - 5 minutos",
+      "holdTimeByStyle": {
+        "hatha": "Ver Halasana (1-2 min)",
+        "vinyasa": "N/A",
+        "yin": "3 - 5 minutos pasivos"
+      }
+    },
+    {
+      "id": "salamba_sarvangasana",
+      "nameSanskrit": "Salamba Sarvangasana",
+      "nameSpanish": "Postura de la Vela",
+      "category": "Inversión",
+      "difficulty": "Intermedio",
+      "targetArea": "Glándula tiroides, sistema circulatorio",
+      "benefits": "Estimula el retorno venoso y regula el sistema endocrino.",
+      "imageFileName": "salamba_sarvangasana_shoulderstand.png",
+      "yogaType": "Hatha Yoga (Inversión)",
+      "recommendedDuration": "10-25 respiraciones (2-5 min)",
+      "holdTimeByStyle": {
+        "hatha": "2 - 5 minutos en quietud",
+        "vinyasa": "10 respiraciones",
+        "yin": "N/A"
+      }
+    },
+    {
+      "id": "halasana",
+      "nameSanskrit": "Halasana",
+      "nameSpanish": "Postura del Arado",
+      "category": "Inversión / Flexión",
+      "difficulty": "Intermedio",
+      "targetArea": "Espalda alta, cuello, digestión",
+      "benefits": "Estira la columna cervical y reduce el cansancio acumulado.",
+      "imageFileName": "halasana_plow_pose.png",
+      "yogaType": "Hatha Yoga (Inversión)",
+      "recommendedDuration": "5-10 respiraciones (1-3 min)",
+      "holdTimeByStyle": {
+        "hatha": "1 - 3 minutos",
+        "vinyasa": "5 - 8 respiraciones",
+        "yin": "Ver Snail pose"
+      }
+    },
+    {
+      "id": "ardha_matsyendrasana",
+      "nameSanskrit": "Ardha Matsyendrasana",
+      "nameSpanish": "Torsión Sentada de Columna",
+      "category": "Torsión",
+      "difficulty": "Principiante / Intermedio",
+      "targetArea": "Vértebras, órganos abdominales",
+      "benefits": "Desintoxica órganos internos y da movilidad a la espina dorsal.",
+      "imageFileName": "ardha_matsyendrasana_seated_twist.png",
+      "yogaType": "Hatha / Vinyasa (Torsión)",
+      "recommendedDuration": "5-8 respiraciones por lado (1-2 min)",
+      "holdTimeByStyle": {
+        "hatha": "1 - 2 minutos por lado",
+        "vinyasa": "5 respiraciones por lado",
+        "yin": "3 minutos por lado"
+      }
+    },
+    {
+      "id": "viparita_karani",
+      "nameSanskrit": "Viparita Karani",
+      "nameSpanish": "Piernas en la Pared",
+      "category": "Restaurativa",
+      "difficulty": "Principiante",
+      "targetArea": "Piernas, corazón, sistema parasimpático",
+      "benefits": "Alivia piernas cansadas y reduce la presión arterial y ansiedad.",
+      "imageFileName": "viparita_karani_legs_up_wall.png",
+      "yogaType": "Todos los estilos (Restaurativo / Yin)",
+      "recommendedDuration": "5 - 15 minutos",
+      "holdTimeByStyle": {
+        "hatha": "5 - 10 minutos",
+        "vinyasa": "5 minutos al final",
+        "yin": "5 - 15 minutos pasivos"
+      }
+    },
+    {
+      "id": "savasana",
+      "nameSanskrit": "Savasana",
+      "nameSpanish": "Postura del Cadáver",
+      "category": "Relajación final",
+      "difficulty": "Principiante",
+      "targetArea": "Integración cuerpo-mente",
+      "benefits": "Asimilación neuro-muscular de la práctica, calma profunda.",
+      "imageFileName": "savasana_corpse_pose.png",
+      "yogaType": "Todos los estilos (Relajación Final)",
+      "recommendedDuration": "5 - 15 minutos",
+      "holdTimeByStyle": {
+        "hatha": "8 - 12 minutos",
+        "vinyasa": "5 - 10 minutos",
+        "yin": "10 - 15 minutos"
+      }
+    },
+    {
+      "id": "navasana",
+      "nameSanskrit": "Navasana",
+      "nameSpanish": "Postura de la Barca",
+      "category": "Fuerza / Core",
+      "difficulty": "Intermedio",
+      "targetArea": "Abdomen, psoas, flexores de cadera",
+      "benefits": "Desarrolla fuerza abdominal profunda y estabilidad lumbar.",
+      "imageFileName": "navasana_boat_pose.png",
+      "yogaType": "Hatha / Vinyasa (Core)",
+      "recommendedDuration": "3 series de 30-45 segundos (5 respiraciones cada una)",
+      "holdTimeByStyle": {
+        "hatha": "30 - 45 segundos (3 series)",
+        "vinyasa": "5 respiraciones intensas",
+        "yin": "N/A"
+      }
+    },
+    {
+      "id": "chaturanga_dandasana",
+      "nameSanskrit": "Chaturanga Dandasana",
+      "nameSpanish": "Plancha Baja",
+      "category": "Fuerza / Transición Vinyasa",
+      "difficulty": "Intermedio",
+      "targetArea": "Tríceps, hombros, core",
+      "benefits": "Fortalece brazos y prepara para arm balances e inversiones.",
+      "imageFileName": "chaturanga_dandasana.png",
+      "yogaType": "Vinyasa / Hatha (Fuerza / Transición)",
+      "recommendedDuration": "1-3 respiraciones (5-15 s)",
+      "holdTimeByStyle": {
+        "hatha": "15 - 30 segundos (construcción de fuerza)",
+        "vinyasa": "1 exhalación en transición de Vinyasa",
+        "yin": "N/A"
+      }
+    },
+    {
+      "id": "matsyasana",
+      "nameSanskrit": "Matsyasana",
+      "nameSpanish": "Postura del Pez",
+      "category": "Apertura de pecho / Contrapostura",
+      "difficulty": "Principiante / Intermedio",
+      "targetArea": "Caja torácica, garganta",
+      "benefits": "Expande la capacidad pulmonar y estimula la glándula tiroides.",
+      "imageFileName": "matsyasana_fish_pose.png",
+      "yogaType": "Hatha Yoga (Contrapostura / Apertura)",
+      "recommendedDuration": "5-8 respiraciones (30-60 s)",
+      "holdTimeByStyle": {
+        "hatha": "45 - 60 segundos",
+        "vinyasa": "5 respiraciones",
+        "yin": "3 - 5 minutos (Sustentado con bloque)"
+      }
+    },
+    {
+      "id": "setu_bandhasana",
+      "nameSanskrit": "Setu Bandhasana",
+      "nameSpanish": "Postura del Puente",
+      "category": "Extensión de columna",
+      "difficulty": "Principiante",
+      "targetArea": "Glúteos, isquiotibiales, pecho",
+      "benefits": "Fortalece la parte posterior del cuerpo y abre los hombros.",
+      "imageFileName": "setu_bandhasana_bridge_pose.png",
+      "yogaType": "Hatha / Vinyasa / Yin (Extensión / Puente)",
+      "recommendedDuration": "5-8 respiraciones en activo / 3-5 min en Yin apoyado",
+      "holdTimeByStyle": {
+        "hatha": "45 - 60 segundos (2-3 repeticiones)",
+        "vinyasa": "5 respiraciones",
+        "yin": "3 - 5 minutos con bloque debajo del sacro"
+      }
+    },
+    {
+      "id": "dhanurasana",
+      "nameSanskrit": "Dhanurasana",
+      "nameSpanish": "Postura del Arco",
+      "category": "Extensión profunda",
+      "difficulty": "Intermedio",
+      "targetArea": "Toda la cadena anterior y columna",
+      "benefits": "Estimula los órganos digestivos y estira profundamente el tórax.",
+      "imageFileName": "dhanurasana_bow_pose.png",
+      "yogaType": "Hatha / Vinyasa (Extensión)",
+      "recommendedDuration": "3-5 respiraciones (20-30 s) x 2-3 rondas",
+      "holdTimeByStyle": {
+        "hatha": "20 - 30 segundos (2-3 rondas)",
+        "vinyasa": "3 - 5 respiraciones",
+        "yin": "N/A"
+      }
+    },
+    {
+      "id": "virabhadrasana_iii",
+      "nameSanskrit": "Virabhadrasana III",
+      "nameSpanish": "Guerrero III",
+      "category": "Equilibrio / Fuerza",
+      "difficulty": "Intermedio",
+      "targetArea": "Core, glúteos, tobillos, espalda alta",
+      "benefits": "Fortalece la cadena posterior, mejora el equilibrio y la estabilidad del tobillo.",
+      "imageFileName": "virabhadrasana_iii_warrior_3.png",
+      "yogaType": "Hatha / Vinyasa",
+      "recommendedDuration": "5 respiraciones por lado (30 s)",
+      "holdTimeByStyle": {
+        "hatha": "30 - 45 segundos por lado",
+        "vinyasa": "5 respiraciones por lado",
+        "yin": "N/A"
+      }
+    },
+    {
+      "id": "vasisthasana",
+      "nameSanskrit": "Vasisthasana",
+      "nameSpanish": "Plancha Lateral",
+      "category": "Fuerza / Core",
+      "difficulty": "Intermedio / Avanzado",
+      "targetArea": "Oblicuos, muñecas, hombros, core",
+      "benefits": "Desarrolla fuerza en brazos, muñecas y fortalece los músculos estabilizadores del tronco.",
+      "imageFileName": "vasisthasana_side_plank.png",
+      "yogaType": "Vinyasa / Hatha",
+      "recommendedDuration": "5 respiraciones por lado",
+      "holdTimeByStyle": {
+        "hatha": "30 segundos por lado",
+        "vinyasa": "5 respiraciones por lado",
+        "yin": "N/A"
+      }
+    },
+    {
+      "id": "bakasana",
+      "nameSanskrit": "Bakasana",
+      "nameSpanish": "Postura del Cuervo",
+      "category": "Equilibrio sobre brazos",
+      "difficulty": "Avanzado",
+      "targetArea": "Muñecas, tríceps, abdomen, concentración",
+      "benefits": "Aumenta la fuerza en la parte superior del cuerpo y desarrolla confianza y concentración.",
+      "imageFileName": "bakasana_crow_pose.png",
+      "yogaType": "Vinyasa / Ashtanga",
+      "recommendedDuration": "5 respiraciones",
+      "holdTimeByStyle": {
+        "hatha": "15 - 30 segundos",
+        "vinyasa": "5 respiraciones",
+        "yin": "N/A"
+      }
+    },
+    {
+      "id": "supta_baddha_konasana",
+      "nameSanskrit": "Supta Baddha Konasana",
+      "nameSpanish": "Mariposa Reclinada",
+      "category": "Restaurativa / Yin",
+      "difficulty": "Principiante",
+      "targetArea": "Pelvis, ingles, pecho, sistema nervioso",
+      "benefits": "Alivia el estrés, favorece la relajación profunda y abre la pelvis de forma pasiva.",
+      "imageFileName": "supta_baddha_konasana_reclined_butterfly.png",
+      "yogaType": "Yin / Restaurativo",
+      "recommendedDuration": "5 - 10 minutos",
+      "holdTimeByStyle": {
+        "hatha": "2 - 3 minutos",
+        "vinyasa": "1 minuto",
+        "yin": "5 - 10 minutos"
+      }
+    },
+    {
+      "id": "prasarita_padottanasana",
+      "nameSanskrit": "Prasarita Padottanasana",
+      "nameSpanish": "Gran Ángulo de Pie",
+      "category": "De pie / Flexión",
+      "difficulty": "Principiante / Intermedio",
+      "targetArea": "Isquiotibiales, columna, caderas",
+      "benefits": "Estira la parte interna de las piernas y calma el cerebro.",
+      "imageFileName": "prasarita_padottanasana_wide_leg_forward_fold.png",
+      "yogaType": "Hatha / Vinyasa",
+      "recommendedDuration": "5-8 respiraciones",
+      "holdTimeByStyle": {
+        "hatha": "45 segundos",
+        "vinyasa": "5 respiraciones",
+        "yin": "N/A"
+      }
+    },
+    {
+      "id": "parivrtta_trikonasana",
+      "nameSanskrit": "Parivrtta Trikonasana",
+      "nameSpanish": "Triángulo Invertido",
+      "category": "De pie / Torsión",
+      "difficulty": "Intermedio",
+      "targetArea": "Columna, isquiotibiales, equilibrio",
+      "benefits": "Estimula la digestión, estira las caderas y fortalece las piernas.",
+      "imageFileName": "parivrtta_trikonasana_revolved_triangle.png",
+      "yogaType": "Hatha / Vinyasa",
+      "recommendedDuration": "5 respiraciones por lado",
+      "holdTimeByStyle": {
+        "hatha": "30 - 45 segundos por lado",
+        "vinyasa": "5 respiraciones por lado",
+        "yin": "N/A"
+      }
+    },
+    {
+      "id": "salabhasana",
+      "nameSanskrit": "Salabhasana",
+      "nameSpanish": "Postura de la Langosta",
+      "category": "Extensión de columna",
+      "difficulty": "Principiante / Intermedio",
+      "targetArea": "Espalda baja, glúteos, hombros",
+      "benefits": "Fortalece toda la cadena posterior y mejora la postura.",
+      "imageFileName": "salabhasana_locust_pose.png",
+      "yogaType": "Hatha / Vinyasa",
+      "recommendedDuration": "3 - 5 respiraciones",
+      "holdTimeByStyle": {
+        "hatha": "30 segundos",
+        "vinyasa": "5 respiraciones",
+        "yin": "N/A"
+      }
+    },
+    {
+      "id": "janu_sirsasana",
+      "nameSanskrit": "Janu Sirsasana",
+      "nameSpanish": "Frente a la Rodilla Sentada",
+      "category": "Flexión sentada",
+      "difficulty": "Principiante",
+      "targetArea": "Isquiotibiales, ingle, zona lumbar",
+      "benefits": "Calma la mente, alivia la fatiga y estira la espalda baja.",
+      "imageFileName": "janu_sirsasana_head_to_knee.png",
+      "yogaType": "Hatha / Yin",
+      "recommendedDuration": "3 - 5 minutos por lado en Yin",
+      "holdTimeByStyle": {
+        "hatha": "1 minuto por lado",
+        "vinyasa": "5 respiraciones por lado",
+        "yin": "3 - 5 minutos por lado"
+      }
+    },
+    {
+      "id": "supta_virasana",
+      "nameSanskrit": "Supta Virasana",
+      "nameSpanish": "Héroe Recostado / Saddle",
+      "category": "Yin / Extensión",
+      "difficulty": "Intermedio / Avanzado",
+      "targetArea": "Cuádriceps, psoas, zona lumbar",
+      "benefits": "Estiramiento intenso de los muslos y flexores de cadera.",
+      "imageFileName": "supta_virasana_recline_hero_pose.png",
+      "yogaType": "Yin / Hatha",
+      "recommendedDuration": "3 - 5 minutos",
+      "holdTimeByStyle": {
+        "hatha": "1 - 2 minutos",
+        "vinyasa": "N/A",
+        "yin": "3 - 5 minutos"
+      }
+    },
+    {
+      "id": "ananda_balasana",
+      "nameSanskrit": "Ananda Balasana",
+      "nameSpanish": "Bebé Feliz",
+      "category": "Restaurativa / Suelo",
+      "difficulty": "Principiante",
+      "targetArea": "Caderas, ingle, sacro",
+      "benefits": "Libera tensión en la zona sacra y estira suavemente la ingle.",
+      "imageFileName": "ananda_balasana_happy_baby.png",
+      "yogaType": "Hatha / Yin",
+      "recommendedDuration": "2 - 3 minutos",
+      "holdTimeByStyle": {
+        "hatha": "1 - 2 minutos",
+        "vinyasa": "5 respiraciones",
+        "yin": "3 - 5 minutos"
+      }
+    },
+    {
+      "id": "parivrtta_parsvakonasana",
+      "nameSanskrit": "Parivrtta Parsvakonasana",
+      "nameSpanish": "Ángulo Lateral en Torsión",
+      "category": "De pie / Torsión",
+      "difficulty": "Intermedio",
+      "targetArea": "Tórax, columna, cuádriceps, digestión",
+      "benefits": "Masajea órganos abdominales, fortalece piernas y mejora el equilibrio.",
+      "imageFileName": "parivrtta_parsvakonasana_revolved_side_angle.png",
+      "yogaType": "Vinyasa / Hatha",
+      "recommendedDuration": "5 respiraciones por lado",
+      "holdTimeByStyle": {
+        "hatha": "30 - 45 segundos por lado",
+        "vinyasa": "5 respiraciones por lado",
+        "yin": "N/A"
+      }
+    },
+    {
+      "id": "humble_warrior",
+      "nameSanskrit": "Baddha Virabhadrasana",
+      "nameSpanish": "Guerrero Humilde",
+      "category": "De pie / Apertura de hombros",
+      "difficulty": "Intermedio",
+      "targetArea": "Hombros, caderas, piernas",
+      "benefits": "Combina la fuerza de piernas con la humilde rendición y apertura de hombros.",
+      "imageFileName": "humble_warrior.png",
+      "yogaType": "Vinyasa Flow",
+      "recommendedDuration": "5 respiraciones por lado",
+      "holdTimeByStyle": {
+        "hatha": "30 segundos por lado",
+        "vinyasa": "5 respiraciones por lado",
+        "yin": "N/A"
+      }
+    },
+    {
+      "id": "upavistha_konasana",
+      "nameSanskrit": "Upavistha Konasana",
+      "nameSpanish": "Gran Ángulo Sentado",
+      "category": "Suelo / Flexión",
+      "difficulty": "Intermedio",
+      "targetArea": "Isquiotibiales internos, ingle, columna",
+      "benefits": "Aumenta la flexibilidad de la pelvis y fortalece la columna erguida.",
+      "imageFileName": "upavistha_konasana_wide_angle_seated_fold.png",
+      "yogaType": "Hatha / Yin",
+      "recommendedDuration": "3 - 5 minutos en Yin",
+      "holdTimeByStyle": {
+        "hatha": "1 - 2 minutos",
+        "vinyasa": "5 respiraciones",
+        "yin": "3 - 5 minutos"
+      }
+    },
+    {
+      "id": "supta_matsyendrasana",
+      "nameSanskrit": "Supta Matsyendrasana",
+      "nameSpanish": "Torsión Supina de Columna",
+      "category": "Restaurativa / Suelo",
+      "difficulty": "Principiante",
+      "targetArea": "Espalda baja, glúteos, pecho",
+      "benefits": "Neutraliza la columna al final de la práctica y relaja la zona lumbar.",
+      "imageFileName": "supta_matsyendrasana_supine_twist.png",
+      "yogaType": "Yin / Hatha / Restaurativo",
+      "recommendedDuration": "3 - 5 minutos por lado",
+      "holdTimeByStyle": {
+        "hatha": "1 - 2 minutos por lado",
+        "vinyasa": "5 respiraciones por lado",
+        "yin": "3 - 5 minutos por lado"
+      }
+    },
+    {
+      "id": "marjaryasana_bitilasana",
+      "nameSanskrit": "Marjaryasana-Bitilasana",
+      "nameSpanish": "Gato-Vaca",
+      "category": "Calentamiento / Movilidad",
+      "difficulty": "Principiante",
+      "targetArea": "Toda la columna vertebral, cuello",
+      "benefits": "Lubrica las vértebras, sincroniza respiración y movimiento.",
+      "imageFileName": "marjaryasana_bitilasana_cat_cow.png",
+      "yogaType": "Hatha / Vinyasa",
+      "recommendedDuration": "8 - 10 ciclos respiratorios",
+      "holdTimeByStyle": {
+        "hatha": "1 - 2 minutos",
+        "vinyasa": "10 respiraciones",
+        "yin": "N/A"
+      }
+    }
+  ],
+  "breathRoutines": [
+    {
+      "id": "ujjayi",
+      "name": "Ujjayi Pranayama (Respiración Victoriosa / Océano)",
+      "description": "Inhalación y exhalación nasal con ligera constricción de la glotis, creando un sonido suave de olas marinas. Mantiene el ritmo en Vinyasa.",
+      "ratio": "4-1-4-1 (Inhala 4s, pausa 1s, exhala 4s, pausa 1s)",
+      "benefits": "Calma el sistema nervioso, genera calor interno y mejora la concentración.",
+      "yogaType": "Vinyasa Yoga / Hatha",
+      "recommendedDuration": "10-60 minutos (durante toda la práctica dinámica)"
+    },
+    {
+      "id": "nadi_shodhana",
+      "name": "Nadi Shodhana (Respiración Alterna)",
+      "description": "Alternar la inhalación y exhalación entre la fosa nasal izquierda y derecha usando Vishnu Mudra.",
+      "ratio": "Inhala izquierda 4s, exhala derecha 4-6s, inhala derecha 4s, exhala izquierda 4-6s",
+      "benefits": "Equilibra los hemisferios cerebrales, reduce el estrés y despeja la mente.",
+      "yogaType": "Hatha / Meditación",
+      "recommendedDuration": "5-10 minutos (5 a 10 rondas completas)"
+    },
+    {
+      "id": "samavritti",
+      "name": "Samavritti (Respiración Cuadrada / Misma Acción)",
+      "description": "Igualar la duración exacta de inhalación y exhalación (y opcionalmente retenciones).",
+      "ratio": "4-4-4-4 (Inhala 4s, retén 4s, exhala 4s, retén 4s)",
+      "benefits": "Estabiliza el pulso cardíaco y aquieta la agitación mental.",
+      "yogaType": "Hatha / Yin / Principiantes",
+      "recommendedDuration": "3-8 minutos"
+    },
+    {
+      "id": "kapalabhati",
+      "name": "Kapalabhati (Respiración de Fuego / Cráneo Brillante)",
+      "description": "Exhalaciones rápidas y activas mediante bombeo abdominal, e inhalaciones pasivas.",
+      "ratio": "20 a 30 bombeos rápidos por ciclo",
+      "benefits": "Purifica vías respiratorias, oxigena la sangre y activa la energía (prana).",
+      "yogaType": "Hatha / Kriya Energizante",
+      "recommendedDuration": "3 rondas de 20-30 bombeos (3-5 minutos)"
+    },
+    {
+      "id": "respiracion_completa",
+      "name": "Respiración Completa / Diafragmática",
+      "description": "Integración secuencial de tres fases: abdominal, intercostal y clavicular.",
+      "ratio": "Inhalación fluida de abajo hacia arriba / Exhalación de arriba hacia abajo",
+      "benefits": "Maximiza la capacidad pulmonar y masajea los órganos abdominales.",
+      "yogaType": "Todos los estilos / Restaurativo",
+      "recommendedDuration": "5-15 minutos"
+    }
+  ],
+  "routines": [
+    {
+      "id": "hatha_01",
+      "title": "Hatha Yoga 1: Despertar y Vitalidad Matutina",
+      "style": "Hatha Yoga",
+      "category": "Foundation",
+      "durationMinutes": 60,
+      "durationFormatted": "60 minutos",
+      "level": "Principiante / Todos los niveles",
+      "focus": "Activación corporal, flexibilidad general y energía diaria",
+      "description": "Práctica matutina para activar el flujo sanguíneo, calentar articulaciones y llenar el cuerpo de vitalidad.",
+      "breathRoutine": "samavritti",
+      "yogaType": "Hatha Yoga",
+      "framework": {
+        "pranayama": "5 min de centramiento e inicio obligatorio con Samavritti (Respiración Cuadrada)",
+        "warmupAndSunSalutations": "10 min de Marco Base: Calentamiento articular Gato-Vaca, Tadasana y Saludos al Sol tradicionales (Surya Namaskar) con Cobra y Perro Boca Abajo",
+        "mainSequenceFocus": "Secuencia principal enfocada en: Activación corporal, flexibilidad general y energía diaria",
+        "cooldownAndSavasana": "8 - 10 min de relajación final en Savasana para integración neuromuscular"
+      },
+      "phases": [
+        {
+          "phaseName": "Fase 1: Pranayama y Centramiento",
+          "description": "Centramiento inicial en Tadasana integrando la Respiración Cuadrada (Samavritti).",
+          "poses": [
+            {
+              "poseId": "tadasana",
+              "duration": "5 min centramiento y Samavritti"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 2: Marco Base (Calentamiento y Saludos al Sol)",
+          "description": "Calentamiento articular con la transición fluida de Cobra a Perro Boca Abajo.",
+          "poses": [
+            {
+              "poseId": "bhujangasana",
+              "duration": "5 respiraciones (Cobra)"
+            },
+            {
+              "poseId": "adho_mukha_svanasana",
+              "duration": "5 respiraciones (Perro Boca Abajo)"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 3: Rutina Principal",
+          "description": "Secuencia principal de fuerza de piernas, apertura y torsión.",
+          "poses": [
+            {
+              "poseId": "utkatasana",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "virabhadrasana_i",
+              "duration": "5 respiraciones por lado"
+            },
+            {
+              "poseId": "ardha_matsyendrasana",
+              "duration": "3 min por lado"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 4: Relajación Final",
+          "description": "Integración en quietud total.",
+          "poses": [
+            {
+              "poseId": "savasana",
+              "duration": "10 min final"
+            }
+          ]
+        }
+      ],
+      "posesSequence": [
+        {
+          "poseId": "tadasana",
+          "duration": "5 min centramiento y Samavritti"
+        },
+        {
+          "poseId": "bhujangasana",
+          "duration": "5 respiraciones (Cobra)"
+        },
+        {
+          "poseId": "adho_mukha_svanasana",
+          "duration": "5 respiraciones (Perro Boca Abajo)"
+        },
+        {
+          "poseId": "utkatasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "virabhadrasana_i",
+          "duration": "5 respiraciones por lado"
+        },
+        {
+          "poseId": "ardha_matsyendrasana",
+          "duration": "3 min por lado"
+        },
+        {
+          "poseId": "savasana",
+          "duration": "10 min final"
+        }
+      ]
+    },
+    {
+      "id": "hatha_02",
+      "title": "Hatha Yoga 2: Fuerza y Resistencia del Core",
+      "style": "Hatha Yoga",
+      "category": "Core Strength",
+      "durationMinutes": 60,
+      "durationFormatted": "60 minutos",
+      "level": "Intermedio",
+      "focus": "Fortalecimiento de piernas, core y columna vertebral",
+      "description": "Enfocada en sostener posturas intensas para desarrollar poder físico y resistencia mental.",
+      "breathRoutine": "kapalabhati",
+      "yogaType": "Hatha Yoga",
+      "framework": {
+        "pranayama": "5 min de centramiento e inicio obligatorio con Kapalabhati (Respiración de Fuego)",
+        "warmupAndSunSalutations": "10 min de Marco Base: Calentamiento articular Gato-Vaca, Tadasana y Saludos al Sol tradicionales (Surya Namaskar) con Cobra y Perro Boca Abajo",
+        "mainSequenceFocus": "Secuencia principal enfocada en: Fortalecimiento de piernas, core y columna vertebral",
+        "cooldownAndSavasana": "8 - 10 min de relajación final en Savasana para integración neuromuscular"
+      },
+      "phases": [
+        {
+          "phaseName": "Fase 1: Pranayama y Centramiento",
+          "description": "Centramiento inicial en Tadasana con Kapalabhati (Respiración de Fuego).",
+          "poses": [
+            {
+              "poseId": "tadasana",
+              "duration": "5 min centramiento y Kapalabhati"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 2: Marco Base (Calentamiento y Saludos al Sol)",
+          "description": "Saludo al Sol tradicional activando la columna con Cobra.",
+          "poses": [
+            {
+              "poseId": "bhujangasana",
+              "duration": "5 respiraciones (Cobra)"
+            },
+            {
+              "poseId": "adho_mukha_svanasana",
+              "duration": "5 respiraciones (Perro Boca Abajo)"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 3: Rutina Principal",
+          "description": "Trabajo intensivo de Guerreros y fuerza de core.",
+          "poses": [
+            {
+              "poseId": "virabhadrasana_i",
+              "duration": "8 respiraciones"
+            },
+            {
+              "poseId": "virabhadrasana_ii",
+              "duration": "8 respiraciones"
+            },
+            {
+              "poseId": "navasana",
+              "duration": "3 series de 30s"
+            },
+            {
+              "poseId": "balasana",
+              "duration": "5 min descanso"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 4: Relajación Final",
+          "description": "Relajación corporal completa.",
+          "poses": [
+            {
+              "poseId": "savasana",
+              "duration": "10 min final"
+            }
+          ]
+        }
+      ],
+      "posesSequence": [
+        {
+          "poseId": "tadasana",
+          "duration": "5 min centramiento y Kapalabhati"
+        },
+        {
+          "poseId": "bhujangasana",
+          "duration": "5 respiraciones (Cobra)"
+        },
+        {
+          "poseId": "adho_mukha_svanasana",
+          "duration": "5 respiraciones (Perro Boca Abajo)"
+        },
+        {
+          "poseId": "virabhadrasana_i",
+          "duration": "8 respiraciones"
+        },
+        {
+          "poseId": "virabhadrasana_ii",
+          "duration": "8 respiraciones"
+        },
+        {
+          "poseId": "navasana",
+          "duration": "3 series de 30s"
+        },
+        {
+          "poseId": "balasana",
+          "duration": "5 min descanso"
+        },
+        {
+          "poseId": "savasana",
+          "duration": "10 min final"
+        }
+      ]
+    },
+    {
+      "id": "hatha_03",
+      "title": "Hatha Yoga 3: Equilibrio y Concentración Mental",
+      "style": "Hatha Yoga",
+      "category": "Balance and Flexibility",
+      "durationMinutes": 60,
+      "durationFormatted": "60 minutos",
+      "level": "Todos los niveles",
+      "focus": "Propiocepción, equilibrio físico y enfoque meditativo (Drishti)",
+      "description": "Especialmente diseñada para entrenar la mente mediante el equilibrio en una pierna.",
+      "breathRoutine": "nadi_shodhana",
+      "yogaType": "Hatha Yoga",
+      "framework": {
+        "pranayama": "5 min de centramiento e inicio obligatorio con Nadi Shodhana (Respiración Alterna)",
+        "warmupAndSunSalutations": "10 min de Marco Base: Calentamiento articular Gato-Vaca, Tadasana y Saludos al Sol tradicionales (Surya Namaskar) con Cobra y Perro Boca Abajo",
+        "mainSequenceFocus": "Secuencia principal enfocada en: Propiocepción, equilibrio físico y enfoque meditativo (Drishti)",
+        "cooldownAndSavasana": "8 - 10 min de relajación final en Savasana para integración neuromuscular"
+      },
+      "phases": [
+        {
+          "phaseName": "Fase 1: Pranayama y Centramiento",
+          "description": "Centramiento erguido en Tadasana con Nadi Shodhana.",
+          "poses": [
+            {
+              "poseId": "tadasana",
+              "duration": "5 min centramiento y Nadi Shodhana"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 2: Marco Base (Calentamiento y Saludos al Sol)",
+          "description": "Alineación y calentamiento mediante Saludos al Sol.",
+          "poses": [
+            {
+              "poseId": "bhujangasana",
+              "duration": "5 respiraciones (Cobra)"
+            },
+            {
+              "poseId": "adho_mukha_svanasana",
+              "duration": "5 respiraciones (Perro Boca Abajo)"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 3: Rutina Principal",
+          "description": "Posturas de equilibrio unipodal e introspección.",
+          "poses": [
+            {
+              "poseId": "vrksasana",
+              "duration": "2 min por lado"
+            },
+            {
+              "poseId": "garudasana",
+              "duration": "1 min por lado"
+            },
+            {
+              "poseId": "paschimottanasana",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 4: Relajación Final",
+          "description": "Cierre meditativo.",
+          "poses": [
+            {
+              "poseId": "savasana",
+              "duration": "10 min final"
+            }
+          ]
+        }
+      ],
+      "posesSequence": [
+        {
+          "poseId": "tadasana",
+          "duration": "5 min centramiento y Nadi Shodhana"
+        },
+        {
+          "poseId": "bhujangasana",
+          "duration": "5 respiraciones (Cobra)"
+        },
+        {
+          "poseId": "adho_mukha_svanasana",
+          "duration": "5 respiraciones (Perro Boca Abajo)"
+        },
+        {
+          "poseId": "vrksasana",
+          "duration": "2 min por lado"
+        },
+        {
+          "poseId": "garudasana",
+          "duration": "1 min por lado"
+        },
+        {
+          "poseId": "paschimottanasana",
+          "duration": "5 min"
+        },
+        {
+          "poseId": "savasana",
+          "duration": "10 min final"
+        }
+      ]
+    },
+    {
+      "id": "hatha_04",
+      "title": "Hatha Yoga 4: Apertura de Caderas y Liberación Emocional",
+      "style": "Hatha Yoga",
+      "category": "Flexibility",
+      "durationMinutes": 60,
+      "durationFormatted": "60 minutos",
+      "level": "Intermedio",
+      "focus": "Flexibilidad de pelvis, psoas e ingles",
+      "description": "Estiramientos profundos para soltar la tensión física y emocional acumulada en las caderas.",
+      "breathRoutine": "respiracion_completa",
+      "yogaType": "Hatha Yoga",
+      "framework": {
+        "pranayama": "5 min de centramiento e inicio obligatorio con Respiración Completa Diafragmática",
+        "warmupAndSunSalutations": "10 min de Marco Base: Calentamiento articular Gato-Vaca, Tadasana y Saludos al Sol tradicionales (Surya Namaskar) con Cobra y Perro Boca Abajo",
+        "mainSequenceFocus": "Secuencia principal enfocada en: Flexibilidad de pelvis, psoas e ingles",
+        "cooldownAndSavasana": "8 - 10 min de relajación final en Savasana para integración neuromuscular"
+      },
+      "phases": [
+        {
+          "phaseName": "Fase 1: Pranayama y Centramiento",
+          "description": "Centramiento en Tadasana con Respiración Completa Diafragmática.",
+          "poses": [
+            {
+              "poseId": "tadasana",
+              "duration": "5 min centramiento y Respiración Completa"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 2: Marco Base (Calentamiento y Saludos al Sol)",
+          "description": "Preparación articular y calentamiento de caderas.",
+          "poses": [
+            {
+              "poseId": "bhujangasana",
+              "duration": "5 respiraciones (Cobra)"
+            },
+            {
+              "poseId": "adho_mukha_svanasana",
+              "duration": "5 respiraciones (Perro Boca Abajo)"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 3: Rutina Principal",
+          "description": "Apertura profunda de caderas y pelvis.",
+          "poses": [
+            {
+              "poseId": "utthan_pristhasana",
+              "duration": "2 min por pierna"
+            },
+            {
+              "poseId": "eka_pada_rajakapotasana",
+              "duration": "4 min por lado"
+            },
+            {
+              "poseId": "baddha_konasana",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 4: Relajación Final",
+          "description": "Asimilación y soltura.",
+          "poses": [
+            {
+              "poseId": "savasana",
+              "duration": "10 min final"
+            }
+          ]
+        }
+      ],
+      "posesSequence": [
+        {
+          "poseId": "tadasana",
+          "duration": "5 min centramiento y Respiración Completa"
+        },
+        {
+          "poseId": "bhujangasana",
+          "duration": "5 respiraciones (Cobra)"
+        },
+        {
+          "poseId": "adho_mukha_svanasana",
+          "duration": "5 respiraciones (Perro Boca Abajo)"
+        },
+        {
+          "poseId": "utthan_pristhasana",
+          "duration": "2 min por pierna"
+        },
+        {
+          "poseId": "eka_pada_rajakapotasana",
+          "duration": "4 min por lado"
+        },
+        {
+          "poseId": "baddha_konasana",
+          "duration": "5 min"
+        },
+        {
+          "poseId": "savasana",
+          "duration": "10 min final"
+        }
+      ]
+    },
+    {
+      "id": "hatha_05",
+      "title": "Hatha Yoga 5: Restaurativa y Calma Nocturna",
+      "style": "Hatha Yoga",
+      "category": "Relaxation",
+      "durationMinutes": 60,
+      "durationFormatted": "60 minutos",
+      "level": "Principiante",
+      "focus": "Activación parasimpática, descanso y alivio del estrés",
+      "description": "Movimientos suaves cerca del suelo ideales para realizar al final de la jornada.",
+      "breathRoutine": "respiracion_completa",
+      "yogaType": "Hatha Yoga",
+      "framework": {
+        "pranayama": "5 min de centramiento e inicio obligatorio con Respiración Completa Diafragmática",
+        "warmupAndSunSalutations": "10 min de Marco Base: Calentamiento articular Gato-Vaca, Tadasana y Saludos al Sol tradicionales (Surya Namaskar) con Cobra y Perro Boca Abajo",
+        "mainSequenceFocus": "Secuencia principal enfocada en: Activación parasimpática, descanso y alivio del estrés",
+        "cooldownAndSavasana": "8 - 10 min de relajación final en Savasana para integración neuromuscular"
+      },
+      "phases": [
+        {
+          "phaseName": "Fase 1: Pranayama y Centramiento",
+          "description": "Centramiento inicial de descanso e introspección.",
+          "poses": [
+            {
+              "poseId": "tadasana",
+              "duration": "5 min centramiento suave"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 2: Marco Base (Calentamiento y Saludos al Sol)",
+          "description": "Movilidad articular restaurativa.",
+          "poses": [
+            {
+              "poseId": "adho_mukha_svanasana",
+              "duration": "3 min suaves"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 3: Rutina Principal",
+          "description": "Posturas en suelo para activar el sistema parasimpático.",
+          "poses": [
+            {
+              "poseId": "balasana",
+              "duration": "8 min"
+            },
+            {
+              "poseId": "viparita_karani",
+              "duration": "10 min"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 4: Relajación Final",
+          "description": "Relajación profunda nocturna.",
+          "poses": [
+            {
+              "poseId": "savasana",
+              "duration": "12 min final"
+            }
+          ]
+        }
+      ],
+      "posesSequence": [
+        {
+          "poseId": "tadasana",
+          "duration": "5 min centramiento suave"
+        },
+        {
+          "poseId": "adho_mukha_svanasana",
+          "duration": "3 min suaves"
+        },
+        {
+          "poseId": "balasana",
+          "duration": "8 min"
+        },
+        {
+          "poseId": "viparita_karani",
+          "duration": "10 min"
+        },
+        {
+          "poseId": "savasana",
+          "duration": "12 min final"
+        }
+      ]
+    },
+    {
+      "id": "vinyasa_01",
+      "title": "Vinyasa Flow 1: Liberación Pelvica y Caderas",
+      "style": "Vinyasa Yoga",
+      "category": "Flexibility",
+      "durationMinutes": 60,
+      "durationFormatted": "60 minutos",
+      "level": "Intermedio",
+      "focus": "Movilidad de cadera y fluidez",
+      "description": "Secuencia dinámica fluida que conecta Guerrero II, Lagarto y Paloma mediante Vinyasas.",
+      "breathRoutine": "ujjayi",
+      "yogaType": "Vinyasa Yoga",
+      "framework": {
+        "pranayama": "5 min de centramiento e inicio obligatorio con Ujjayi Pranayama (Respiración Victoriosa)",
+        "warmupAndSunSalutations": "12 min de Marco Base: Movilidad articular, Tadasana y Saludos al Sol A/B (Surya Namaskar) enlazando Perro Boca Abajo y Chaturanga",
+        "mainSequenceFocus": "Secuencia principal enfocada en: Movilidad de cadera y fluidez",
+        "cooldownAndSavasana": "8 - 10 min de relajación final en Savasana para integración neuromuscular"
+      },
+      "phases": [
+        {
+          "phaseName": "Fase 1: Pranayama y Centramiento",
+          "description": "Centramiento inicial e intencionado con Ujjayi Pranayama.",
+          "poses": [
+            {
+              "poseId": "tadasana",
+              "duration": "5 min centramiento y Ujjayi"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 2: Marco Base (Calentamiento y Saludos al Sol)",
+          "description": "Vinyasa de calentamiento enlazando Perro Boca Abajo y Chaturanga.",
+          "poses": [
+            {
+              "poseId": "adho_mukha_svanasana",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "chaturanga_dandasana",
+              "duration": "3 vueltas Saludo al Sol"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 3: Rutina Principal",
+          "description": "Secuencia de fluidez en aperturas de cadera.",
+          "poses": [
+            {
+              "poseId": "virabhadrasana_ii",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "utthan_pristhasana",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "malasana",
+              "duration": "1 min"
+            },
+            {
+              "poseId": "eka_pada_rajakapotasana",
+              "duration": "3 min por lado"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 4: Relajación Final",
+          "description": "Integración y calma.",
+          "poses": [
+            {
+              "poseId": "savasana",
+              "duration": "10 min final"
+            }
+          ]
+        }
+      ],
+      "posesSequence": [
+        {
+          "poseId": "tadasana",
+          "duration": "5 min centramiento y Ujjayi"
+        },
+        {
+          "poseId": "adho_mukha_svanasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "chaturanga_dandasana",
+          "duration": "3 vueltas Saludo al Sol"
+        },
+        {
+          "poseId": "virabhadrasana_ii",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "utthan_pristhasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "malasana",
+          "duration": "1 min"
+        },
+        {
+          "poseId": "eka_pada_rajakapotasana",
+          "duration": "3 min por lado"
+        },
+        {
+          "poseId": "savasana",
+          "duration": "10 min final"
+        }
+      ]
+    },
+    {
+      "id": "vinyasa_03",
+      "title": "Vinyasa Flow 3: Apertura de Corazón y Espalda (Backbends)",
+      "style": "Vinyasa Yoga",
+      "category": "Stretch",
+      "durationMinutes": 60,
+      "durationFormatted": "60 minutos",
+      "level": "Intermedio",
+      "focus": "Extensión torácica y capacidad pulmonar",
+      "description": "Flujo de arcos de espalda conectando Guerrero I, Arco (Dhanurasana) y Camello (Ustrasana).",
+      "breathRoutine": "ujjayi",
+      "yogaType": "Vinyasa Yoga",
+      "framework": {
+        "pranayama": "5 min de centramiento e inicio obligatorio con Ujjayi Pranayama (Respiración Victoriosa)",
+        "warmupAndSunSalutations": "12 min de Marco Base: Movilidad articular, Tadasana y Saludos al Sol A/B (Surya Namaskar) enlazando Perro Boca Abajo y Chaturanga",
+        "mainSequenceFocus": "Secuencia principal enfocada en: Extensión torácica y capacidad pulmonar",
+        "cooldownAndSavasana": "8 - 10 min de relajación final en Savasana para integración neuromuscular"
+      },
+      "phases": [
+        {
+          "phaseName": "Fase 1: Pranayama y Centramiento",
+          "description": "Centramiento inicial en Tadasana con Ujjayi.",
+          "poses": [
+            {
+              "poseId": "tadasana",
+              "duration": "5 min centramiento y Ujjayi"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 2: Marco Base (Calentamiento y Saludos al Sol)",
+          "description": "Flujo de calentamiento con Saludos al Sol.",
+          "poses": [
+            {
+              "poseId": "adho_mukha_svanasana",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "chaturanga_dandasana",
+              "duration": "3 vueltas Saludo al Sol"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 3: Rutina Principal",
+          "description": "Aperturas de tórax y arcos de espalda (Backbends).",
+          "poses": [
+            {
+              "poseId": "virabhadrasana_i",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "dhanurasana",
+              "duration": "3 rondas"
+            },
+            {
+              "poseId": "ustrasana",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "balasana",
+              "duration": "3 min contrapostura"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 4: Relajación Final",
+          "description": "Relajación completa.",
+          "poses": [
+            {
+              "poseId": "savasana",
+              "duration": "10 min final"
+            }
+          ]
+        }
+      ],
+      "posesSequence": [
+        {
+          "poseId": "tadasana",
+          "duration": "5 min centramiento y Ujjayi"
+        },
+        {
+          "poseId": "adho_mukha_svanasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "chaturanga_dandasana",
+          "duration": "3 vueltas Saludo al Sol"
+        },
+        {
+          "poseId": "virabhadrasana_i",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "dhanurasana",
+          "duration": "3 rondas"
+        },
+        {
+          "poseId": "ustrasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "balasana",
+          "duration": "3 min contrapostura"
+        },
+        {
+          "poseId": "savasana",
+          "duration": "10 min final"
+        }
+      ]
+    },
+    {
+      "id": "vinyasa_07",
+      "title": "Vinyasa Flow 7: Equilibrio en Movimiento y Media Luna",
+      "style": "Vinyasa Yoga",
+      "category": "Stretch and Balance",
+      "durationMinutes": 60,
+      "durationFormatted": "60 minutos",
+      "level": "Intermedio / Avanzado",
+      "focus": "Enfoque dinámico, transiciones y estabilidad",
+      "description": "Transiciones continuas desde Guerrero I a Árbol, Águila y pico en Media Luna (Ardha Chandrasana).",
+      "breathRoutine": "ujjayi",
+      "yogaType": "Vinyasa Yoga",
+      "framework": {
+        "pranayama": "5 min de centramiento e inicio obligatorio con Ujjayi Pranayama (Respiración Victoriosa)",
+        "warmupAndSunSalutations": "12 min de Marco Base: Movilidad articular, Tadasana y Saludos al Sol A/B (Surya Namaskar) enlazando Perro Boca Abajo y Chaturanga",
+        "mainSequenceFocus": "Secuencia principal enfocada en: Enfoque dinámico, transiciones y estabilidad",
+        "cooldownAndSavasana": "8 - 10 min de relajación final en Savasana para integración neuromuscular"
+      },
+      "phases": [
+        {
+          "phaseName": "Fase 1: Pranayama y Centramiento",
+          "description": "Enfoque y equilibrio mental con Ujjayi.",
+          "poses": [
+            {
+              "poseId": "tadasana",
+              "duration": "5 min centramiento y Ujjayi"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 2: Marco Base (Calentamiento y Saludos al Sol)",
+          "description": "Saludos al Sol A/B para calentar articulaciones.",
+          "poses": [
+            {
+              "poseId": "adho_mukha_svanasana",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "chaturanga_dandasana",
+              "duration": "3 vueltas Vinyasa"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 3: Rutina Principal",
+          "description": "Secuencia de equilibrio en movimiento y pico en Media Luna.",
+          "poses": [
+            {
+              "poseId": "vrksasana",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "garudasana",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "ardha_chandrasana",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "natarajasana",
+              "duration": "5 respiraciones"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 4: Relajación Final",
+          "description": "Descanso y balance.",
+          "poses": [
+            {
+              "poseId": "savasana",
+              "duration": "10 min final"
+            }
+          ]
+        }
+      ],
+      "posesSequence": [
+        {
+          "poseId": "tadasana",
+          "duration": "5 min centramiento y Ujjayi"
+        },
+        {
+          "poseId": "adho_mukha_svanasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "chaturanga_dandasana",
+          "duration": "3 vueltas Vinyasa"
+        },
+        {
+          "poseId": "vrksasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "garudasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "ardha_chandrasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "natarajasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "savasana",
+          "duration": "10 min final"
+        }
+      ]
+    },
+    {
+      "id": "yin_01",
+      "title": "Yin Yoga 1: Recuperación de Caderas y Glúteos",
+      "style": "Yin Yoga",
+      "category": "Stretch",
+      "durationMinutes": 60,
+      "durationFormatted": "60 minutos",
+      "level": "Todos los niveles",
+      "focus": "Tejido conectivo profundo, fascia e ingles",
+      "description": "Mantenimiento pasivo prolongado (3-5 min por postura) para soltar la musculatura densa.",
+      "breathRoutine": "respiracion_completa",
+      "yogaType": "Yin Yoga",
+      "framework": {
+        "pranayama": "5 min de centramiento e inicio obligatorio con Respiración Completa Diafragmática",
+        "warmupAndSunSalutations": "10 min de calentamiento suave pasivo y movilidad espinal suave (Balasana, Gato-Vaca suave y Esfinge)",
+        "mainSequenceFocus": "Secuencia principal enfocada en: Tejido conectivo profundo, fascia e ingles",
+        "cooldownAndSavasana": "8 - 10 min de relajación final en Savasana para integración neuromuscular"
+      },
+      "phases": [
+        {
+          "phaseName": "Fase 1: Pranayama y Centramiento",
+          "description": "Centramiento inicial de introspección en Balasana.",
+          "poses": [
+            {
+              "poseId": "balasana",
+              "duration": "5 min centramiento e introspección"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 2: Marco Base (Calentamiento y Saludos al Sol)",
+          "description": "Apertura lumbar suave para Yin.",
+          "poses": [
+            {
+              "poseId": "sphinx_pose",
+              "duration": "5 min apertura lumbar suave"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 3: Rutina Principal",
+          "description": "Permanencia pasiva en apertura de caderas.",
+          "poses": [
+            {
+              "poseId": "baddha_konasana",
+              "duration": "5 min"
+            },
+            {
+              "poseId": "eka_pada_rajakapotasana",
+              "duration": "4 min por lado"
+            },
+            {
+              "poseId": "utthan_pristhasana",
+              "duration": "3 min por lado"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 4: Relajación Final",
+          "description": "Relajación e integración fascial.",
+          "poses": [
+            {
+              "poseId": "savasana",
+              "duration": "10 min final"
+            }
+          ]
+        }
+      ],
+      "posesSequence": [
+        {
+          "poseId": "balasana",
+          "duration": "5 min centramiento e introspección"
+        },
+        {
+          "poseId": "sphinx_pose",
+          "duration": "5 min apertura lumbar suave"
+        },
+        {
+          "poseId": "baddha_konasana",
+          "duration": "5 min"
+        },
+        {
+          "poseId": "eka_pada_rajakapotasana",
+          "duration": "4 min por lado"
+        },
+        {
+          "poseId": "utthan_pristhasana",
+          "duration": "3 min por lado"
+        },
+        {
+          "poseId": "savasana",
+          "duration": "10 min final"
+        }
+      ]
+    },
+    {
+      "id": "yin_02",
+      "title": "Yin Yoga 2: Descompresión de Espalda y Corazón Derretido",
+      "style": "Yin Yoga",
+      "category": "Relaxation",
+      "durationMinutes": 60,
+      "durationFormatted": "60 minutos",
+      "level": "Todos los niveles",
+      "focus": "Espalda alta, deltoides y zona cervical",
+      "description": "Diseñada para contrarrestar la postura encorvada de escritorio y liberar tensiones en hombros.",
+      "breathRoutine": "respiracion_completa",
+      "yogaType": "Yin Yoga",
+      "framework": {
+        "pranayama": "5 min de centramiento e inicio obligatorio con Respiración Completa Diafragmática",
+        "warmupAndSunSalutations": "10 min de calentamiento suave pasivo y movilidad espinal suave (Balasana, Gato-Vaca suave y Esfinge)",
+        "mainSequenceFocus": "Secuencia principal enfocada en: Espalda alta, deltoides y zona cervical",
+        "cooldownAndSavasana": "8 - 10 min de relajación final en Savasana para integración neuromuscular"
+      },
+      "phases": [
+        {
+          "phaseName": "Fase 1: Pranayama y Centramiento",
+          "description": "Centramiento inicial en Balasana.",
+          "poses": [
+            {
+              "poseId": "balasana",
+              "duration": "5 min centramiento"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 2: Marco Base (Calentamiento y Saludos al Sol)",
+          "description": "Preparación pasiva de columna.",
+          "poses": [
+            {
+              "poseId": "sphinx_pose",
+              "duration": "5 min preparación de columna"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 3: Rutina Principal",
+          "description": "Descompresión de hombros, tórax y lateral.",
+          "poses": [
+            {
+              "poseId": "anahatasana",
+              "duration": "5 min"
+            },
+            {
+              "poseId": "bananasana",
+              "duration": "5 min por lado"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 4: Relajación Final",
+          "description": "Restauración del sistema nervioso.",
+          "poses": [
+            {
+              "poseId": "savasana",
+              "duration": "10 min final"
+            }
+          ]
+        }
+      ],
+      "posesSequence": [
+        {
+          "poseId": "balasana",
+          "duration": "5 min centramiento"
+        },
+        {
+          "poseId": "sphinx_pose",
+          "duration": "5 min preparación de columna"
+        },
+        {
+          "poseId": "anahatasana",
+          "duration": "5 min"
+        },
+        {
+          "poseId": "bananasana",
+          "duration": "5 min por lado"
+        },
+        {
+          "poseId": "savasana",
+          "duration": "10 min final"
+        }
+      ]
+    },
+    {
+      "id": "yin_04",
+      "title": "Yin Yoga 4: Cadena Posterior y Caracol",
+      "style": "Yin Yoga",
+      "category": "Stretch",
+      "durationMinutes": 60,
+      "durationFormatted": "60 minutos",
+      "level": "Intermedio",
+      "focus": "Isquiotibiales, columna y meridiano de vejiga",
+      "description": "Secuencia Yin para alargar suavemente la fascia desde los talones hasta el cuello.",
+      "breathRoutine": "respiracion_completa",
+      "yogaType": "Yin Yoga",
+      "framework": {
+        "pranayama": "5 min de centramiento e inicio obligatorio con Respiración Completa Diafragmática",
+        "warmupAndSunSalutations": "10 min de calentamiento suave pasivo y movilidad espinal suave (Balasana, Gato-Vaca suave y Esfinge)",
+        "mainSequenceFocus": "Secuencia principal enfocada en: Isquiotibiales, columna y meridiano de vejiga",
+        "cooldownAndSavasana": "8 - 10 min de relajación final en Savasana para integración neuromuscular"
+      },
+      "phases": [
+        {
+          "phaseName": "Fase 1: Pranayama y Centramiento",
+          "description": "Centramiento inicial en Balasana.",
+          "poses": [
+            {
+              "poseId": "balasana",
+              "duration": "5 min centramiento"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 2: Marco Base (Calentamiento y Saludos al Sol)",
+          "description": "Movilidad pasiva articular.",
+          "poses": [
+            {
+              "poseId": "sphinx_pose",
+              "duration": "5 min preparación"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 3: Rutina Principal",
+          "description": "Estiramiento pasivo de la cadena posterior.",
+          "poses": [
+            {
+              "poseId": "caterpillar_pose",
+              "duration": "5 min"
+            },
+            {
+              "poseId": "snail_pose",
+              "duration": "4 min"
+            },
+            {
+              "poseId": "setu_bandhasana",
+              "duration": "5 min con soporte"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 4: Relajación Final",
+          "description": "Asimilación profunda.",
+          "poses": [
+            {
+              "poseId": "savasana",
+              "duration": "10 min final"
+            }
+          ]
+        }
+      ],
+      "posesSequence": [
+        {
+          "poseId": "balasana",
+          "duration": "5 min centramiento"
+        },
+        {
+          "poseId": "sphinx_pose",
+          "duration": "5 min preparación"
+        },
+        {
+          "poseId": "caterpillar_pose",
+          "duration": "5 min"
+        },
+        {
+          "poseId": "snail_pose",
+          "duration": "4 min"
+        },
+        {
+          "poseId": "setu_bandhasana",
+          "duration": "5 min con soporte"
+        },
+        {
+          "poseId": "savasana",
+          "duration": "10 min final"
+        }
+      ]
+    },
+    {
+      "id": "xuan_lan_sem1",
+      "title": "Xuan Lan Semana 1: Iniciar el Camino Diario",
+      "style": "Hatha / Vinyasa Dinámico",
+      "category": "Foundation",
+      "durationMinutes": 35,
+      "durationFormatted": "35 minutos",
+      "level": "Principiante",
+      "focus": "Respiración consciente, estabilidad y Saludo al Sol inicial",
+      "description": "Bases fundamentales del yoga diario: conexión con la respiración Samavritti, postura de la Montaña y primeras secuencias.",
+      "breathRoutine": "samavritti",
+      "yogaType": "Hatha / Vinyasa Dinámico",
+      "framework": {
+        "pranayama": "5 min de centramiento e inicio obligatorio con Samavritti (Respiración Cuadrada)",
+        "warmupAndSunSalutations": "12 min de Marco Base: Movilidad articular, Tadasana y Saludos al Sol A/B (Surya Namaskar) enlazando Perro Boca Abajo y Chaturanga",
+        "mainSequenceFocus": "Secuencia principal enfocada en: Respiración consciente, estabilidad y Saludo al Sol inicial",
+        "cooldownAndSavasana": "8 - 10 min de relajación final en Savasana para integración neuromuscular"
+      },
+      "phases": [
+        {
+          "phaseName": "Fase 1: Pranayama y Centramiento",
+          "description": "Centramiento consciente con Samavritti.",
+          "poses": [
+            {
+              "poseId": "tadasana",
+              "duration": "5 min centramiento y Samavritti"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 2: Marco Base (Calentamiento y Saludos al Sol)",
+          "description": "Transición de Saludo al Sol con Perro Boca Abajo y Plancha Baja.",
+          "poses": [
+            {
+              "poseId": "adho_mukha_svanasana",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "chaturanga_dandasana",
+              "duration": "3 vueltas Saludo al Sol"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 3: Rutina Principal",
+          "description": "Bases fundamentales de pie y postura de descanso.",
+          "poses": [
+            {
+              "poseId": "utkatasana",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "utthita_trikonasana",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "bhujangasana",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "balasana",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 4: Relajación Final",
+          "description": "Descanso y quietud.",
+          "poses": [
+            {
+              "poseId": "savasana",
+              "duration": "10 min final"
+            }
+          ]
+        }
+      ],
+      "posesSequence": [
+        {
+          "poseId": "tadasana",
+          "duration": "5 min centramiento y Samavritti"
+        },
+        {
+          "poseId": "adho_mukha_svanasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "chaturanga_dandasana",
+          "duration": "3 vueltas Saludo al Sol"
+        },
+        {
+          "poseId": "utkatasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "utthita_trikonasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "bhujangasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "balasana",
+          "duration": "3 min"
+        },
+        {
+          "poseId": "savasana",
+          "duration": "10 min final"
+        }
+      ]
+    },
+    {
+      "id": "xuan_lan_sem2",
+      "title": "Xuan Lan Semana 2: Cuerpo Sano, Fuerte y Torsiones Detox",
+      "style": "Vinyasa Dinámico",
+      "category": "Exercise",
+      "durationMinutes": 60,
+      "durationFormatted": "60 minutos",
+      "level": "Principiante / Intermedio",
+      "focus": "Fuerza en piernas, digestión y concentración",
+      "description": "Enlazando Guerreros I y II con Ángulo Lateral, Torsiones y posturas de equilibrio como el Árbol.",
+      "breathRoutine": "respiracion_completa",
+      "yogaType": "Vinyasa Dinámico",
+      "framework": {
+        "pranayama": "5 min de centramiento e inicio obligatorio con Respiración Completa Diafragmática",
+        "warmupAndSunSalutations": "12 min de Marco Base: Movilidad articular, Tadasana y Saludos al Sol A/B (Surya Namaskar) enlazando Perro Boca Abajo y Chaturanga",
+        "mainSequenceFocus": "Secuencia principal enfocada en: Fuerza en piernas, digestión y concentración",
+        "cooldownAndSavasana": "8 - 10 min de relajación final en Savasana para integración neuromuscular"
+      },
+      "phases": [
+        {
+          "phaseName": "Fase 1: Pranayama y Centramiento",
+          "description": "Centramiento inicial en Tadasana con Respiración Completa.",
+          "poses": [
+            {
+              "poseId": "tadasana",
+              "duration": "5 min centramiento"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 2: Marco Base (Calentamiento y Saludos al Sol)",
+          "description": "Flujo de calentamiento dinámico con Saludos al Sol.",
+          "poses": [
+            {
+              "poseId": "adho_mukha_svanasana",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "chaturanga_dandasana",
+              "duration": "3 vueltas Saludo al Sol"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 3: Rutina Principal",
+          "description": "Guerreros, torsiones y postura de equilibrio en el Árbol.",
+          "poses": [
+            {
+              "poseId": "virabhadrasana_i",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "virabhadrasana_ii",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "ardha_matsyendrasana",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "vrksasana",
+              "duration": "5 respiraciones por lado"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 4: Relajación Final",
+          "description": "Integración final.",
+          "poses": [
+            {
+              "poseId": "savasana",
+              "duration": "8 min final"
+            }
+          ]
+        }
+      ],
+      "posesSequence": [
+        {
+          "poseId": "tadasana",
+          "duration": "5 min centramiento"
+        },
+        {
+          "poseId": "adho_mukha_svanasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "chaturanga_dandasana",
+          "duration": "3 vueltas Saludo al Sol"
+        },
+        {
+          "poseId": "virabhadrasana_i",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "virabhadrasana_ii",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "ardha_matsyendrasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "vrksasana",
+          "duration": "5 respiraciones por lado"
+        },
+        {
+          "poseId": "savasana",
+          "duration": "8 min final"
+        }
+      ]
+    },
+    {
+      "id": "xuan_lan_sem3",
+      "title": "Xuan Lan Semana 3: Autoconocimiento e Inversiones",
+      "style": "Vinyasa / Hatha",
+      "category": "Balance and Flexibility",
+      "durationMinutes": 65,
+      "durationFormatted": "65 minutos",
+      "level": "Intermedio",
+      "focus": "Introspección, apertura de cadera e inversiones (Sirsasana, Vela)",
+      "description": "Explora posturas avanzadas como Sirsasana, Vela, Arado y estiramientos profundos con Nadi Shodhana.",
+      "breathRoutine": "nadi_shodhana",
+      "yogaType": "Vinyasa / Hatha",
+      "framework": {
+        "pranayama": "5 min de centramiento e inicio obligatorio con Nadi Shodhana (Respiración Alterna)",
+        "warmupAndSunSalutations": "12 min de Marco Base: Movilidad articular, Tadasana y Saludos al Sol A/B (Surya Namaskar) enlazando Perro Boca Abajo y Chaturanga",
+        "mainSequenceFocus": "Secuencia principal enfocada en: Introspección, apertura de cadera e inversiones (Sirsasana, Vela)",
+        "cooldownAndSavasana": "8 - 10 min de relajación final en Savasana para integración neuromuscular"
+      },
+      "phases": [
+        {
+          "phaseName": "Fase 1: Pranayama y Centramiento",
+          "description": "Centramiento erguido en Tadasana con Nadi Shodhana.",
+          "poses": [
+            {
+              "poseId": "tadasana",
+              "duration": "5 min centramiento y Nadi Shodhana"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 2: Marco Base (Calentamiento y Saludos al Sol)",
+          "description": "Calentamiento y fluidez previa a inversiones.",
+          "poses": [
+            {
+              "poseId": "adho_mukha_svanasana",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "chaturanga_dandasana",
+              "duration": "3 vueltas Saludo al Sol"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 3: Rutina Principal",
+          "description": "Flexión profunda e inversiones (Sirsasana, Vela y Arado).",
+          "poses": [
+            {
+              "poseId": "paschimottanasana",
+              "duration": "10 respiraciones"
+            },
+            {
+              "poseId": "salamba_sirsasana",
+              "duration": "5 min preparatoria"
+            },
+            {
+              "poseId": "salamba_sarvangasana",
+              "duration": "10 respiraciones"
+            },
+            {
+              "poseId": "halasana",
+              "duration": "10 respiraciones"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 4: Relajación Final",
+          "description": "Cierre restaurativo.",
+          "poses": [
+            {
+              "poseId": "savasana",
+              "duration": "10 min final"
+            }
+          ]
+        }
+      ],
+      "posesSequence": [
+        {
+          "poseId": "tadasana",
+          "duration": "5 min centramiento y Nadi Shodhana"
+        },
+        {
+          "poseId": "adho_mukha_svanasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "chaturanga_dandasana",
+          "duration": "3 vueltas Saludo al Sol"
+        },
+        {
+          "poseId": "paschimottanasana",
+          "duration": "10 respiraciones"
+        },
+        {
+          "poseId": "salamba_sirsasana",
+          "duration": "5 min preparatoria"
+        },
+        {
+          "poseId": "salamba_sarvangasana",
+          "duration": "10 respiraciones"
+        },
+        {
+          "poseId": "halasana",
+          "duration": "10 respiraciones"
+        },
+        {
+          "poseId": "savasana",
+          "duration": "10 min final"
+        }
+      ]
+    },
+    {
+      "id": "xuan_lan_sem4",
+      "title": "Xuan Lan Semana 4: Apertura de Corazón y Humildad",
+      "style": "Vinyasa Dinámico Completo",
+      "category": "Exercise",
+      "durationMinutes": 90,
+      "durationFormatted": "90 minutos",
+      "level": "Intermedio",
+      "focus": "Masterclass completa de 90 minutos, Chakra Anahata y paz mental",
+      "description": "Práctica integradora de 90 minutos con apertura de tórax (Camello, Pez, Arco), Navasana y meditación Metta.",
+      "breathRoutine": "kapalabhati",
+      "yogaType": "Vinyasa Dinámico Completo",
+      "framework": {
+        "pranayama": "5 min de centramiento e inicio obligatorio con Kapalabhati (Respiración de Fuego)",
+        "warmupAndSunSalutations": "12 min de Marco Base: Movilidad articular, Tadasana y Saludos al Sol A/B (Surya Namaskar) enlazando Perro Boca Abajo y Chaturanga",
+        "mainSequenceFocus": "Secuencia principal enfocada en: Masterclass completa de 90 minutos, Chakra Anahata y paz mental",
+        "cooldownAndSavasana": "8 - 10 min de relajación final en Savasana para integración neuromuscular"
+      },
+      "phases": [
+        {
+          "phaseName": "Fase 1: Pranayama y Centramiento",
+          "description": "Centramiento vigoroso con Kapalabhati.",
+          "poses": [
+            {
+              "poseId": "tadasana",
+              "duration": "5 min centramiento y Kapalabhati"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 2: Marco Base (Calentamiento y Saludos al Sol)",
+          "description": "Masterclass de calentamiento con Saludos al Sol.",
+          "poses": [
+            {
+              "poseId": "adho_mukha_svanasana",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "chaturanga_dandasana",
+              "duration": "3 vueltas Vinyasa"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 3: Rutina Principal",
+          "description": "Secuencia integradora de arcos, fuerza de core y aperturas.",
+          "poses": [
+            {
+              "poseId": "ustrasana",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "navasana",
+              "duration": "3 series"
+            },
+            {
+              "poseId": "baddha_konasana",
+              "duration": "5 min"
+            },
+            {
+              "poseId": "setu_bandhasana",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "matsyasana",
+              "duration": "5 respiraciones"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 4: Relajación Final",
+          "description": "Meditación y Savasana final.",
+          "poses": [
+            {
+              "poseId": "savasana",
+              "duration": "10 min final"
+            }
+          ]
+        }
+      ],
+      "posesSequence": [
+        {
+          "poseId": "tadasana",
+          "duration": "5 min centramiento y Kapalabhati"
+        },
+        {
+          "poseId": "adho_mukha_svanasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "chaturanga_dandasana",
+          "duration": "3 vueltas Vinyasa"
+        },
+        {
+          "poseId": "ustrasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "navasana",
+          "duration": "3 series"
+        },
+        {
+          "poseId": "baddha_konasana",
+          "duration": "5 min"
+        },
+        {
+          "poseId": "setu_bandhasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "matsyasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "savasana",
+          "duration": "10 min final"
+        }
+      ]
+    },
+    {
+      "id": "hatha_06",
+      "title": "Hatha Yoga 6: Alineación, Espalda y Serenidad Mental",
+      "style": "Hatha Yoga",
+      "category": "Balance and Flexibility",
+      "durationMinutes": 60,
+      "durationFormatted": "60 minutos",
+      "level": "Todos los niveles",
+      "focus": "Alineación corporal, movilidad de columna, torsiones y calma mental",
+      "description": "Rutina equilibrada de Hatha Yoga de 60 minutos con Pranayama Nadi Shodhana, calentamiento Gato-Vaca, secuencia de pie (Tadasana, Guerrero II, Triángulo), torsiones sentadas y relajación profunda en Savasana.",
+      "breathRoutine": "nadi_shodhana",
+      "yogaType": "Hatha Yoga",
+      "framework": {
+        "pranayama": "5 min de centramiento e inicio obligatorio con Nadi Shodhana (Respiración Alterna)",
+        "warmupAndSunSalutations": "10 min de Marco Base: Calentamiento articular Gato-Vaca, Tadasana y Saludos al Sol tradicionales (Surya Namaskar) con Cobra y Perro Boca Abajo",
+        "mainSequenceFocus": "Secuencia principal enfocada en: Alineación corporal, movilidad de columna, torsiones y calma mental",
+        "cooldownAndSavasana": "8 - 10 min de relajación final en Savasana para integración neuromuscular"
+      },
+      "phases": [
+        {
+          "phaseName": "Fase 1: Pranayama y Centramiento",
+          "description": "Centramiento inicial en Tadasana con Nadi Shodhana.",
+          "poses": [
+            {
+              "poseId": "tadasana",
+              "duration": "5 min centramiento y Nadi Shodhana"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 2: Marco Base (Calentamiento y Saludos al Sol)",
+          "description": "Saludo al Sol tradicional con Cobra y Perro Boca Abajo.",
+          "poses": [
+            {
+              "poseId": "bhujangasana",
+              "duration": "5 respiraciones (Cobra)"
+            },
+            {
+              "poseId": "adho_mukha_svanasana",
+              "duration": "5 respiraciones (Perro Boca Abajo)"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 3: Rutina Principal",
+          "description": "Posturas de alineación, fuerza, flexión y torsión.",
+          "poses": [
+            {
+              "poseId": "utkatasana",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "utthita_trikonasana",
+              "duration": "5 respiraciones por lado"
+            },
+            {
+              "poseId": "virabhadrasana_ii",
+              "duration": "8 respiraciones por lado"
+            },
+            {
+              "poseId": "paschimottanasana",
+              "duration": "10 respiraciones"
+            },
+            {
+              "poseId": "ardha_matsyendrasana",
+              "duration": "3 min por lado"
+            },
+            {
+              "poseId": "setu_bandhasana",
+              "duration": "8 respiraciones"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 4: Relajación Final",
+          "description": "Integración y serenidad.",
+          "poses": [
+            {
+              "poseId": "savasana",
+              "duration": "10 min final"
+            }
+          ]
+        }
+      ],
+      "posesSequence": [
+        {
+          "poseId": "tadasana",
+          "duration": "5 min centramiento y Nadi Shodhana"
+        },
+        {
+          "poseId": "bhujangasana",
+          "duration": "5 respiraciones (Cobra)"
+        },
+        {
+          "poseId": "adho_mukha_svanasana",
+          "duration": "5 respiraciones (Perro Boca Abajo)"
+        },
+        {
+          "poseId": "utkatasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "utthita_trikonasana",
+          "duration": "5 respiraciones por lado"
+        },
+        {
+          "poseId": "virabhadrasana_ii",
+          "duration": "8 respiraciones por lado"
+        },
+        {
+          "poseId": "paschimottanasana",
+          "duration": "10 respiraciones"
+        },
+        {
+          "poseId": "ardha_matsyendrasana",
+          "duration": "3 min por lado"
+        },
+        {
+          "poseId": "setu_bandhasana",
+          "duration": "8 respiraciones"
+        },
+        {
+          "poseId": "savasana",
+          "duration": "10 min final"
+        }
+      ]
+    },
+    {
+      "id": "vinyasa_08",
+      "title": "Vinyasa Flow 8: Potencia de Core, Torsiones y Apertura Torácica",
+      "style": "Vinyasa Yoga",
+      "category": "Core Strength",
+      "durationMinutes": 60,
+      "durationFormatted": "60 minutos",
+      "level": "Intermedio",
+      "focus": "Fluidez dinámica, fortalecimiento abdominal, torsiones orgánicas y expansión del tórax",
+      "description": "Secuencia fluida de Vinyasa que combina saludos al sol activos con Chaturanga, secuencias de guerreros, trabajo de core en Navasana y arcos de espalda de apertura.",
+      "breathRoutine": "ujjayi",
+      "yogaType": "Vinyasa Yoga",
+      "framework": {
+        "pranayama": "5 min de centramiento e inicio obligatorio con Ujjayi Pranayama (Respiración Victoriosa)",
+        "warmupAndSunSalutations": "12 min de Marco Base: Movilidad articular, Tadasana y Saludos al Sol A/B (Surya Namaskar) enlazando Perro Boca Abajo y Chaturanga",
+        "mainSequenceFocus": "Secuencia principal enfocada en: Fluidez dinámica, fortalecimiento abdominal, torsiones orgánicas y expansión del tórax",
+        "cooldownAndSavasana": "8 - 10 min de relajación final en Savasana para integración neuromuscular"
+      },
+      "phases": [
+        {
+          "phaseName": "Fase 1: Pranayama y Centramiento",
+          "description": "Centramiento dinámico con Ujjayi Pranayama.",
+          "poses": [
+            {
+              "poseId": "tadasana",
+              "duration": "5 min centramiento y Ujjayi"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 2: Marco Base (Calentamiento y Saludos al Sol)",
+          "description": "Flujo de calentamiento dinámico con Saludos al Sol.",
+          "poses": [
+            {
+              "poseId": "adho_mukha_svanasana",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "chaturanga_dandasana",
+              "duration": "3 vueltas Saludo al Sol"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 3: Rutina Principal",
+          "description": "Guerreros, fuerza de core, torsiones y aperturas de tórax.",
+          "poses": [
+            {
+              "poseId": "virabhadrasana_i",
+              "duration": "5 respiraciones por lado"
+            },
+            {
+              "poseId": "virabhadrasana_ii",
+              "duration": "5 respiraciones por lado"
+            },
+            {
+              "poseId": "navasana",
+              "duration": "3 series de 30s"
+            },
+            {
+              "poseId": "ardha_matsyendrasana",
+              "duration": "3 min por lado"
+            },
+            {
+              "poseId": "setu_bandhasana",
+              "duration": "5 respiraciones"
+            },
+            {
+              "poseId": "matsyasana",
+              "duration": "5 respiraciones"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 4: Relajación Final",
+          "description": "Restauración total.",
+          "poses": [
+            {
+              "poseId": "savasana",
+              "duration": "10 min final"
+            }
+          ]
+        }
+      ],
+      "posesSequence": [
+        {
+          "poseId": "tadasana",
+          "duration": "5 min centramiento y Ujjayi"
+        },
+        {
+          "poseId": "adho_mukha_svanasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "chaturanga_dandasana",
+          "duration": "3 vueltas Saludo al Sol"
+        },
+        {
+          "poseId": "virabhadrasana_i",
+          "duration": "5 respiraciones por lado"
+        },
+        {
+          "poseId": "virabhadrasana_ii",
+          "duration": "5 respiraciones por lado"
+        },
+        {
+          "poseId": "navasana",
+          "duration": "3 series de 30s"
+        },
+        {
+          "poseId": "ardha_matsyendrasana",
+          "duration": "3 min por lado"
+        },
+        {
+          "poseId": "setu_bandhasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "matsyasana",
+          "duration": "5 respiraciones"
+        },
+        {
+          "poseId": "savasana",
+          "duration": "10 min final"
+        }
+      ]
+    },
+    {
+      "id": "yin_05",
+      "title": "Yin Yoga 5: Liberación de Columna, Hombros y Calma Profunda",
+      "style": "Yin Yoga",
+      "category": "Relaxation",
+      "durationMinutes": 60,
+      "durationFormatted": "60 minutos",
+      "level": "Todos los niveles",
+      "focus": "Descompresión fascial de la espina dorsal, hombros y relajación del sistema nervioso",
+      "description": "Práctica suave de Yin Yoga enfocada en sostener posturas en el suelo de 3 a 5 minutos para liberar tensión en la espalda alta, lumbar y tejido conectivo.",
+      "breathRoutine": "respiracion_completa",
+      "yogaType": "Yin Yoga",
+      "framework": {
+        "pranayama": "5 min de centramiento e inicio obligatorio con Respiración Completa Diafragmática",
+        "warmupAndSunSalutations": "10 min de calentamiento suave pasivo y movilidad espinal suave (Balasana, Gato-Vaca suave y Esfinge)",
+        "mainSequenceFocus": "Secuencia principal enfocada en: Descompresión fascial de la espina dorsal, hombros y relajación del sistema nervioso",
+        "cooldownAndSavasana": "8 - 10 min de relajación final en Savasana para integración neuromuscular"
+      },
+      "phases": [
+        {
+          "phaseName": "Fase 1: Pranayama y Centramiento",
+          "description": "Centramiento inicial en Balasana.",
+          "poses": [
+            {
+              "poseId": "balasana",
+              "duration": "5 min centramiento"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 2: Marco Base (Calentamiento y Saludos al Sol)",
+          "description": "Apertura lumbar pasiva de preparación.",
+          "poses": [
+            {
+              "poseId": "sphinx_pose",
+              "duration": "5 min preparación"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 3: Rutina Principal",
+          "description": "Secuencia Yin para tórax, lateral, cadena posterior e inversión restaurativa.",
+          "poses": [
+            {
+              "poseId": "anahatasana",
+              "duration": "5 min"
+            },
+            {
+              "poseId": "bananasana",
+              "duration": "5 min por lado"
+            },
+            {
+              "poseId": "caterpillar_pose",
+              "duration": "5 min"
+            },
+            {
+              "poseId": "viparita_karani",
+              "duration": "10 min"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 4: Relajación Final",
+          "description": "Savasana profundo.",
+          "poses": [
+            {
+              "poseId": "savasana",
+              "duration": "10 min final"
+            }
+          ]
+        }
+      ],
+      "posesSequence": [
+        {
+          "poseId": "balasana",
+          "duration": "5 min centramiento"
+        },
+        {
+          "poseId": "sphinx_pose",
+          "duration": "5 min preparación"
+        },
+        {
+          "poseId": "anahatasana",
+          "duration": "5 min"
+        },
+        {
+          "poseId": "bananasana",
+          "duration": "5 min por lado"
+        },
+        {
+          "poseId": "caterpillar_pose",
+          "duration": "5 min"
+        },
+        {
+          "poseId": "viparita_karani",
+          "duration": "10 min"
+        },
+        {
+          "poseId": "savasana",
+          "duration": "10 min final"
+        }
+      ]
+    }
+  ]
+}

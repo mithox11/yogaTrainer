@@ -1,0 +1,72 @@
+<div class="player-container">
+  
+  <div class="top-bar">
+    <button mat-icon-button (click)="goBack()">
+      <mat-icon>arrow_back</mat-icon>
+    </button>
+    <div class="routine-progress">
+      Pose {{currentIndex + 1}} of {{routine.length}}
+    </div>
+  </div>
+
+  <mat-card class="player-card mat-elevation-z4" *ngIf="!isFinished; else finishedState">
+    
+    <div class="images-container">
+      <img class="main-image" [src]="'assets/images/yoga/' + currentPose?.imageFileName" alt="Yoga pose image">
+      <div class="next-image-container" *ngIf="nextPoseItem">
+        <div class="next-label">Next: {{nextPoseItem.nameSpanish}}</div>
+        <img class="next-image" [src]="'assets/images/yoga/' + nextPoseItem.imageFileName" alt="Next pose image">
+      </div>
+    </div>
+    
+    <mat-card-content>
+      <h2 class="pose-name">{{currentPose?.nameSpanish}} 
+        <span style="font-size: 0.6em; color: #666; font-style: italic;">({{currentPose?.nameSanskrit}})</span>
+      </h2>
+      <div class="timer-display">{{timeLeft}}s</div>
+      <div class="duration-hint" style="text-align: center; color: #555; margin-bottom: 10px;">
+        Target: {{currentPose?.durationString}}
+      </div>
+      
+      <mat-slider class="time-slider" [max]="currentPose?.durationSeconds || 60" [min]="0" step="1" discrete>
+        <input matSliderThumb [value]="(currentPose?.durationSeconds || 60) - timeLeft" (valueChange)="onSliderChange($event)">
+      </mat-slider>
+
+      <div class="controls-wrapper">
+        <div class="controls">
+          <button mat-icon-button (click)="previousPose()" [disabled]="currentIndex === 0">
+            <mat-icon>skip_previous</mat-icon>
+          </button>
+          
+          <button mat-fab color="primary" (click)="isPlaying ? pauseRoutine() : startRoutine()">
+            <mat-icon>{{isPlaying ? 'pause' : 'play_arrow'}}</mat-icon>
+          </button>
+          
+          <button mat-icon-button (click)="nextPose()">
+            <mat-icon>skip_next</mat-icon>
+          </button>
+        </div>
+      </div>
+      
+      <div class="instructions">
+        <h3>Beneficios:</h3>
+        <p>{{currentPose?.benefits}}</p>
+        <h3>Área de enfoque:</h3>
+        <p>{{currentPose?.targetArea}}</p>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+  <ng-template #finishedState>
+    <mat-card class="finished-card mat-elevation-z4">
+      <mat-card-header>
+        <mat-card-title>Namaste</mat-card-title>
+        <mat-card-subtitle>Has completado tu rutina.</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-actions style="justify-content: center;">
+        <button mat-raised-button color="primary" (click)="goBack()">Crear Nueva Rutina</button>
+      </mat-card-actions>
+    </mat-card>
+  </ng-template>
+
+</div>

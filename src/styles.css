@@ -1,0 +1,17 @@
+/* Global styles to match the new image theme */
+:root {
+  --color-primary-dark: #3D0B17;      /* Dark burgundy for headings */
+  --color-accent-orange: #D7412A;     /* Deep reddish-orange for accents */
+  --color-bg-blue: #94C5E6;           /* Soft blue for gradient start */
+  --color-bg-peach: #FF9B71;          /* Peach/salmon for gradient end */
+  --color-text: #3D0B17;              /* Default text to burgundy */
+}
+
+html, body { 
+  height: 100%; 
+  margin: 0; 
+  background: linear-gradient(135deg, var(--color-bg-blue) 0%, var(--color-bg-peach) 100%);
+  background-attachment: fixed;
+  color: var(--color-text);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

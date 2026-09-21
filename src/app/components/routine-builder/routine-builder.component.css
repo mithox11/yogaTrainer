@@ -1,0 +1,26 @@
+.builder-card {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 12px;
+  background-color: var(--color-light-cyan);
+}
+
+mat-card-header {
+  margin-bottom: 2rem;
+  color: var(--color-ocean-blue);
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+mat-card-actions button {
+  background-color: var(--color-olive) !important;
+  color: white !important;
+  font-size: 1.1rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+}

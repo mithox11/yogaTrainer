@@ -6,9 +6,13 @@
   <mat-card-content class="form-content">
     
     <mat-form-field appearance="fill">
-      <mat-label>Yoga Type</mat-label>
-      <mat-select [(ngModel)]="selectedType">
-        <mat-option *ngFor="let type of types" [value]="type">{{type}}</mat-option>
+      <mat-label>Select Routine</mat-label>
+      <mat-select [(ngModel)]="selectedRoutineId">
+        <mat-optgroup *ngFor="let group of groupedRoutines" [label]="group.goal">
+          <mat-option *ngFor="let routine of group.routines" [value]="routine.id">
+            {{routine.title}} ({{routine.durationMinutes}} min)
+          </mat-option>
+        </mat-optgroup>
       </mat-select>
     </mat-form-field>
 

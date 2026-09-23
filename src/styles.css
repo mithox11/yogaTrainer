@@ -1,16 +1,18 @@
 /* Global styles to match the new image theme */
 :root {
-  --color-primary-dark: #3D0B17;      /* Dark burgundy for headings */
-  --color-accent-orange: #D7412A;     /* Deep reddish-orange for accents */
-  --color-bg-blue: #94C5E6;           /* Soft blue for gradient start */
-  --color-bg-peach: #FF9B71;          /* Peach/salmon for gradient end */
-  --color-text: #3D0B17;              /* Default text to burgundy */
+  --color-primary-dark: #2A4C8C;      /* Dark navy blue for headings and buttons */
+  --color-accent-orange: #EF7F54;     /* Orange (like the plant pot) */
+  --color-bg-blue: #C3D5F2;           /* Light periwinkle background */
+  --color-bg-peach: #C3D5F2;          /* Solid background */
+  --color-text: #2A4C8C;              /* Dark navy text */
+  --color-accent-teal: #75B5AE;       /* Soft teal/green for text accents */
+  --color-accent-yellow: #EBE82C;     /* Yellow for other accents */
 }
 
 html, body { 
   height: 100%; 
   margin: 0; 
-  background: linear-gradient(135deg, var(--color-bg-blue) 0%, var(--color-bg-peach) 100%);
+  background: var(--color-bg-blue);
   background-attachment: fixed;
   color: var(--color-text);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

@@ -6,12 +6,14 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatButtonModule } from '@angular/material/button';
 import { YogaService } from '../../services/yoga.service';
 import { CommonModule } from '@angular/common';
-import { Routine, Pose } from '../../models/yoga.model';
+import { Routine, Pose, BreathRoutine } from '../../models/yoga.model';
 
 // Extend Pose for display purposes
 export interface DisplayPose extends Pose {
   durationString?: string;
   durationSeconds?: number;
+  phaseName?: string;
+  pranayamaDetails?: BreathRoutine;
 }
 
 @Component({
@@ -22,10 +24,8 @@ export interface DisplayPose extends Pose {
   styleUrl: './routine-builder.component.css'
 })
 export class RoutineBuilderComponent implements OnInit {
-  selectedType: string = 'Hatha';
-
-  // We can expand these based on the actual styles available in the dataset
-  types = ['Hatha', 'Vinyasa', 'Yin', 'Vinyasa Dinámico Completo'];
+  groupedRoutines: { goal: string, routines: Routine[] }[] = [];
+  selectedRoutineId: string = '';
   
   routines: Routine[] = [];
 
@@ -37,6 +37,23 @@ export class RoutineBuilderComponent implements OnInit {
   ngOnInit() {
     this.yogaService.getDatabase().subscribe(db => {
       this.routines = db.routines;
+      
+      const groupMap = new Map<string, Routine[]>();
+      this.routines.forEach(r => {
+        const goal = r.category || 'General';
+        if (!groupMap.has(goal)) {
+          groupMap.set(goal, []);
+        }
+        groupMap.get(goal)!.push(r);
+      });
+      
+      this.groupedRoutines = Array.from(groupMap.entries()).map(([goal, routines]) => ({
+        goal, routines
+      }));
+
+      if (this.routines.length > 0) {
+        this.selectedRoutineId = this.routines[0].id;
+      }
     });
   }
 
@@ -58,45 +75,40 @@ export class RoutineBuilderComponent implements OnInit {
   }
 
   generateRoutine() {
-    // Filter by type (style) only
-    let filteredRoutines = this.routines.filter(r => 
-      r.style.toLowerCase().includes(this.selectedType.toLowerCase())
-    );
+    const selectedRoutine = this.routines.find(r => r.id === this.selectedRoutineId);
 
-    // If no match, just pick any routine
-    if (filteredRoutines.length === 0) {
-      filteredRoutines = this.routines;
-    }
-
-    if (filteredRoutines.length > 0) {
-      const randomIndex = Math.floor(Math.random() * filteredRoutines.length);
-      const selectedRoutine = filteredRoutines[randomIndex];
-
+    if (selectedRoutine) {
       this.yogaService.currentRoutine = selectedRoutine;
 
       this.yogaService.getAllPoses().subscribe(allPoses => {
-        // Flatten poses from phases if they exist, otherwise fallback to posesSequence
-        let sequenceItems: any[] = [];
-        if (selectedRoutine.phases && selectedRoutine.phases.length > 0) {
-           selectedRoutine.phases.forEach(phase => {
-             sequenceItems = sequenceItems.concat(phase.poses);
-           });
-        }
-
-        this.yogaService.currentRoutinePoses = sequenceItems.map(seqItem => {
-          const pose = allPoses.find(p => p.id === seqItem.poseId);
-          if (pose) {
-             const displayPose: DisplayPose = {
-                ...pose,
-                durationString: seqItem.duration,
-                durationSeconds: this.parseDurationString(seqItem.duration)
-             };
-             return displayPose;
+        this.yogaService.getBreathRoutines().subscribe(breathRoutines => {
+          const pranayama = breathRoutines.find(b => b.id === selectedRoutine.breathRoutine);
+          let sequenceItems: any[] = [];
+          
+          if (selectedRoutine.phases && selectedRoutine.phases.length > 0) {
+             selectedRoutine.phases.forEach(phase => {
+               phase.poses.forEach(seqItem => {
+                 const p = allPoses.find(x => x.id === seqItem.poseId);
+                 if (p) {
+                   const isPranayamaPhase = phase.phaseName.toLowerCase().includes('pranayama');
+                   sequenceItems.push({
+                     ...p,
+                     durationString: seqItem.duration,
+                     durationSeconds: this.parseDurationString(seqItem.duration),
+                     phaseName: phase.phaseName,
+                     imageFileName: isPranayamaPhase && pranayama?.imageFileName ? pranayama.imageFileName : p.imageFileName,
+                     pranayamaDetails: isPranayamaPhase ? pranayama : undefined,
+                     nameSpanish: isPranayamaPhase && pranayama ? pranayama.name : p.nameSpanish,
+                     nameSanskrit: isPranayamaPhase && pranayama ? pranayama.name : p.nameSanskrit
+                   });
+                 }
+               });
+             });
           }
-          return null;
-        }).filter(p => p !== null) as any;
-        
-        this.router.navigate(['/play']);
+
+          this.yogaService.currentRoutinePoses = sequenceItems;
+          this.router.navigate(['/play']);
+        });
       });
     }
   }

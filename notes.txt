@@ -1,0 +1,21 @@
+No, you should not just merge your new changes into the gh-pages branch.
+
+Because this is an Angular project, the gh-pages branch is not meant to hold your source code. Instead, it needs to hold the compiled, built version of your application (the contents of the dist/ folder). If you merge your source code directly into gh-pages, GitHub won't know how to run your Angular application, and your site will break.
+
+I checked your project files, and you already have the angular-cli-ghpages tool installed and configured!
+
+To properly update your GitHub Pages site with your new changes, you just need to run the deploy command in your terminal:
+
+
+(Note: Replace /yogaTrainer/ with your exact repository name if it's different on GitHub).
+
+What this command does:
+
+It creates a production build of your Angular app (putting it in the dist/ folder).
+It automatically commits those compiled files to your gh-pages branch and pushes them to GitHub.
+
+
+
+
+
+ng deploy --base-href=/yogaTrainer/

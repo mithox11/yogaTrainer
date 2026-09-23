@@ -26,6 +26,8 @@ export interface Pose {
   yogaType: string;
   recommendedDuration: string;
   holdTimeByStyle: HoldTimeByStyle;
+  instructions: string[];
+  stepByStepInstructions: string[];
 }
 
 export interface BreathRoutine {
@@ -35,6 +37,10 @@ export interface BreathRoutine {
   ratio: string;
   benefits: string;
   yogaType?: string;
+  recommendedDuration?: string;
+  imageFileName: string;
+  instructions: string[];
+  stepByStepInstructions: string[];
 }
 
 export interface PoseSequenceItem {
@@ -67,8 +73,6 @@ export interface Routine {
   breathRoutine: string;
   framework?: RoutineFramework;
   phases: RoutineFrameworkPhase[];
-  yogaType?: string;
-  durationFormatted?: string;
 }
 
 export interface YogaDatasetInfo {

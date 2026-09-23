@@ -7,12 +7,13 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSliderModule } from '@angular/material/slider';
 import { YogaService } from '../../services/yoga.service';
-import { Routine, Pose } from '../../models/yoga.model';
+import { Routine, Pose, BreathRoutine } from '../../models/yoga.model';
 
-// Extend Pose for display purposes
 export interface DisplayPose extends Pose {
   durationString?: string;
   durationSeconds?: number;
+  phaseName?: string;
+  pranayamaDetails?: BreathRoutine;
 }
 
 @Component({
@@ -30,6 +31,8 @@ export class RoutineDisplayComponent implements OnInit, OnDestroy {
   isFinished: boolean = false;
   timeLeft: number = 0;
   timerInterval: any;
+  audioContext: AudioContext | null = null;
+  totalRoutineSeconds: number = 0;
 
   constructor(
     private yogaService: YogaService,
@@ -43,6 +46,7 @@ export class RoutineDisplayComponent implements OnInit, OnDestroy {
     }
     this.routine = this.yogaService.currentRoutinePoses as DisplayPose[];
     this.timeLeft = this.routine[0].durationSeconds || 60;
+    this.totalRoutineSeconds = this.routine.reduce((total, pose) => total + (pose.durationSeconds || 60), 0);
   }
 
   ngOnDestroy() {
@@ -64,6 +68,56 @@ export class RoutineDisplayComponent implements OnInit, OnDestroy {
     return ((this.currentPose.durationSeconds - this.timeLeft) / this.currentPose.durationSeconds) * 100;
   }
 
+  get globalProgress(): number {
+    if (this.totalRoutineSeconds === 0) return 0;
+    
+    let elapsed = 0;
+    for (let i = 0; i < this.currentIndex; i++) {
+      elapsed += (this.routine[i].durationSeconds || 60);
+    }
+    const currentPoseElapsed = (this.currentPose?.durationSeconds || 60) - this.timeLeft;
+    elapsed += currentPoseElapsed;
+    
+    return (elapsed / this.totalRoutineSeconds) * 100;
+  }
+
+  playBellSound() {
+    try {
+      if (!this.audioContext) {
+        this.audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
+      }
+      const ctx = this.audioContext;
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(880, ctx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(440, ctx.currentTime + 1.5);
+      
+      gain.gain.setValueAtTime(0.5, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 2);
+      
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      
+      osc.start();
+      osc.stop(ctx.currentTime + 2);
+    } catch (e) {
+      console.warn('AudioContext not supported or blocked');
+    }
+  }
+
+  jumpToPose(index: number) {
+    if (index >= 0 && index < this.routine.length) {
+      this.stopTimer();
+      this.currentIndex = index;
+      this.timeLeft = this.routine[this.currentIndex].durationSeconds || 60;
+      if (this.isPlaying) {
+        this.startTimer();
+      }
+    }
+  }
+
   onSliderChange(value: number) {
     if (this.currentPose && this.currentPose.durationSeconds) {
       this.timeLeft = this.currentPose.durationSeconds - value;
@@ -82,6 +136,7 @@ export class RoutineDisplayComponent implements OnInit, OnDestroy {
 
   nextPose() {
     this.stopTimer();
+    this.playBellSound();
     if (this.currentIndex < this.routine.length - 1) {
       this.currentIndex++;
       this.timeLeft = this.routine[this.currentIndex].durationSeconds || 60;

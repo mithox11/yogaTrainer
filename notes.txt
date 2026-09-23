@@ -18,4 +18,4 @@ It automatically commits those compiled files to your gh-pages branch and pushes
 
 
 
-ng deploy --base-href=/yogaTrainer/
+npx ng deploy --base-href=/yogaTrainer/

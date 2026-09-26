@@ -1,7 +1,7 @@
 {
   "info": {
     "title": "Yoga Master App Dataset & Full Course",
-    "version": "11.0.0",
+    "version": "12.0.0",
     "description": "Base de datos maestra completa de 23 rutinas, 60 posturas fotorrealistas con guías de ejecución paso a paso, ejercicios de respiración (Pranayama) y arquitecturas para Angular.",
     "imagesPath": "assets/images/yoga/",
     "availableRoutineCategories": [
@@ -33,16 +33,10 @@
         "yin": "N/A (Suelo y pasivo)"
       },
       "stepByStepInstructions": [
-        "1. Posición base: De pie con los pies juntos o al ancho de las caderas, distribuyendo el peso uniformemente sobre los cuatro puntos de apoyo de las plantas.",
-        "2. Activación muscular: Eleva las rótulas activando cuádriceps, bascula ligeramente la pelvis a una posición neutra y activa el centro abdominal (Uddiyana Bandha).",
-        "3. Alineación del torso: Alarga la columna, lleva los hombros atrás y abajo abriendo el pecho, dejando los brazos a los lados con las palmas hacia adelante.",
-        "4. Enfoque y sostenimiento: Alinea la barbilla paralela al suelo, mira hacia un punto fijo al frente (Drishti) y respira conscientemente durante 5 a 8 ciclos."
-      ],
-      "instructions": [
-        "1. Posición base: De pie con los pies juntos o al ancho de las caderas, distribuyendo el peso uniformemente sobre los cuatro puntos de apoyo de las plantas.",
-        "2. Activación muscular: Eleva las rótulas activando cuádriceps, bascula ligeramente la pelvis a una posición neutra y activa el centro abdominal (Uddiyana Bandha).",
-        "3. Alineación del torso: Alarga la columna, lleva los hombros atrás y abajo abriendo el pecho, dejando los brazos a los lados con las palmas hacia adelante.",
-        "4. Enfoque y sostenimiento: Alinea la barbilla paralela al suelo, mira hacia un punto fijo al frente (Drishti) y respira conscientemente durante 5 a 8 ciclos."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Cuerpo completo, postura, enraizamiento.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo mejora la postura, fortalece muslos y rodillas, estabiliza la mente..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -62,16 +56,16 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Enraizamiento: Comienza en Tadasana, traslada el peso del cuerpo firmemente hacia la pierna izquierda.",
-        "2. Colocación del pie: Flexiona la pierna derecha y apoya la planta del pie en el tobillo, pantorrilla o cara interna del muslo izquierdo (evitando la rodilla).",
-        "3. Apertura de cadera: Abre la rodilla derecha hacia el lateral manteniendo la pelvis alineada al frente y el centro abdominal activo.",
-        "4. Gesto de manos y balance: Junta las palmas al centro del pecho en Anjali Mudra o elévalas sobre la cabeza. Sostén de 5 a 8 respiraciones fijando la mirada."
+        "1. Posición Base: Armar la postura de Postura del Árbol asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Afirma la pierna derecha y apoya la planta del pie izquierdo en el muslo interno o pantorrilla derecha.",
+        "3. Lado Derecho: Afirma la pierna izquierda y apoya la planta del pie derecho en el muslo interno o pantorrilla izquierda.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Enraizamiento: Comienza en Tadasana, traslada el peso del cuerpo firmemente hacia la pierna izquierda.",
-        "2. Colocación del pie: Flexiona la pierna derecha y apoya la planta del pie en el tobillo, pantorrilla o cara interna del muslo izquierdo (evitando la rodilla).",
-        "3. Apertura de cadera: Abre la rodilla derecha hacia el lateral manteniendo la pelvis alineada al frente y el centro abdominal activo.",
-        "4. Gesto de manos y balance: Junta las palmas al centro del pecho en Anjali Mudra o elévalas sobre la cabeza. Sostén de 5 a 8 respiraciones fijando la mirada."
+        "1. Posición Base: Armar la postura de Postura del Árbol asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Afirma la pierna derecha y apoya la planta del pie izquierdo en el muslo interno o pantorrilla derecha.",
+        "3. Lado Derecho: Afirma la pierna izquierda y apoya la planta del pie derecho en el muslo interno o pantorrilla izquierda.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -91,16 +85,16 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Posición de inicio: Desde Tadasana, da un gran paso atrás con el pie izquierdo (aproximadamente 1 metro), girando el pie posterior a 45 grados.",
-        "2. Alineación pélvica: Gira las crestas ilíacas hacia el frente. Flexiona la rodilla delantera a 90 grados asegurando que quede alineada sobre el tobillo.",
-        "3. Elevación de brazos: Inhala elevando ambos brazos paralelos hacia el techo con las palmas enfrentadas, manteniendo los hombros lejos de las orejas.",
-        "4. Sostenimiento: Presiona el borde exterior del pie trasero contra el mat, alarga el torso y respira de 5 a 8 ciclos con mirada al frente o hacia las manos."
+        "1. Posición Base: Armar la postura de Guerrero I asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Da un paso largo con la pierna izquierda atrás, flexiona la rodilla derecha a 90° y eleva los brazos al techo.",
+        "3. Lado Derecho: Cambia de lado dando un paso con la pierna derecha atrás, flexiona la rodilla izquierda a 90° y alinea las caderas.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Posición de inicio: Desde Tadasana, da un gran paso atrás con el pie izquierdo (aproximadamente 1 metro), girando el pie posterior a 45 grados.",
-        "2. Alineación pélvica: Gira las crestas ilíacas hacia el frente. Flexiona la rodilla delantera a 90 grados asegurando que quede alineada sobre el tobillo.",
-        "3. Elevación de brazos: Inhala elevando ambos brazos paralelos hacia el techo con las palmas enfrentadas, manteniendo los hombros lejos de las orejas.",
-        "4. Sostenimiento: Presiona el borde exterior del pie trasero contra el mat, alarga el torso y respira de 5 a 8 ciclos con mirada al frente o hacia las manos."
+        "1. Posición Base: Armar la postura de Guerrero I asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Da un paso largo con la pierna izquierda atrás, flexiona la rodilla derecha a 90° y eleva los brazos al techo.",
+        "3. Lado Derecho: Cambia de lado dando un paso con la pierna derecha atrás, flexiona la rodilla izquierda a 90° y alinea las caderas.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -120,16 +114,16 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Posición de inicio: Separa los pies aproximadamente 1.20 metros. Gira el pie derecho 90 grados hacia afuera y el pie izquierdo ligeramente hacia adentro.",
-        "2. Flexión e integración: Flexiona la rodilla derecha a 90 grados alineándola justo encima del tobillo derecho.",
-        "3. Extensión de brazos: Eleva los brazos a la altura de los hombros en una línea horizontal, paralelos al suelo, extendiéndolos hacia adelante y atrás.",
-        "4. Mirada y sostén: Gira la cabeza para mirar fijamente sobre la punta de los dedos de la mano delantera. Mantén el torso vertical durante 5 a 8 respiraciones."
+        "1. Posición Base: Armar la postura de Guerrero II asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Abre el pie izquierdo a 90°, flexiona la rodilla derecha a 90° y extiende brazos a los lados mirando la mano derecha.",
+        "3. Lado Derecho: Cambia de lado orientando el pie derecho a 90°, flexiona rodilla izquierda a 90° y extiende brazos mirando la mano izquierda.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Posición de inicio: Separa los pies aproximadamente 1.20 metros. Gira el pie derecho 90 grados hacia afuera y el pie izquierdo ligeramente hacia adentro.",
-        "2. Flexión e integración: Flexiona la rodilla derecha a 90 grados alineándola justo encima del tobillo derecho.",
-        "3. Extensión de brazos: Eleva los brazos a la altura de los hombros en una línea horizontal, paralelos al suelo, extendiéndolos hacia adelante y atrás.",
-        "4. Mirada y sostén: Gira la cabeza para mirar fijamente sobre la punta de los dedos de la mano delantera. Mantén el torso vertical durante 5 a 8 respiraciones."
+        "1. Posición Base: Armar la postura de Guerrero II asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Abre el pie izquierdo a 90°, flexiona la rodilla derecha a 90° y extiende brazos a los lados mirando la mano derecha.",
+        "3. Lado Derecho: Cambia de lado orientando el pie derecho a 90°, flexiona rodilla izquierda a 90° y extiende brazos mirando la mano izquierda.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -149,16 +143,10 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Entrada: Colócate a cuatro puntos de apoyo (manos debajo de hombros, rodillas debajo de caderas). Enraíza las palmas extendiendo bien los dedos.",
-        "2. Elevación de caderas: Con la exhalación, apoya los dedos de los pies y eleva la pelvis hacia el techo formando una V invertida.",
-        "3. Ajuste de columna: Empuja el suelo con las manos alargando los costados y la columna. Relaja la cabeza dejando que el cuello siga la línea de la espalda.",
-        "4. Trabajo de piernas: Intenta acercar los talones al suelo sin redondear la espalda (puedes flexionar ligeramente las rodillas). Sostén de 5 a 8 respiraciones."
-      ],
-      "instructions": [
-        "1. Entrada: Colócate a cuatro puntos de apoyo (manos debajo de hombros, rodillas debajo de caderas). Enraíza las palmas extendiendo bien los dedos.",
-        "2. Elevación de caderas: Con la exhalación, apoya los dedos de los pies y eleva la pelvis hacia el techo formando una V invertida.",
-        "3. Ajuste de columna: Empuja el suelo con las manos alargando los costados y la columna. Relaja la cabeza dejando que el cuello siga la línea de la espalda.",
-        "4. Trabajo de piernas: Intenta acercar los talones al suelo sin redondear la espalda (puedes flexionar ligeramente las rodillas). Sostén de 5 a 8 respiraciones."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Isquiotibiales, hombros, columna.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo alarga la columna, flexibiliza piernas y calma la mente..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -178,16 +166,10 @@
         "yin": "3 - 5 minutos (Child's Pose pasiva)"
       },
       "stepByStepInstructions": [
-        "1. Posición inicial: Arrodíllate en el mat, junta los dedos gordos de los pies y separa las rodillas al ancho de las caderas o del torso.",
-        "2. Inclinación: Exhala inclinando el torso hacia adelante hasta apoyar el pecho entre los muslos y la frente sobre el mat o un bloque.",
-        "3. Posición de brazos: Extiende los brazos hacia adelante con las palmas en el suelo o déjalos a los lados del cuerpo con las palmas hacia arriba.",
-        "4. Relajación consciente: Entrega el peso de los hombros y caderas a la gravedad, respirando profundamente hacia la parte posterior de los pulmones durante 1 a 3 minutos."
-      ],
-      "instructions": [
-        "1. Posición inicial: Arrodíllate en el mat, junta los dedos gordos de los pies y separa las rodillas al ancho de las caderas o del torso.",
-        "2. Inclinación: Exhala inclinando el torso hacia adelante hasta apoyar el pecho entre los muslos y la frente sobre el mat o un bloque.",
-        "3. Posición de brazos: Extiende los brazos hacia adelante con las palmas en el suelo o déjalos a los lados del cuerpo con las palmas hacia arriba.",
-        "4. Relajación consciente: Entrega el peso de los hombros y caderas a la gravedad, respirando profundamente hacia la parte posterior de los pulmones durante 1 a 3 minutos."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Espalda baja, caderas, sistema nervioso.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo relajación profunda, alivio de tensión lumbar e introspección..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -207,16 +189,10 @@
         "yin": "Ver Sphinx pose (3-5 min)"
       },
       "stepByStepInstructions": [
-        "1. Posición inicial: Recuéstate boca abajo en el mat con las piernas extendidas, los empeines apoyados y las manos debajo de los hombros.",
-        "2. Activación: Pega los codos a los costados del cuerpo, activa los glúteos y presiona el hueso púbico firmemente contra el suelo.",
-        "3. Elevación del pecho: Con una inhalación, eleva suavemente la cabeza y el tórax usando la fuerza de la espalda, sin empujar excesivamente con los brazos.",
-        "4. Alineación: Mantén los hombros relajados y lejos de las orejas, mira ligeramente hacia arriba o al frente y sostiene durante 5 respiraciones fluidas."
-      ],
-      "instructions": [
-        "1. Posición inicial: Recuéstate boca abajo en el mat con las piernas extendidas, los empeines apoyados y las manos debajo de los hombros.",
-        "2. Activación: Pega los codos a los costados del cuerpo, activa los glúteos y presiona el hueso púbico firmemente contra el suelo.",
-        "3. Elevación del pecho: Con una inhalación, eleva suavemente la cabeza y el tórax usando la fuerza de la espalda, sin empujar excesivamente con los brazos.",
-        "4. Alineación: Mantén los hombros relajados y lejos de las orejas, mira ligeramente hacia arriba o al frente y sostiene durante 5 respiraciones fluidas."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Espalda alta y media, pecho.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo abre el tórax, fortalece la espina dorsal y estimula órganos abdominales..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -236,16 +212,10 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Preparación de base: Arrodíllate, entrelaza los dedos de las manos apoyando los antebrazos en el suelo y formando un triángulo estable con los codos.",
-        "2. Colocación de cabeza: Apoya la coronilla en el suelo acunando la parte posterior de la cabeza con las manos entrelazadas.",
-        "3. Elevación de caderas: Apoya los dedos de los pies, estira las piernas y camina con los pies hacia la cabeza hasta que la pelvis quede sobre los hombros.",
-        "4. Elevación y sostén: Activa intensamente los hombros y el core, eleva las rodillas al pecho y luego extiende verticalmente las piernas. Sostén con supervisión de 5 a 10 respiraciones."
-      ],
-      "instructions": [
-        "1. Preparación de base: Arrodíllate, entrelaza los dedos de las manos apoyando los antebrazos en el suelo y formando un triángulo estable con los codos.",
-        "2. Colocación de cabeza: Apoya la coronilla en el suelo acunando la parte posterior de la cabeza con las manos entrelazadas.",
-        "3. Elevación de caderas: Apoya los dedos de los pies, estira las piernas y camina con los pies hacia la cabeza hasta que la pelvis quede sobre los hombros.",
-        "4. Elevación y sostén: Activa intensamente los hombros y el core, eleva las rodillas al pecho y luego extiende verticalmente las piernas. Sostén con supervisión de 5 a 10 respiraciones."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Core, hombros, circulación sanguínea.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo mejora la circulación cerebral, fortalece el centro y desarrolla valor..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -265,16 +235,10 @@
         "yin": "3 - 5 minutos (Oruga / Caterpillar)"
       },
       "stepByStepInstructions": [
-        "1. Posición inicial: Siéntate en Dandasana con las piernas juntas y extendidas hacia el frente, los pies en flex (activos).",
-        "2. Elevación: Inhala profundamente elevando los brazos sobre la cabeza alargando toda la columna desde los isquiones.",
-        "3. Inclinación: Exhala e inclínate hacia adelante desde la articulación de la cadera (manteniendo la columna recta), buscando sujetar los pies, tobillos o espinillas.",
-        "4. Sostenimiento: Con cada inhalación alarga el torso; con cada exhalación suaviza el abdomen hacia los muslos. Mantén durante 8 a 10 respiraciones profundas."
-      ],
-      "instructions": [
-        "1. Posición inicial: Siéntate en Dandasana con las piernas juntas y extendidas hacia el frente, los pies en flex (activos).",
-        "2. Elevación: Inhala profundamente elevando los brazos sobre la cabeza alargando toda la columna desde los isquiones.",
-        "3. Inclinación: Exhala e inclínate hacia adelante desde la articulación de la cadera (manteniendo la columna recta), buscando sujetar los pies, tobillos o espinillas.",
-        "4. Sostenimiento: Con cada inhalación alarga el torso; con cada exhalación suaviza el abdomen hacia los muslos. Mantén durante 8 a 10 respiraciones profundas."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Cadena posterior, isquiotibiales, espalda.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo estiramiento profundo de piernas y espalda, estimula la digestión..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -294,16 +258,10 @@
         "yin": "N/A (Saddle Pose como alternativa)"
       },
       "stepByStepInstructions": [
-        "1. Posición inicial: Colócate de rodillas erguido, con las rodillas separadas al ancho de la cadera y las caderas alineadas sobre las rodillas.",
-        "2. Soporte lumbar: Apoya las manos en la zona lumbar con los dedos apuntando hacia abajo y junta los codos atrás para abrir el tórax.",
-        "3. Extensión: Inhala elevando el esternón hacia el techo; exhala arqueando suavemente la espalda alta hacia atrás.",
-        "4. Agarre y sostén: Si la movilidad lo permite, lleva las manos a sujetar los talones. Abre el pecho, proyecta las caderas hacia adelante y sostiene 5 respiraciones."
-      ],
-      "instructions": [
-        "1. Posición inicial: Colócate de rodillas erguido, con las rodillas separadas al ancho de la cadera y las caderas alineadas sobre las rodillas.",
-        "2. Soporte lumbar: Apoya las manos en la zona lumbar con los dedos apuntando hacia abajo y junta los codos atrás para abrir el tórax.",
-        "3. Extensión: Inhala elevando el esternón hacia el techo; exhala arqueando suavemente la espalda alta hacia atrás.",
-        "4. Agarre y sostén: Si la movilidad lo permite, lleva las manos a sujetar los talones. Abre el pecho, proyecta las caderas hacia adelante y sostiene 5 respiraciones."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Cuádriceps, psoas, pecho, garganta.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo apertura profunda del corazón (chakra anahata), flexibiliza espina..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -323,16 +281,10 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Posición inicial: Comienza en Tadasana con los pies juntos o ligeramente separados.",
-        "2. Elevación de brazos: Inhala elevando ambos brazos junto a las orejas con las palmas enfrentadas.",
-        "3. Flexión de rodillas: Exhala flexionando las rodillas como si fueras a sentarte en una silla imaginaria, llevando el peso corporal hacia los talones.",
-        "4. Ajuste: Mantén el tórax elevado, evita arquear excesivamente la zona lumbar contrayendo el abdomen y sostiene firme durante 5 respiraciones."
-      ],
-      "instructions": [
-        "1. Posición inicial: Comienza en Tadasana con los pies juntos o ligeramente separados.",
-        "2. Elevación de brazos: Inhala elevando ambos brazos junto a las orejas con las palmas enfrentadas.",
-        "3. Flexión de rodillas: Exhala flexionando las rodillas como si fueras a sentarte en una silla imaginaria, llevando el peso corporal hacia los talones.",
-        "4. Ajuste: Mantén el tórax elevado, evita arquear excesivamente la zona lumbar contrayendo el abdomen y sostiene firme durante 5 respiraciones."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Cuádriceps, tobillos, espalda baja.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo desarrolla calor interno, tonifica piernas y fortalece la columna..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -352,16 +304,16 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Alineación inicial: Separa los pies 1 metro. Gira el pie derecho 90 grados hacia la derecha y el izquierdo ligeramente hacia adentro.",
-        "2. Extensión lateral: Inhala abriendo los brazos en cruz. Exhala alargando el torso lateralmente sobre la pierna derecha.",
-        "3. Apoyo de mano: Inclinando la pelvis, apoya la mano derecha en la espinilla, bloque o suelo, mientras extiendes el brazo izquierdo hacia el techo.",
-        "4. Alineación final: Mantiene ambos costados largos, el pecho abierto al frente y gira la mirada hacia la mano izquierda durante 5 respiraciones por lado."
+        "1. Posición Base: Armar la postura de Triángulo Extendido asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Abre pies, inclina el torso a la derecha apoyando la mano en la espinilla/bloque y extiende el brazo izquierdo al techo.",
+        "3. Lado Derecho: Cambia de lado inclinando el torso a la izquierda apoyando la mano en la espinilla y extendiendo el brazo derecho al techo.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Alineación inicial: Separa los pies 1 metro. Gira el pie derecho 90 grados hacia la derecha y el izquierdo ligeramente hacia adentro.",
-        "2. Extensión lateral: Inhala abriendo los brazos en cruz. Exhala alargando el torso lateralmente sobre la pierna derecha.",
-        "3. Apoyo de mano: Inclinando la pelvis, apoya la mano derecha en la espinilla, bloque o suelo, mientras extiendes el brazo izquierdo hacia el techo.",
-        "4. Alineación final: Mantiene ambos costados largos, el pecho abierto al frente y gira la mirada hacia la mano izquierda durante 5 respiraciones por lado."
+        "1. Posición Base: Armar la postura de Triángulo Extendido asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Abre pies, inclina el torso a la derecha apoyando la mano en la espinilla/bloque y extiende el brazo izquierdo al techo.",
+        "3. Lado Derecho: Cambia de lado inclinando el torso a la izquierda apoyando la mano en la espinilla y extendiendo el brazo derecho al techo.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -381,16 +333,16 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Transición: Desde Utthita Trikonasana, apoya la mano izquierda en la cadera, flexiona la rodilla derecha y apoya la mano derecha en el suelo 30 cm adelante.",
-        "2. Despegue: Traslada el peso a la pierna derecha y eleva la pierna izquierda paralela al suelo con el pie en flex.",
-        "3. Apertura del torso: Gira el pecho y la pelvis hacia el lateral abriendo las caderas en una misma línea vertical.",
-        "4. Extensión final: Eleva el brazo izquierdo hacia el techo y, si hay equilibrio, gira la mirada hacia arriba. Mantén de 3 a 5 respiraciones por lado."
+        "1. Posición Base: Armar la postura de Media Luna asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Apoya la mano derecha a 30 cm del pie derecho y eleva la pierna y el brazo izquierdos alineando la cadera.",
+        "3. Lado Derecho: Cambia de lado apoyando la mano izquierda y elevando la pierna y el brazo derechos abriendo el pecho al techo.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Transición: Desde Utthita Trikonasana, apoya la mano izquierda en la cadera, flexiona la rodilla derecha y apoya la mano derecha en el suelo 30 cm adelante.",
-        "2. Despegue: Traslada el peso a la pierna derecha y eleva la pierna izquierda paralela al suelo con el pie en flex.",
-        "3. Apertura del torso: Gira el pecho y la pelvis hacia el lateral abriendo las caderas en una misma línea vertical.",
-        "4. Extensión final: Eleva el brazo izquierdo hacia el techo y, si hay equilibrio, gira la mirada hacia arriba. Mantén de 3 a 5 respiraciones por lado."
+        "1. Posición Base: Armar la postura de Media Luna asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Apoya la mano derecha a 30 cm del pie derecho y eleva la pierna y el brazo izquierdos alineando la cadera.",
+        "3. Lado Derecho: Cambia de lado apoyando la mano izquierda y elevando la pierna y el brazo derechos abriendo el pecho al techo.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -410,16 +362,16 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Balance inicial: De pie en Tadasana, pasa el peso a la pierna izquierda y flexiona la rodilla derecha llevando el talón al glúteo.",
-        "2. Agarre: Sujeta la cara interna del pie o tobillo derecho con la mano derecha desde adentro.",
-        "3. Extensión e inclinación: Inhala elevando el brazo izquierdo al techo. Exhala pateando la pierna derecha atrás y arriba mientras inclinas el torso hacia adelante.",
-        "4. Sostenimiento: Mantén las caderas cuadradas hacia el frente y la mirada en un punto fijo durante 5 respiraciones por pierna."
+        "1. Posición Base: Armar la postura de Postura del Bailarín asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Apoya la pierna derecha, flexiona la rodilla izquierda sujetando el tobillo por dentro y extiende el brazo derecho adelante.",
+        "3. Lado Derecho: Cambia de pie apoyando el izquierdo, sujeta el tobillo derecho por dentro con la mano derecha y extiende el brazo izquierdo.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Balance inicial: De pie en Tadasana, pasa el peso a la pierna izquierda y flexiona la rodilla derecha llevando el talón al glúteo.",
-        "2. Agarre: Sujeta la cara interna del pie o tobillo derecho con la mano derecha desde adentro.",
-        "3. Extensión e inclinación: Inhala elevando el brazo izquierdo al techo. Exhala pateando la pierna derecha atrás y arriba mientras inclinas el torso hacia adelante.",
-        "4. Sostenimiento: Mantén las caderas cuadradas hacia el frente y la mirada en un punto fijo durante 5 respiraciones por pierna."
+        "1. Posición Base: Armar la postura de Postura del Bailarín asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Apoya la pierna derecha, flexiona la rodilla izquierda sujetando el tobillo por dentro y extiende el brazo derecho adelante.",
+        "3. Lado Derecho: Cambia de pie apoyando el izquierdo, sujeta el tobillo derecho por dentro con la mano derecha y extiende el brazo izquierdo.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -439,16 +391,16 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Preparación: Desde Tadasana, flexiona ligeramente ambas rodillas y pasa el peso a la pierna izquierda.",
-        "2. Cruce de piernas: Eleva la pierna derecha y crúzala sobre la izquierda, enganchando el empeine derecho detrás de la pantorrilla izquierda si es posible.",
-        "3. Cruce de brazos: Modela los brazos en cruz, cruza el brazo izquierdo sobre el derecho flexionando codos y uniendo las palmas.",
-        "4. Enfoque: Eleva los codos a la altura de los hombros, desciende la pelvis como en Utkatasana y sostiene 5 respiraciones por lado."
+        "1. Posición Base: Armar la postura de Postura del Águila asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Cruza el muslo izquierdo sobre el derecho y entrelaza el brazo izquierdo por debajo del derecho en doble nudo.",
+        "3. Lado Derecho: Cambia de lado cruzando el muslo derecho sobre el izquierdo y el brazo derecho por debajo del izquierdo.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Preparación: Desde Tadasana, flexiona ligeramente ambas rodillas y pasa el peso a la pierna izquierda.",
-        "2. Cruce de piernas: Eleva la pierna derecha y crúzala sobre la izquierda, enganchando el empeine derecho detrás de la pantorrilla izquierda si es posible.",
-        "3. Cruce de brazos: Modela los brazos en cruz, cruza el brazo izquierdo sobre el derecho flexionando codos y uniendo las palmas.",
-        "4. Enfoque: Eleva los codos a la altura de los hombros, desciende la pelvis como en Utkatasana y sostiene 5 respiraciones por lado."
+        "1. Posición Base: Armar la postura de Postura del Águila asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Cruza el muslo izquierdo sobre el derecho y entrelaza el brazo izquierdo por debajo del derecho en doble nudo.",
+        "3. Lado Derecho: Cambia de lado cruzando el muslo derecho sobre el izquierdo y el brazo derecho por debajo del izquierdo.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -468,16 +420,16 @@
         "yin": "3 - 5 minutos por lado (Cisne durmiente)"
       },
       "stepByStepInstructions": [
-        "1. Entrada: Desde Perro Boca Abajo, lleva la rodilla derecha hacia adelante apoyándola detrás de la muñeca derecha, abriendo la espinilla.",
-        "2. Alineación de pierna trasera: Desliza la pierna izquierda completamente estirada hacia atrás con el empeine en el mat y la pelvis cuadrada al frente.",
-        "3. Ajuste de torso: Inhala apoyando las yemas de los dedos al lado de la cadera abriendo el pecho.",
-        "4. Flexión pasiva: Exhala descendiendo el torso hacia el mat apoyando los antebrazos o la frente sobre las manos. Sostén de 1 a 3 minutos por lado."
+        "1. Posición Base: Armar la postura de Postura de la Paloma asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Flexiona la rodilla derecha adelante hacia la muñeca derecha y extiende la pierna izquierda completamente atrás.",
+        "3. Lado Derecho: Cambia de pierna flexionando la rodilla izquierda adelante y extendiendo la pierna derecha atrás alargando la columna.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Entrada: Desde Perro Boca Abajo, lleva la rodilla derecha hacia adelante apoyándola detrás de la muñeca derecha, abriendo la espinilla.",
-        "2. Alineación de pierna trasera: Desliza la pierna izquierda completamente estirada hacia atrás con el empeine en el mat y la pelvis cuadrada al frente.",
-        "3. Ajuste de torso: Inhala apoyando las yemas de los dedos al lado de la cadera abriendo el pecho.",
-        "4. Flexión pasiva: Exhala descendiendo el torso hacia el mat apoyando los antebrazos o la frente sobre las manos. Sostén de 1 a 3 minutos por lado."
+        "1. Posición Base: Armar la postura de Postura de la Paloma asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Flexiona la rodilla derecha adelante hacia la muñeca derecha y extiende la pierna izquierda completamente atrás.",
+        "3. Lado Derecho: Cambia de pierna flexionando la rodilla izquierda adelante y extendiendo la pierna derecha atrás alargando la columna.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -497,16 +449,10 @@
         "yin": "3 - 5 minutos (Mariposa Yin)"
       },
       "stepByStepInstructions": [
-        "1. Posición inicial: Siéntate erguido en el mat, flexiona las rodillas y junta las plantas de los pies cerca de la pelvis.",
-        "2. Agarre: Toma los pies o tobillos con las manos y deja caer las rodillas hacia los lados en apertura natural.",
-        "3. Alineación: Inhala alargando la columna desde los isquiones llevando los hombros hacia atrás.",
-        "4. Flexión o sostén: Mantén la columna recta e inclínate ligeramente hacia adelante desde la cadera. Sostén de 1 a 3 minutos."
-      ],
-      "instructions": [
-        "1. Posición inicial: Siéntate erguido en el mat, flexiona las rodillas y junta las plantas de los pies cerca de la pelvis.",
-        "2. Agarre: Toma los pies o tobillos con las manos y deja caer las rodillas hacia los lados en apertura natural.",
-        "3. Alineación: Inhala alargando la columna desde los isquiones llevando los hombros hacia atrás.",
-        "4. Flexión o sostén: Mantén la columna recta e inclínate ligeramente hacia adelante desde la cadera. Sostén de 1 a 3 minutos."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Ingles, caderas, zona lumbar.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo aumenta la flexibilidad inguinal y alivia molestias menstruales..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -526,16 +472,10 @@
         "yin": "3 - 5 minutos (Squat pasivo)"
       },
       "stepByStepInstructions": [
-        "1. Posición inicial: De pie, separa los pies un poco más del ancho de las caderas con las puntas apuntando ligeramente hacia afuera.",
-        "2. Descenso: Exhala flexionando profundamente las rodillas hasta bajar la pelvis a una sentadilla profunda.",
-        "3. Ajuste de brazos: Junta las palmas al centro del pecho en Anjali Mudra y presiona suavemente con los codos la cara interna de las rodillas.",
-        "4. Alineación: Alarga la columna, abre el pecho evitando encorvarte y sostiene de 5 a 10 respiraciones profundas."
-      ],
-      "instructions": [
-        "1. Posición inicial: De pie, separa los pies un poco más del ancho de las caderas con las puntas apuntando ligeramente hacia afuera.",
-        "2. Descenso: Exhala flexionando profundamente las rodillas hasta bajar la pelvis a una sentadilla profunda.",
-        "3. Ajuste de brazos: Junta las palmas al centro del pecho en Anjali Mudra y presiona suavemente con los codos la cara interna de las rodillas.",
-        "4. Alineación: Alarga la columna, abre el pecho evitando encorvarte y sostiene de 5 a 10 respiraciones profundas."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Piso pélvico, caderas, tobillos.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo enraizamiento profundo y apertura del piso pélvico..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -555,16 +495,16 @@
         "yin": "3 - 5 minutos por lado (Postura del Dragón)"
       },
       "stepByStepInstructions": [
-        "1. Entrada: Desde la postura del Lunge Bajo, apoya la rodilla trasera en el suelo y camina con el pie delantero hacia el borde exterior del mat.",
-        "2. Colocación de manos: Coloca ambas manos por dentro del pie delantero.",
-        "3. Profundización: Si la flexibilidad lo permite, apoya los antebrazos sobre un bloque o directamente en el mat.",
-        "4. Sostenimiento: Alarga la columna, abre la cadera e inhala conscientemente sintiendo la liberación del psoas de 1 a 3 minutos por lado."
+        "1. Posición Base: Armar la postura de Postura del Lagarto asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Paso largo con pie derecho por fuera de la mano derecha, apoya la rodilla izquierda atrás y baja antebrazos.",
+        "3. Lado Derecho: Cambia de lado dando el paso con el pie izquierdo por fuera de la mano izquierda y alargando el psoas derecho.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Entrada: Desde la postura del Lunge Bajo, apoya la rodilla trasera en el suelo y camina con el pie delantero hacia el borde exterior del mat.",
-        "2. Colocación de manos: Coloca ambas manos por dentro del pie delantero.",
-        "3. Profundización: Si la flexibilidad lo permite, apoya los antebrazos sobre un bloque o directamente en el mat.",
-        "4. Sostenimiento: Alarga la columna, abre la cadera e inhala conscientemente sintiendo la liberación del psoas de 1 a 3 minutos por lado."
+        "1. Posición Base: Armar la postura de Postura del Lagarto asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Paso largo con pie derecho por fuera de la mano derecha, apoya la rodilla izquierda atrás y baja antebrazos.",
+        "3. Lado Derecho: Cambia de lado dando el paso con el pie izquierdo por fuera de la mano izquierda y alargando el psoas derecho.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -584,16 +524,16 @@
         "yin": "2 - 4 minutos (Lunge pasivo)"
       },
       "stepByStepInstructions": [
-        "1. Entrada: Desde Perro Boca Abajo, da un paso adelante con el pie derecho entre las manos y apoya la rodilla izquierda atrás.",
-        "2. Alineación: Asegúrate de que la rodilla delantera esté sobre el tobillo y relaja el empeine trasero sobre el mat.",
-        "3. Elevación: Inhala elevando el torso y los brazos sobre la cabeza con las palmas enfrentadas.",
-        "4. Extensión: Hunde suavemente la pelvis hacia adelante y abajo sintiendo el estiramiento en el psoas izquierdo durante 5 a 8 respiraciones."
+        "1. Posición Base: Armar la postura de Luna Creciente asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Paso adelante con pie derecho en 90°, apoya rodilla izquierda en el mat y eleva el tórax y brazos al techo.",
+        "3. Lado Derecho: Cambia de lado dando el paso con pie izquierdo adelante, apoya rodilla derecha en el mat y abre el pecho.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Entrada: Desde Perro Boca Abajo, da un paso adelante con el pie derecho entre las manos y apoya la rodilla izquierda atrás.",
-        "2. Alineación: Asegúrate de que la rodilla delantera esté sobre el tobillo y relaja el empeine trasero sobre el mat.",
-        "3. Elevación: Inhala elevando el torso y los brazos sobre la cabeza con las palmas enfrentadas.",
-        "4. Extensión: Hunde suavemente la pelvis hacia adelante y abajo sintiendo el estiramiento en el psoas izquierdo durante 5 a 8 respiraciones."
+        "1. Posición Base: Armar la postura de Luna Creciente asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Paso adelante con pie derecho en 90°, apoya rodilla izquierda en el mat y eleva el tórax y brazos al techo.",
+        "3. Lado Derecho: Cambia de lado dando el paso con pie izquierdo adelante, apoya rodilla derecha en el mat y abre el pecho.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -613,16 +553,10 @@
         "yin": "3 - 5 minutos (Corazón derretido pasivo)"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Colócate a cuatro puntos de apoyo sobre las rodillas, asegurándote de que las caderas queden alineadas exactamente sobre las rodillas.",
-        "2. Extensión de brazos: Camina con las manos hacia adelante extendiendo completamente los brazos.",
-        "3. Descenso: Exhala descendiendo el pecho y la barbilla o frente hacia el suelo, dejando que el tórax se abra pasivamente.",
-        "4. Sostenimiento Yin: Mantén la pelvis elevada sobre las rodillas y respira profundamente en la espalda alta durante 3 a 5 minutos."
-      ],
-      "instructions": [
-        "1. Inicio: Colócate a cuatro puntos de apoyo sobre las rodillas, asegurándote de que las caderas queden alineadas exactamente sobre las rodillas.",
-        "2. Extensión de brazos: Camina con las manos hacia adelante extendiendo completamente los brazos.",
-        "3. Descenso: Exhala descendiendo el pecho y la barbilla o frente hacia el suelo, dejando que el tórax se abra pasivamente.",
-        "4. Sostenimiento Yin: Mantén la pelvis elevada sobre las rodillas y respira profundamente en la espalda alta durante 3 a 5 minutos."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Hombros, escápulas, pecho.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo apertura de la espalda alta y liberación de tensión escapular..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -642,16 +576,10 @@
         "yin": "3 - 5 minutos (Esfinge Yin)"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Recuéstate boca abajo con las piernas extendidas al ancho de las caderas.",
-        "2. Colocación de antebrazos: Apoya los antebrazos en el suelo con los codos alineados justo debajo de los hombros y las palmas hacia abajo.",
-        "3. Elevación suave: Inhala elevando la cabeza y el tórax en una curva suave de la columna lumbar.",
-        "4. Relajación pasiva: Relaja los glúteos y piernas, aleja los hombros de las orejas y sostiene en quietud Yin durante 3 a 5 minutos."
-      ],
-      "instructions": [
-        "1. Inicio: Recuéstate boca abajo con las piernas extendidas al ancho de las caderas.",
-        "2. Colocación de antebrazos: Apoya los antebrazos en el suelo con los codos alineados justo debajo de los hombros y las palmas hacia abajo.",
-        "3. Elevación suave: Inhala elevando la cabeza y el tórax en una curva suave de la columna lumbar.",
-        "4. Relajación pasiva: Relaja los glúteos y piernas, aleja los hombros de las orejas y sostiene en quietud Yin durante 3 a 5 minutos."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Zona lumbar, sacro.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo compresión suave pasiva en lumbares para rehidratar discos..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -671,16 +599,10 @@
         "yin": "3 - 5 minutos pasivos con cojín"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Siéntate en el mat con las piernas extendidas hacia adelante de forma relajada.",
-        "2. Flexión pasiva: Inhala profundo y al exhalar deja que el torso caiga de forma pasiva hacia adelante redondeando libremente la columna.",
-        "3. Soporte: Permite que la cabeza cuelgue relajada o apóyala sobre un cojín o bloque.",
-        "4. Sostenimiento: Mantén los músculos completamente relajados dejando que la gravedad actúe sobre la cadena posterior durante 3 a 5 minutos."
-      ],
-      "instructions": [
-        "1. Inicio: Siéntate en el mat con las piernas extendidas hacia adelante de forma relajada.",
-        "2. Flexión pasiva: Inhala profundo y al exhalar deja que el torso caiga de forma pasiva hacia adelante redondeando libremente la columna.",
-        "3. Soporte: Permite que la cabeza cuelgue relajada o apóyala sobre un cojín o bloque.",
-        "4. Sostenimiento: Mantén los músculos completamente relajados dejando que la gravedad actúe sobre la cadena posterior durante 3 a 5 minutos."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Toda la cadena posterior.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo estimula el meridiano de la vejiga y relaja el cuello..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -700,16 +622,16 @@
         "yin": "3 - 5 minutos por lado"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Recuéstate totalmente boca arriba con las piernas juntas y los brazos extendidos sobre la cabeza en el suelo.",
-        "2. Curvatura de piernas: Desliza las piernas y pies hacia el lado derecho de la colchoneta manteniendo la pelvis apoyada.",
-        "3. Curvatura del torso: Desliza la cabeza, hombros y brazos hacia el mismo lado derecho formando una figura de banana en el suelo.",
-        "4. Sujeción y sostén: Cruza el tobillo izquierdo sobre el derecho y toma la muñeca izquierda con la mano derecha. Respira durante 3 a 5 minutos por lado."
+        "1. Posición Base: Armar la postura de Postura de la Banana asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Tumbado boca arriba, desplaza la pelvis al centro y curva torso y piernas hacia la izquierda.",
+        "3. Lado Derecho: Cambia de lado desplazando torso y piernas hacia el lado derecho manteniendo ambos glúteos en el suelo.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Inicio: Recuéstate totalmente boca arriba con las piernas juntas y los brazos extendidos sobre la cabeza en el suelo.",
-        "2. Curvatura de piernas: Desliza las piernas y pies hacia el lado derecho de la colchoneta manteniendo la pelvis apoyada.",
-        "3. Curvatura del torso: Desliza la cabeza, hombros y brazos hacia el mismo lado derecho formando una figura de banana en el suelo.",
-        "4. Sujeción y sostén: Cruza el tobillo izquierdo sobre el derecho y toma la muñeca izquierda con la mano derecha. Respira durante 3 a 5 minutos por lado."
+        "1. Posición Base: Armar la postura de Postura de la Banana asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Tumbado boca arriba, desplaza la pelvis al centro y curva torso y piernas hacia la izquierda.",
+        "3. Lado Derecho: Cambia de lado desplazando torso y piernas hacia el lado derecho manteniendo ambos glúteos en el suelo.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -729,16 +651,10 @@
         "yin": "3 - 5 minutos pasivos"
       },
       "stepByStepInstructions": [
-        "1. Entrada: Desde la posición boca arriba, eleva las piernas extendidas y lleva las caderas sobre los hombros pasando los pies por detrás de la cabeza.",
-        "2. Soporte: Apoya las manos en la zona lumbar o déjalas extendidas en el mat.",
-        "3. Relajación de la columna: Deja que la columna se redondee de forma pasiva y las rodillas se flexionen hacia las orejas si es cómodo.",
-        "4. Sostenimiento: Respira suavemente en la zona posterior del tórax reteniendo la postura Yin en quietud de 3 a 5 minutos."
-      ],
-      "instructions": [
-        "1. Entrada: Desde la posición boca arriba, eleva las piernas extendidas y lleva las caderas sobre los hombros pasando los pies por detrás de la cabeza.",
-        "2. Soporte: Apoya las manos en la zona lumbar o déjalas extendidas en el mat.",
-        "3. Relajación de la columna: Deja que la columna se redondee de forma pasiva y las rodillas se flexionen hacia las orejas si es cómodo.",
-        "4. Sostenimiento: Respira suavemente en la zona posterior del tórax reteniendo la postura Yin en quietud de 3 a 5 minutos."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Columna vertebral, cuello.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo masaje profundo de órganos y tracción completa espinal..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -758,16 +674,10 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Entrada: Recuéstate boca arriba, activa el core y eleva las piernas rectas a 90 grados. Lleva la pelvis hacia arriba apoyando las manos en la espalda media.",
-        "2. Alineación vertical: Camina con las manos más abajo hacia las escápulas alineando tobillos, caderas y hombros en una línea vertical.",
-        "3. Protección cervical: Mantén el peso sobre los hombros y parte alta del lomo, asegurando no comprimir la nuca (no gires el cuello).",
-        "4. Sostenimiento: Fija la mirada en los dedos de los pies o el ombligo y sostiene de 8 a 15 respiraciones profundas."
-      ],
-      "instructions": [
-        "1. Entrada: Recuéstate boca arriba, activa el core y eleva las piernas rectas a 90 grados. Lleva la pelvis hacia arriba apoyando las manos en la espalda media.",
-        "2. Alineación vertical: Camina con las manos más abajo hacia las escápulas alineando tobillos, caderas y hombros en una línea vertical.",
-        "3. Protección cervical: Mantén el peso sobre los hombros y parte alta del lomo, asegurando no comprimir la nuca (no gires el cuello).",
-        "4. Sostenimiento: Fija la mirada en los dedos de los pies o el ombligo y sostiene de 8 a 15 respiraciones profundas."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Glándula tiroides, sistema circulatorio.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo estimula el retorno venoso y regula el sistema endocrino..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -787,16 +697,10 @@
         "yin": "Ver Snail pose"
       },
       "stepByStepInstructions": [
-        "1. Entrada: Desde Salamba Sarvangasana, exhala descendiendo lentamente las piernas rectas por detrás de la cabeza hasta apoyar las puntas de los pies en el suelo.",
-        "2. Posición de manos: Entrelaza los dedos de las manos sobre el mat estirando los brazos, o mantén el soporte en la espalda.",
-        "3. Alineación: Eleva los isquiones hacia el techo manteniendo las piernas activas y estiradas.",
-        "4. Salida: Respira durante 5 a 10 ciclos y regresa vértebra a vértebra con control abdominal."
-      ],
-      "instructions": [
-        "1. Entrada: Desde Salamba Sarvangasana, exhala descendiendo lentamente las piernas rectas por detrás de la cabeza hasta apoyar las puntas de los pies en el suelo.",
-        "2. Posición de manos: Entrelaza los dedos de las manos sobre el mat estirando los brazos, o mantén el soporte en la espalda.",
-        "3. Alineación: Eleva los isquiones hacia el techo manteniendo las piernas activas y estiradas.",
-        "4. Salida: Respira durante 5 a 10 ciclos y regresa vértebra a vértebra con control abdominal."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Espalda alta, cuello, digestión.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo estira la columna cervical y reduce el cansancio acumulado..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -816,16 +720,16 @@
         "yin": "3 minutos por lado"
       },
       "stepByStepInstructions": [
-        "1. Posición inicial: Siéntate en Dandasana. Dobla la pierna derecha pasando el pie por fuera del muslo izquierdo.",
-        "2. Flexión de pierna base: Flexiona la pierna izquierda llevando el talón cerca del glúteo derecho.",
-        "3. Torsión: Inhala elevando el brazo izquierdo. Exhala girando el torso a la derecha pasando el codo izquierdo por fuera de la rodilla derecha.",
-        "4. Sostenimiento: Apoya la mano derecha detrás de la pelvis, alarga la columna al inhalar y profundiza la torsión al exhalar durante 5 a 8 respiraciones por lado."
+        "1. Posición Base: Armar la postura de Torsión Sentada asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Cruza el pie derecho por fuera del muslo izquierdo, pasa el codo izquierdo sobre la rodilla y gira a la derecha.",
+        "3. Lado Derecho: Cambia de lado cruzando el pie izquierdo sobre el muslo derecho, pasa el codo derecho y gira el torso a la izquierda.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Posición inicial: Siéntate en Dandasana. Dobla la pierna derecha pasando el pie por fuera del muslo izquierdo.",
-        "2. Flexión de pierna base: Flexiona la pierna izquierda llevando el talón cerca del glúteo derecho.",
-        "3. Torsión: Inhala elevando el brazo izquierdo. Exhala girando el torso a la derecha pasando el codo izquierdo por fuera de la rodilla derecha.",
-        "4. Sostenimiento: Apoya la mano derecha detrás de la pelvis, alarga la columna al inhalar y profundiza la torsión al exhalar durante 5 a 8 respiraciones por lado."
+        "1. Posición Base: Armar la postura de Torsión Sentada asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Cruza el pie derecho por fuera del muslo izquierdo, pasa el codo izquierdo sobre la rodilla y gira a la derecha.",
+        "3. Lado Derecho: Cambia de lado cruzando el pie izquierdo sobre el muslo derecho, pasa el codo derecho y gira el torso a la izquierda.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -845,16 +749,10 @@
         "yin": "5 - 15 minutos pasivos"
       },
       "stepByStepInstructions": [
-        "1. Colocación de base: Siéntate de costado junto a una pared lisa.",
-        "2. Elevación de piernas: Gira el cuerpo recostándote boca arriba mientras elevas las piernas extendidas apoyándolas verticalmente contra la pared.",
-        "3. Ajuste de pelvis: Acerca los isquiones a la pared tanto como la flexibilidad de tus isquiotibiales lo permita cómodamente.",
-        "4. Relajación profunda: Deja los brazos descansando a los lados con las palmas hacia arriba y respira suavemente durante 5 a 15 minutos."
-      ],
-      "instructions": [
-        "1. Colocación de base: Siéntate de costado junto a una pared lisa.",
-        "2. Elevación de piernas: Gira el cuerpo recostándote boca arriba mientras elevas las piernas extendidas apoyándolas verticalmente contra la pared.",
-        "3. Ajuste de pelvis: Acerca los isquiones a la pared tanto como la flexibilidad de tus isquiotibiales lo permita cómodamente.",
-        "4. Relajación profunda: Deja los brazos descansando a los lados con las palmas hacia arriba y respira suavemente durante 5 a 15 minutos."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Piernas, corazón, sistema parasimpático.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo alivia piernas cansadas y reduce la presión arterial y ansiedad..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -874,16 +772,10 @@
         "yin": "10 - 15 minutos"
       },
       "stepByStepInstructions": [
-        "1. Colocación corporal: Recuéstate boca arriba en el mat. Separa las piernas al ancho de la colchoneta dejando caer los pies hacia afuera.",
-        "2. Posición de brazos: Separa los brazos del torso unos 45 grados con las palmas abiertas mirando hacia el techo.",
-        "3. Ajuste cervical: Alarga la nuca acercando suavemente la barbilla hacia el esternón y cierra los ojos.",
-        "4. Relajación absoluta: Abandona todo control consciente de la respiración y del cuerpo, permaneciendo en quietud e integración durante 10 a 15 minutos."
-      ],
-      "instructions": [
-        "1. Colocación corporal: Recuéstate boca arriba en el mat. Separa las piernas al ancho de la colchoneta dejando caer los pies hacia afuera.",
-        "2. Posición de brazos: Separa los brazos del torso unos 45 grados con las palmas abiertas mirando hacia el techo.",
-        "3. Ajuste cervical: Alarga la nuca acercando suavemente la barbilla hacia el esternón y cierra los ojos.",
-        "4. Relajación absoluta: Abandona todo control consciente de la respiración y del cuerpo, permaneciendo en quietud e integración durante 10 a 15 minutos."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Integración cuerpo-mente.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo asimilación neuro-muscular de la práctica, calma profunda..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -903,16 +795,10 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Siéntate en el mat con las rodillas flexionadas y los pies apoyados en el suelo.",
-        "2. Inclinación y balance: Inclina ligeramente el torso hacia atrás manteniendo la columna recta y despega los pies del suelo equilibrándote sobre los isquiones.",
-        "3. Extensión: Eleva las espinillas paralelas al suelo (o extiende completamente las piernas a 45 grados si tienes fuerza).",
-        "4. Brazos y sostén: Extiende los brazos hacia adelante paralelos al suelo al lado de las rodillas. Mantén el pecho abierto durante 5 a 8 respiraciones."
-      ],
-      "instructions": [
-        "1. Inicio: Siéntate en el mat con las rodillas flexionadas y los pies apoyados en el suelo.",
-        "2. Inclinación y balance: Inclina ligeramente el torso hacia atrás manteniendo la columna recta y despega los pies del suelo equilibrándote sobre los isquiones.",
-        "3. Extensión: Eleva las espinillas paralelas al suelo (o extiende completamente las piernas a 45 grados si tienes fuerza).",
-        "4. Brazos y sostén: Extiende los brazos hacia adelante paralelos al suelo al lado de las rodillas. Mantén el pecho abierto durante 5 a 8 respiraciones."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Abdomen, psoas, flexores de cadera.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo desarrolla fuerza abdominal profunda y estabilidad lumbar..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -932,16 +818,10 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Desde la Plancha Alta: Asegúrate de tener los hombros sobre las muñecas y el cuerpo firme en una línea recta desde la cabeza hasta los talones.",
-        "2. Transición hacia adelante: Traslada el peso del cuerpo ligeramente hacia adelante sobre las puntas de los pies.",
-        "3. Descenso: Exhala doblando los codos hacia atrás a 90 grados, pegándolos firmemente a los costados del torso.",
-        "4. Alineación: Detén el descenso cuando los brazos formen un ángulo recto y el cuerpo quede paralelo al suelo sin hundir la pelvis. Sostén 1 o 2 respiraciones."
-      ],
-      "instructions": [
-        "1. Desde la Plancha Alta: Asegúrate de tener los hombros sobre las muñecas y el cuerpo firme en una línea recta desde la cabeza hasta los talones.",
-        "2. Transición hacia adelante: Traslada el peso del cuerpo ligeramente hacia adelante sobre las puntas de los pies.",
-        "3. Descenso: Exhala doblando los codos hacia atrás a 90 grados, pegándolos firmemente a los costados del torso.",
-        "4. Alineación: Detén el descenso cuando los brazos formen un ángulo recto y el cuerpo quede paralelo al suelo sin hundir la pelvis. Sostén 1 o 2 respiraciones."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Tríceps, hombros, core.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo fortalece brazos y prepara para arm balances e inversiones..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -961,16 +841,10 @@
         "yin": "3 - 5 minutos (Sustentado con bloque)"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Recuéstate boca arriba con las piernas juntas y extendidas.",
-        "2. Posición de manos: Desliza las manos debajo de los glúteos con las palmas hacia abajo y los codos pegados al cuerpo.",
-        "3. Eleva el pecho: Presiona firmemente los codos y antebrazos contra el mat e inhala elevando el tórax en un gran arco.",
-        "4. Apoyo de cabeza: Reclina la cabeza hacia atrás apoyando suavemente la coronilla en el suelo sin volcar el peso en el cuello. Sostén de 5 a 8 respiraciones."
-      ],
-      "instructions": [
-        "1. Inicio: Recuéstate boca arriba con las piernas juntas y extendidas.",
-        "2. Posición de manos: Desliza las manos debajo de los glúteos con las palmas hacia abajo y los codos pegados al cuerpo.",
-        "3. Eleva el pecho: Presiona firmemente los codos y antebrazos contra el mat e inhala elevando el tórax en un gran arco.",
-        "4. Apoyo de cabeza: Reclina la cabeza hacia atrás apoyando suavemente la coronilla en el suelo sin volcar el peso en el cuello. Sostén de 5 a 8 respiraciones."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Caja torácica, garganta.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo expande la capacidad pulmonar y estimula la glándula tiroides..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -990,16 +864,10 @@
         "yin": "3 - 5 minutos con bloque debajo del sacro"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Recuéstate boca arriba, flexiona las rodillas y apoya las plantas de los pies en el mat al ancho de las caderas, cerca de los glúteos.",
-        "2. Elevación de pelvis: Inhala presionando firmemente las plantas de los pies y eleva las caderas hacia el techo.",
-        "3. Entrelazado de manos: Desliza los brazos debajo del cuerpo y entrelaza las manos presenciando las escápulas una hacia la otra.",
-        "4. Sostenimiento: Mantén los muslos paralelos, activa glúteos e isquiotibiales y respira profundamente durante 5 a 8 ciclos."
-      ],
-      "instructions": [
-        "1. Inicio: Recuéstate boca arriba, flexiona las rodillas y apoya las plantas de los pies en el mat al ancho de las caderas, cerca de los glúteos.",
-        "2. Elevación de pelvis: Inhala presionando firmemente las plantas de los pies y eleva las caderas hacia el techo.",
-        "3. Entrelazado de manos: Desliza los brazos debajo del cuerpo y entrelaza las manos presenciando las escápulas una hacia la otra.",
-        "4. Sostenimiento: Mantén los muslos paralelos, activa glúteos e isquiotibiales y respira profundamente durante 5 a 8 ciclos."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Glúteos, isquiotibiales, pecho.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo fortalece la parte posterior del cuerpo y abre los hombros..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -1019,16 +887,10 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Recuéstate boca abajo en el mat. Flexiona las rodillas llevando los talones hacia los glúteos.",
-        "2. Agarre: Lleva las manos hacia atrás y toma firmemente los tobillos por el exterior.",
-        "3. Elevación: Inhala y patea con los pies hacia atrás y arriba, lo que elevará automáticamente el pecho y los muslos del mat.",
-        "4. Balance sobre abdomen: Mantén los codos rectos, abre los hombros y equilibra el cuerpo sobre el abdomen durante 5 respiraciones profundas."
-      ],
-      "instructions": [
-        "1. Inicio: Recuéstate boca abajo en el mat. Flexiona las rodillas llevando los talones hacia los glúteos.",
-        "2. Agarre: Lleva las manos hacia atrás y toma firmemente los tobillos por el exterior.",
-        "3. Elevación: Inhala y patea con los pies hacia atrás y arriba, lo que elevará automáticamente el pecho y los muslos del mat.",
-        "4. Balance sobre abdomen: Mantén los codos rectos, abre los hombros y equilibra el cuerpo sobre el abdomen durante 5 respiraciones profundas."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Toda la cadena anterior y columna.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo estimula los órganos digestivos y estira profundamente el tórax..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -1048,16 +910,16 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Desde Guerrero I o Tadasana, traslada el peso a la pierna derecha manteniendo la pelvis cuadrada.",
-        "2. Inclinación y elevación: Inclina el torso hacia adelante mientras eleva la pierna izquierda estirada hacia atrás hasta quedar paralela al suelo.",
-        "3. Posición de brazos: Extiende los brazos hacia adelante junto a las orejas (o al centro del pecho en Anjali Mudra).",
-        "4. Alineación: Forma una línea recta paralela al suelo desde los dedos de la mano hasta el talón izquierdo. Sostén 5 respiraciones por lado."
+        "1. Posición Base: Armar la postura de Guerrero III asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Apoya el peso sobre la pierna derecha y eleva la pierna izquierda atrás manteniendo el torso paralelo al suelo.",
+        "3. Lado Derecho: Cambia de apoyo sobre la pierna izquierda y eleva la pierna derecha atrás en línea horizontal con el torso.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Inicio: Desde Guerrero I o Tadasana, traslada el peso a la pierna derecha manteniendo la pelvis cuadrada.",
-        "2. Inclinación y elevación: Inclina el torso hacia adelante mientras eleva la pierna izquierda estirada hacia atrás hasta quedar paralela al suelo.",
-        "3. Posición de brazos: Extiende los brazos hacia adelante junto a las orejas (o al centro del pecho en Anjali Mudra).",
-        "4. Alineación: Forma una línea recta paralela al suelo desde los dedos de la mano hasta el talón izquierdo. Sostén 5 respiraciones por lado."
+        "1. Posición Base: Armar la postura de Guerrero III asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Apoya el peso sobre la pierna derecha y eleva la pierna izquierda atrás manteniendo el torso paralelo al suelo.",
+        "3. Lado Derecho: Cambia de apoyo sobre la pierna izquierda y eleva la pierna derecha atrás en línea horizontal con el torso.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -1077,16 +939,16 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Desde la Plancha Alta, traslada el peso a la mano derecha y gira sobre los bordes exteriores de los pies.",
-        "2. Apilamiento: Apila el pie izquierdo justo encima del pie derecho y alinea la cadera, rodillas y tobillos en una línea diagonal.",
-        "3. Elevación de brazo: Inhala elevando el brazo izquierdo hacia el techo abriendo el pecho al lateral.",
-        "4. Fuerza de core: Eleva la pelvis evitando que se hunda y mira hacia la mano superior durante 5 respiraciones por lado."
+        "1. Posición Base: Armar la postura de Plancha Lateral asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Apoya la mano derecha y el borde externo del pie derecho, eleva la cadera y extiende el brazo izquierdo arriba.",
+        "3. Lado Derecho: Gira hacia la mano izquierda apoyando el borde externo del pie izquierdo y eleva el brazo derecho alineando los hombros.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Inicio: Desde la Plancha Alta, traslada el peso a la mano derecha y gira sobre los bordes exteriores de los pies.",
-        "2. Apilamiento: Apila el pie izquierdo justo encima del pie derecho y alinea la cadera, rodillas y tobillos en una línea diagonal.",
-        "3. Elevación de brazo: Inhala elevando el brazo izquierdo hacia el techo abriendo el pecho al lateral.",
-        "4. Fuerza de core: Eleva la pelvis evitando que se hunda y mira hacia la mano superior durante 5 respiraciones por lado."
+        "1. Posición Base: Armar la postura de Plancha Lateral asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Apoya la mano derecha y el borde externo del pie derecho, eleva la cadera y extiende el brazo izquierdo arriba.",
+        "3. Lado Derecho: Gira hacia la mano izquierda apoyando el borde externo del pie izquierdo y eleva el brazo derecho alineando los hombros.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -1106,16 +968,10 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Preparación: Colócate en una sentadilla baja, apoya las palmas de las manos en el mat al ancho de hombros con dedos bien abiertos.",
-        "2. Colocación de rodillas: Eleva las caderas, flexiona ligeramente los codos y apoya las rodillas en la parte posterior de los tríceps (cerca de las axilas).",
-        "3. Inclinación al frente: Lleva la mirada hacia adelante en el mat e inclina el peso del cuerpo hacia las manos despegando los pies uno a uno.",
-        "4. Equilibrio: Junta los dedos gordos de los pies, redondea suavemente la espalda alta y sostiene el balance en brazos de 3 a 5 respiraciones."
-      ],
-      "instructions": [
-        "1. Preparación: Colócate en una sentadilla baja, apoya las palmas de las manos en el mat al ancho de hombros con dedos bien abiertos.",
-        "2. Colocación de rodillas: Eleva las caderas, flexiona ligeramente los codos y apoya las rodillas en la parte posterior de los tríceps (cerca de las axilas).",
-        "3. Inclinación al frente: Lleva la mirada hacia adelante en el mat e inclina el peso del cuerpo hacia las manos despegando los pies uno a uno.",
-        "4. Equilibrio: Junta los dedos gordos de los pies, redondea suavemente la espalda alta y sostiene el balance en brazos de 3 a 5 respiraciones."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Muñecas, tríceps, abdomen, concentración.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo aumenta la fuerza en la parte superior del cuerpo y desarrolla confianza y concentración..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -1135,16 +991,10 @@
         "yin": "5 - 10 minutos"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Siéntate en el mat, junta las plantas de los pies dejando caer las rodillas hacia afuera.",
-        "2. Reclinación: Con ayuda de los antebrazos, desciende el torso lentamente hacia atrás hasta recostarte sobre el mat o un bolsters.",
-        "3. Posición de brazos: Coloca los brazos descansando a los lados con palmas hacia arriba o una mano en el abdomen y otra en el pecho.",
-        "4. Relajación pasiva: Cierra los ojos y permanece en apertura pasiva de pelvis y relajación durante 3 a 10 minutos."
-      ],
-      "instructions": [
-        "1. Inicio: Siéntate en el mat, junta las plantas de los pies dejando caer las rodillas hacia afuera.",
-        "2. Reclinación: Con ayuda de los antebrazos, desciende el torso lentamente hacia atrás hasta recostarte sobre el mat o un bolsters.",
-        "3. Posición de brazos: Coloca los brazos descansando a los lados con palmas hacia arriba o una mano en el abdomen y otra en el pecho.",
-        "4. Relajación pasiva: Cierra los ojos y permanece en apertura pasiva de pelvis y relajación durante 3 a 10 minutos."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Pelvis, ingles, pecho, sistema nervioso.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo alivia el estrés, favorece la relajación profunda y abre la pelvis de forma pasiva..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -1164,16 +1014,10 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Inicio: De pie, separa las piernas ampliamente (1.20 a 1.50 metros) con los bordes exteriores de los pies paralelos.",
-        "2. Inclinación: Inhala elevando el tórax con manos en la cadera. Exhala flexionando desde la cadera hacia adelante.",
-        "3. Apoyo de manos: Apoya las palmas de las manos en el mat alineadas con los pies al ancho de los hombros.",
-        "4. Inclinación profunda: Suelta la cabeza buscando apoyar la coronilla en el suelo. Sostén 5 a 8 respiraciones profundas."
-      ],
-      "instructions": [
-        "1. Inicio: De pie, separa las piernas ampliamente (1.20 a 1.50 metros) con los bordes exteriores de los pies paralelos.",
-        "2. Inclinación: Inhala elevando el tórax con manos en la cadera. Exhala flexionando desde la cadera hacia adelante.",
-        "3. Apoyo de manos: Apoya las palmas de las manos en el mat alineadas con los pies al ancho de los hombros.",
-        "4. Inclinación profunda: Suelta la cabeza buscando apoyar la coronilla en el suelo. Sostén 5 a 8 respiraciones profundas."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Isquiotibiales, columna, caderas.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo estira la parte interna de las piernas y calma el cerebro..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -1193,16 +1037,16 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Inicio: De pie, da un paso corto atrás con el pie izquierdo (80 cm) a 45 grados, manteniendo las caderas cuadradas al frente.",
-        "2. Inclinación y torsión: Inhala elevando el brazo izquierdo. Exhala inclinando el torso al frente y apoya la mano izquierda por fuera del pie derecho.",
-        "3. Extensión de brazo: Gira el torso hacia la derecha extendiendo el brazo derecho hacia el techo.",
-        "4. Alineación: Mantén ambas piernas rectas, alarga la columna y mira a la mano derecha durante 5 respiraciones por lado."
+        "1. Posición Base: Armar la postura de Triángulo Invertido asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Desde triángulo con pie derecho adelante, apoya la mano izquierda por fuera del pie y gira el torso a la derecha.",
+        "3. Lado Derecho: Con el pie izquierdo adelante, apoya la mano derecha por fuera del pie y gira el torso a la izquierda elevando el brazo.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Inicio: De pie, da un paso corto atrás con el pie izquierdo (80 cm) a 45 grados, manteniendo las caderas cuadradas al frente.",
-        "2. Inclinación y torsión: Inhala elevando el brazo izquierdo. Exhala inclinando el torso al frente y apoya la mano izquierda por fuera del pie derecho.",
-        "3. Extensión de brazo: Gira el torso hacia la derecha extendiendo el brazo derecho hacia el techo.",
-        "4. Alineación: Mantén ambas piernas rectas, alarga la columna y mira a la mano derecha durante 5 respiraciones por lado."
+        "1. Posición Base: Armar la postura de Triángulo Invertido asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Desde triángulo con pie derecho adelante, apoya la mano izquierda por fuera del pie y gira el torso a la derecha.",
+        "3. Lado Derecho: Con el pie izquierdo adelante, apoya la mano derecha por fuera del pie y gira el torso a la izquierda elevando el brazo.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -1222,16 +1066,10 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Recuéstate boca abajo en el mat con las piernas extendidas y juntas, apoyando la barbilla o frente.",
-        "2. Posición de brazos: Extiende los brazos hacia atrás a los lados del torso con las palmas mirando hacia abajo.",
-        "3. Elevación: Inhala profundo y eleva simultáneamente la cabeza, el pecho, los brazos y las piernas del mat.",
-        "4. Sostenimiento: Mantén la mirada suave al frente, los muslos firmes y la extensión de la espalda durante 5 respiraciones."
-      ],
-      "instructions": [
-        "1. Inicio: Recuéstate boca abajo en el mat con las piernas extendidas y juntas, apoyando la barbilla o frente.",
-        "2. Posición de brazos: Extiende los brazos hacia atrás a los lados del torso con las palmas mirando hacia abajo.",
-        "3. Elevación: Inhala profundo y eleva simultáneamente la cabeza, el pecho, los brazos y las piernas del mat.",
-        "4. Sostenimiento: Mantén la mirada suave al frente, los muslos firmes y la extensión de la espalda durante 5 respiraciones."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Espalda baja, glúteos, hombros.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo fortalece toda la cadena posterior y mejora la postura..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -1251,16 +1089,16 @@
         "yin": "3 - 5 minutos por lado"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Siéntate en Dandasana. Flexiona la rodilla derecha apoyando la planta del pie derecho en la cara interna del muslo izquierdo.",
-        "2. Alineación: Gira el torso ligeramente hacia la pierna izquierda extendida.",
-        "3. Inclinación: Inhala alargando los brazos al techo. Exhala e inclínate desde la cadera tomando el pie o espinilla izquierda.",
-        "4. Sostenimiento: Rinde el pecho hacia el muslo izquierdo sin forzar el cuello. Respira de 5 a 8 ciclos por lado."
+        "1. Posición Base: Armar la postura de Frente a la Rodilla asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Flexiona la rodilla izquierda apoyando la planta en el muslo derecho interno e inclínate sobre la pierna derecha.",
+        "3. Lado Derecho: Flexiona la rodilla derecha apoyando la planta en el muslo izquierdo e inclínate hacia la pierna izquierda extendida.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Inicio: Siéntate en Dandasana. Flexiona la rodilla derecha apoyando la planta del pie derecho en la cara interna del muslo izquierdo.",
-        "2. Alineación: Gira el torso ligeramente hacia la pierna izquierda extendida.",
-        "3. Inclinación: Inhala alargando los brazos al techo. Exhala e inclínate desde la cadera tomando el pie o espinilla izquierda.",
-        "4. Sostenimiento: Rinde el pecho hacia el muslo izquierdo sin forzar el cuello. Respira de 5 a 8 ciclos por lado."
+        "1. Posición Base: Armar la postura de Frente a la Rodilla asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Flexiona la rodilla izquierda apoyando la planta en el muslo derecho interno e inclínate sobre la pierna derecha.",
+        "3. Lado Derecho: Flexiona la rodilla derecha apoyando la planta en el muslo izquierdo e inclínate hacia la pierna izquierda extendida.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -1280,16 +1118,10 @@
         "yin": "3 - 5 minutos"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Arrodíllate en Virasana con los glúteos apoyados en el suelo entre los talones.",
-        "2. Reclinación gradual: Apoya las manos detrás de los pies, desciende a los antebrazos y lentamente apoya toda la espalda en el mat.",
-        "3. Posición de brazos: Extiende los brazos sobre la cabeza o déjalos relajados a los lados.",
-        "4. Sostenimiento Yin: Siente la apertura intensa en cuádriceps y psoas, sosteniendo de 3 a 5 minutos."
-      ],
-      "instructions": [
-        "1. Inicio: Arrodíllate en Virasana con los glúteos apoyados en el suelo entre los talones.",
-        "2. Reclinación gradual: Apoya las manos detrás de los pies, desciende a los antebrazos y lentamente apoya toda la espalda en el mat.",
-        "3. Posición de brazos: Extiende los brazos sobre la cabeza o déjalos relajados a los lados.",
-        "4. Sostenimiento Yin: Siente la apertura intensa en cuádriceps y psoas, sosteniendo de 3 a 5 minutos."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Cuádriceps, psoas, zona lumbar.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo estiramiento intenso de los muslos y flexores de cadera..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -1309,16 +1141,10 @@
         "yin": "3 - 5 minutos"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Recuéstate boca arriba y flexiona las rodillas hacia el pecho.",
-        "2. Agarre: Toma los bordes exteriores de los pies con las manos correspondientes desde el exterior.",
-        "3. Apertura: Separa las rodillas más ancho que el torso y orienta las plantas de los pies hacia el techo a 90 grados.",
-        "4. Tracción: Presiona suavemente con las manos hacia abajo para acercar las rodillas al suelo al lado de las axilas durante 1 a 3 minutos."
-      ],
-      "instructions": [
-        "1. Inicio: Recuéstate boca arriba y flexiona las rodillas hacia el pecho.",
-        "2. Agarre: Toma los bordes exteriores de los pies con las manos correspondientes desde el exterior.",
-        "3. Apertura: Separa las rodillas más ancho que el torso y orienta las plantas de los pies hacia el techo a 90 grados.",
-        "4. Tracción: Presiona suavemente con las manos hacia abajo para acercar las rodillas al suelo al lado de las axilas durante 1 a 3 minutos."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Caderas, ingle, sacro.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo libera tensión en la zona sacra y estira suavemente la ingle..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -1338,16 +1164,16 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Desde la postura del Lunge Alto con pie derecho adelante, junta las palmas en Anjali Mudra al centro del pecho.",
-        "2. Torsión: Exhala e inclina el torso girando a la derecha hasta enganchar el codo izquierdo por fuera de la rodilla derecha.",
-        "3. Presión y palanca: Presiona palma contra palma para alejar el pecho de los muslos y alinear las manos en el esternón.",
-        "4. Mirada y sostén: Mira hacia el techo por encima del hombro derecho manteniendo la pierna trasera muy activa de 5 respiraciones."
+        "1. Posición Base: Armar la postura de Ángulo Lateral en Torsión asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: En lunge con pierna derecha adelante, pasa el codo izquierdo por fuera de la rodilla derecha y junta palmas.",
+        "3. Lado Derecho: Con pierna izquierda adelante en lunge, pasa el codo derecho por fuera de la rodilla izquierda en torsión profunda.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Inicio: Desde la postura del Lunge Alto con pie derecho adelante, junta las palmas en Anjali Mudra al centro del pecho.",
-        "2. Torsión: Exhala e inclina el torso girando a la derecha hasta enganchar el codo izquierdo por fuera de la rodilla derecha.",
-        "3. Presión y palanca: Presiona palma contra palma para alejar el pecho de los muslos y alinear las manos en el esternón.",
-        "4. Mirada y sostén: Mira hacia el techo por encima del hombro derecho manteniendo la pierna trasera muy activa de 5 respiraciones."
+        "1. Posición Base: Armar la postura de Ángulo Lateral en Torsión asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: En lunge con pierna derecha adelante, pasa el codo izquierdo por fuera de la rodilla derecha y junta palmas.",
+        "3. Lado Derecho: Con pierna izquierda adelante en lunge, pasa el codo derecho por fuera de la rodilla izquierda en torsión profunda.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -1367,16 +1193,16 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Entra en Guerrero I con el pie derecho adelante. Entrelaza los dedos de las manos detrás de la espalda baja.",
-        "2. Apertura: Inhala abriendo el pecho y estirando los brazos hacia abajo.",
-        "3. Inclinación: Exhala inclinando el torso por dentro del muslo derecho, dejando caer la cabeza hacia el mat.",
-        "4. Elevación de brazos: Permite que las manos entrelazadas se eleven hacia el techo alejándose de la espalda. Sostén 5 respiraciones por lado."
+        "1. Posición Base: Armar la postura de Guerrero Humilde asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: En Guerrero I con pierna derecha adelante, entrelaza manos atrás e inclina el torso por dentro de la rodilla.",
+        "3. Lado Derecho: Con pierna izquierda adelante en Guerrero I, entrelaza manos e inclina el torso por dentro de la rodilla izquierda.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Inicio: Entra en Guerrero I con el pie derecho adelante. Entrelaza los dedos de las manos detrás de la espalda baja.",
-        "2. Apertura: Inhala abriendo el pecho y estirando los brazos hacia abajo.",
-        "3. Inclinación: Exhala inclinando el torso por dentro del muslo derecho, dejando caer la cabeza hacia el mat.",
-        "4. Elevación de brazos: Permite que las manos entrelazadas se eleven hacia el techo alejándose de la espalda. Sostén 5 respiraciones por lado."
+        "1. Posición Base: Armar la postura de Guerrero Humilde asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: En Guerrero I con pierna derecha adelante, entrelaza manos atrás e inclina el torso por dentro de la rodilla.",
+        "3. Lado Derecho: Con pierna izquierda adelante en Guerrero I, entrelaza manos e inclina el torso por dentro de la rodilla izquierda.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -1396,16 +1222,10 @@
         "yin": "3 - 5 minutos"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Siéntate en el mat y abre ambas piernas en V tan amplio como sea cómodo con los pies en flex.",
-        "2. Elevación: Inhala alargando la columna desde los isquiones.",
-        "3. Inclinación: Exhala caminando con las manos hacia adelante apoyando antebrazos o el pecho en el suelo.",
-        "4. Sostenimiento: Mantén los rótulas mirando hacia arriba y la columna larga durante 8 a 10 respiraciones o 3 min en Yin."
-      ],
-      "instructions": [
-        "1. Inicio: Siéntate en el mat y abre ambas piernas en V tan amplio como sea cómodo con los pies en flex.",
-        "2. Elevación: Inhala alargando la columna desde los isquiones.",
-        "3. Inclinación: Exhala caminando con las manos hacia adelante apoyando antebrazos o el pecho en el suelo.",
-        "4. Sostenimiento: Mantén los rótulas mirando hacia arriba y la columna larga durante 8 a 10 respiraciones o 3 min en Yin."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Isquiotibiales internos, ingle, columna.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo aumenta la flexibilidad de la pelvis y fortalece la columna erguida..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -1425,16 +1245,16 @@
         "yin": "3 - 5 minutos por lado"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Recuéstate boca arriba, flexiona la rodilla derecha hacia el pecho e extiende el brazo derecho en cruz a 90 grados.",
-        "2. Torsión: Con la mano izquierda, guía la rodilla derecha hacia el suelo en el lado izquierdo del cuerpo.",
-        "3. Mirada: Gira suavemente la cabeza hacia la derecha mirando la mano extendida.",
-        "4. Relajación: Mantén ambos hombros pegados al mat y respira suavemente durante 1 a 3 minutos por lado."
+        "1. Posición Base: Armar la postura de Torsión Supina asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Tumbado supino, flexiona las rodillas y déjalas caer hacia el lado izquierdo mirando la mano derecha extendida.",
+        "3. Lado Derecho: Deja caer las rodillas hacia el lado derecho manteniendo los hombros pegados al mat y mirando hacia la izquierda.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Inicio: Recuéstate boca arriba, flexiona la rodilla derecha hacia el pecho e extiende el brazo derecho en cruz a 90 grados.",
-        "2. Torsión: Con la mano izquierda, guía la rodilla derecha hacia el suelo en el lado izquierdo del cuerpo.",
-        "3. Mirada: Gira suavemente la cabeza hacia la derecha mirando la mano extendida.",
-        "4. Relajación: Mantén ambos hombros pegados al mat y respira suavemente durante 1 a 3 minutos por lado."
+        "1. Posición Base: Armar la postura de Torsión Supina asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Tumbado supino, flexiona las rodillas y déjalas caer hacia el lado izquierdo mirando la mano derecha extendida.",
+        "3. Lado Derecho: Deja caer las rodillas hacia el lado derecho manteniendo los hombros pegados al mat y mirando hacia la izquierda.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -1454,16 +1274,10 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Colócate a cuatro puntos de apoyo con muñecas bajo hombros y rodillas bajo caderas.",
-        "2. Bitilasana (Vaca): Inhala arqueando la columna, desciende el abdomen, eleva la pelvis y mira al frente/arriba.",
-        "3. Marjaryasana (Gato): Exhala redondeando la espalda alta, hundiéndote el ombligo y llevando la barbilla al pecho.",
-        "4. Dinámica: Fluye continuamente sincronizando movimiento y respiración durante 8 a 10 ciclos."
-      ],
-      "instructions": [
-        "1. Inicio: Colócate a cuatro puntos de apoyo con muñecas bajo hombros y rodillas bajo caderas.",
-        "2. Bitilasana (Vaca): Inhala arqueando la columna, desciende el abdomen, eleva la pelvis y mira al frente/arriba.",
-        "3. Marjaryasana (Gato): Exhala redondeando la espalda alta, hundiéndote el ombligo y llevando la barbilla al pecho.",
-        "4. Dinámica: Fluye continuamente sincronizando movimiento y respiración durante 8 a 10 ciclos."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Toda la columna vertebral, cuello.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo lubrica las vértebras, sincroniza respiración y movimiento..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -1483,16 +1297,10 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Preparación: Recuéstate boca arriba con rodillas dobladas y pies apoyados cerca de glúteos. Apoya las palmas junto a las orejas con dedos mirando a hombros.",
-        "2. Elevación de coronilla: Inhala presionando pies y manos, apoya suavemente la coronilla en el mat ajustando codos.",
-        "3. Extensión completa: Exhala y estira firmemente brazos y piernas elevando el cuerpo en un gran arco.",
-        "4. Sostenimiento: Abre el tórax, mantén muslos paralelos y respira 5 ciclos antes de descender con mentón al pecho."
-      ],
-      "instructions": [
-        "1. Preparación: Recuéstate boca arriba con rodillas dobladas y pies apoyados cerca de glúteos. Apoya las palmas junto a las orejas con dedos mirando a hombros.",
-        "2. Elevación de coronilla: Inhala presionando pies y manos, apoya suavemente la coronilla en el mat ajustando codos.",
-        "3. Extensión completa: Exhala y estira firmemente brazos y piernas elevando el cuerpo en un gran arco.",
-        "4. Sostenimiento: Abre el tórax, mantén muslos paralelos y respira 5 ciclos antes de descender con mentón al pecho."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Columna, hombros, tórax, cuádriceps.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo apertura torácica intensa, fortalece brazos, piernas y tonifica la espina dorsal..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -1512,16 +1320,16 @@
         "yin": "3 - 5 minutos por lado"
       },
       "stepByStepInstructions": [
-        "1. Alineación de piernas: Siéntate en el mat, cruza la pierna derecha sobre la izquierda apilando la rodilla derecha justo sobre la izquierda.",
-        "2. Posición de brazos: Eleva el brazo derecho y dóblalo por detrás de la cabeza. Lleva el brazo izquierdo por la espalda desde abajo.",
-        "3. Enganche: Entrelaza los dedos de ambas manos detrás de la espalda alta (o usa una correa).",
-        "4. Sostenimiento: Abre el codo superior hacia el techo, alarga el torso y respira de 5 a 8 ciclos por lado."
+        "1. Posición Base: Armar la postura de Cara de Vaca asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Cruza la rodilla derecha sobre la izquierda sentada, pasa el brazo izquierdo por arriba y el derecho por abajo atrás.",
+        "3. Lado Derecho: Cruza la rodilla izquierda sobre la derecha, pasa el brazo derecho por arriba y el izquierdo por abajo tomando las manos.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Alineación de piernas: Siéntate en el mat, cruza la pierna derecha sobre la izquierda apilando la rodilla derecha justo sobre la izquierda.",
-        "2. Posición de brazos: Eleva el brazo derecho y dóblalo por detrás de la cabeza. Lleva el brazo izquierdo por la espalda desde abajo.",
-        "3. Enganche: Entrelaza los dedos de ambas manos detrás de la espalda alta (o usa una correa).",
-        "4. Sostenimiento: Abre el codo superior hacia el techo, alarga el torso y respira de 5 a 8 ciclos por lado."
+        "1. Posición Base: Armar la postura de Cara de Vaca asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Cruza la rodilla derecha sobre la izquierda sentada, pasa el brazo izquierdo por arriba y el derecho por abajo atrás.",
+        "3. Lado Derecho: Cruza la rodilla izquierda sobre la derecha, pasa el brazo derecho por arriba y el izquierdo por abajo tomando las manos.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -1541,16 +1349,16 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Preparación: Colócate en Lunge Bajo con bloques de apoyo a cada lado de las caderas.",
-        "2. Deslizamiento: Comienza a deslizar el talón delantero hacia adelante y la rodilla trasera hacia atrás progresivamente.",
-        "3. Cuadrado de pelvis: Mantén las crestas ilíacas mirando al frente sin rotar la cadera trasera hacia el lateral.",
-        "4. Extensión final: Desciende la pelvis hasta el mat o sobre un bloque de soporte, eleva el torso y respira de 5 a 8 ciclos por lado."
+        "1. Posición Base: Armar la postura de Postura del Mono / Split asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Desliza la pierna derecha adelante y la pierna izquierda atrás extendiendo la pelvis hacia el suelo.",
+        "3. Lado Derecho: Desliza la pierna izquierda adelante y la pierna derecha atrás manteniendo la alineación neutra de la cadera.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Preparación: Colócate en Lunge Bajo con bloques de apoyo a cada lado de las caderas.",
-        "2. Deslizamiento: Comienza a deslizar el talón delantero hacia adelante y la rodilla trasera hacia atrás progresivamente.",
-        "3. Cuadrado de pelvis: Mantén las crestas ilíacas mirando al frente sin rotar la cadera trasera hacia el lateral.",
-        "4. Extensión final: Desciende la pelvis hasta el mat o sobre un bloque de soporte, eleva el torso y respira de 5 a 8 ciclos por lado."
+        "1. Posición Base: Armar la postura de Postura del Mono / Split asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Desliza la pierna derecha adelante y la pierna izquierda atrás extendiendo la pelvis hacia el suelo.",
+        "3. Lado Derecho: Desliza la pierna izquierda adelante y la pierna derecha atrás manteniendo la alineación neutra de la cadera.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -1570,16 +1378,16 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Entrada: Desde Perro Boca Abajo, eleva la pierna derecha a Perro de Tres Patas, flexiona la rodilla y abre la cadera.",
-        "2. Giro de pie: Déjate caer suavemente hacia el lado izquierdo apoyando la bola del pie derecho en el suelo detrás de la pierna izquierda.",
-        "3. Apertura del tórax: Presiona con la mano e inhalando eleva las caderas y el pecho hacia el techo.",
-        "4. Extensión de brazo: Estira el brazo derecho por encima de la cabeza abriendo completamente el tórax durante 3 a 5 respiraciones por lado."
+        "1. Posición Base: Armar la postura de Cosa Salvaje asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Desde Perro Boca Abajo, eleva pierna izquierda, da un paso atrás sobre mano derecha y abre el corazón al techo.",
+        "3. Lado Derecho: Eleva pierna derecha desde Perro Boca Abajo, da un paso atrás sobre mano izquierda y expande el tórax.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Entrada: Desde Perro Boca Abajo, eleva la pierna derecha a Perro de Tres Patas, flexiona la rodilla y abre la cadera.",
-        "2. Giro de pie: Déjate caer suavemente hacia el lado izquierdo apoyando la bola del pie derecho en el suelo detrás de la pierna izquierda.",
-        "3. Apertura del tórax: Presiona con la mano e inhalando eleva las caderas y el pecho hacia el techo.",
-        "4. Extensión de brazo: Estira el brazo derecho por encima de la cabeza abriendo completamente el tórax durante 3 a 5 respiraciones por lado."
+        "1. Posición Base: Armar la postura de Cosa Salvaje asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Desde Perro Boca Abajo, eleva pierna izquierda, da un paso atrás sobre mano derecha y abre el corazón al techo.",
+        "3. Lado Derecho: Eleva pierna derecha desde Perro Boca Abajo, da un paso atrás sobre mano izquierda y expande el tórax.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -1599,16 +1407,16 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Desde Prasarita Padottanasana, flexiona profundamente la rodilla derecha bajando la pelvis sobre el talón derecho.",
-        "2. Extensión de pierna: Mantiene la pierna izquierda completamente estirada con el pie en flex mirando hacia el techo.",
-        "3. Apoyo de manos: Apoya las manos en el mat o júntalas al centro del pecho en Anjali Mudra si mantienes el equilibrio.",
-        "4. Sostenimiento: Abre el tórax y sostén de 5 a 8 respiraciones antes de pasar al lado izquierdo."
+        "1. Posición Base: Armar la postura de Lunge Lateral asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Sentadilla profunda sobre la pierna derecha flexionada manteniendo la pierna izquierda extendida con talón apoyado.",
+        "3. Lado Derecho: Desplaza el peso hacia la pierna izquierda flexionando la rodilla y extendiendo la pierna derecha lateralmente.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Inicio: Desde Prasarita Padottanasana, flexiona profundamente la rodilla derecha bajando la pelvis sobre el talón derecho.",
-        "2. Extensión de pierna: Mantiene la pierna izquierda completamente estirada con el pie en flex mirando hacia el techo.",
-        "3. Apoyo de manos: Apoya las manos en el mat o júntalas al centro del pecho en Anjali Mudra si mantienes el equilibrio.",
-        "4. Sostenimiento: Abre el tórax y sostén de 5 a 8 respiraciones antes de pasar al lado izquierdo."
+        "1. Posición Base: Armar la postura de Lunge Lateral asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Sentadilla profunda sobre la pierna derecha flexionada manteniendo la pierna izquierda extendida con talón apoyado.",
+        "3. Lado Derecho: Desplaza el peso hacia la pierna izquierda flexionando la rodilla y extendiendo la pierna derecha lateralmente.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -1628,16 +1436,10 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Siéntate en Dandasana con la columna recta.",
-        "2. Primera pierna: Flexiona la rodilla derecha y apoya el pie sobre el muslo izquierdo cerca de la ingle con la planta hacia arriba.",
-        "3. Segunda pierna: Flexiona la rodilla izquierda y coloca el pie izquierdo sobre el muslo derecho en simetría.",
-        "4. Postura meditativa: Apoya las manos sobre las rodillas en Gyan Mudra, cierra los ojos y respira con quietud durante 5 a 15 minutos."
-      ],
-      "instructions": [
-        "1. Inicio: Siéntate en Dandasana con la columna recta.",
-        "2. Primera pierna: Flexiona la rodilla derecha y apoya el pie sobre el muslo izquierdo cerca de la ingle con la planta hacia arriba.",
-        "3. Segunda pierna: Flexiona la rodilla izquierda y coloca el pie izquierdo sobre el muslo derecho en simetría.",
-        "4. Postura meditativa: Apoya las manos sobre las rodillas en Gyan Mudra, cierra los ojos y respira con quietud durante 5 a 15 minutos."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Rodillas, tobillos, caderas, columna.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo estabiliza el cuerpo en simetría perfecta para la meditación prolongada y el pranayama..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -1657,16 +1459,10 @@
         "yin": "3 - 5 minutos"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Colócate a cuatro puntos de apoyo. Separa las rodillas progresivamente hacia los lados tanto como sea cómodo.",
-        "2. Alineación de piernas: Flexiona los tobillos a 90 grados dejando los bordes internos de los pies apoyados en el suelo.",
-        "3. Descenso: Desciende el torso apoyando los antebrazos sobre el mat.",
-        "4. Sostenimiento Yin: Relaja las caderas sintiendo la apertura interna de los aductores durante 3 a 5 minutos."
-      ],
-      "instructions": [
-        "1. Inicio: Colócate a cuatro puntos de apoyo. Separa las rodillas progresivamente hacia los lados tanto como sea cómodo.",
-        "2. Alineación de piernas: Flexiona los tobillos a 90 grados dejando los bordes internos de los pies apoyados en el suelo.",
-        "3. Descenso: Desciende el torso apoyando los antebrazos sobre el mat.",
-        "4. Sostenimiento Yin: Relaja las caderas sintiendo la apertura interna de los aductores durante 3 a 5 minutos."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Aductores, ingle, zona lumbar.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo apertura profunda de la cara interna de los muslos y descompresión de caderas..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -1686,16 +1482,10 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Preparación de base: Apoya los antebrazos paralelos en el mat al ancho de los hombros con las palmas abiertas firmemente.",
-        "2. Elevación de caderas: Pasa a la postura del Delfín caminando con los pies hacia los codos elevando la pelvis.",
-        "3. Impulso: Eleva una pierna estirada e impúlsate suavemente despegando la otra pierna.",
-        "4. Equilibrio: Activa los hombros para alejar las orejas del mat, mantén la mirada entre los antebrazos y sostiene 5 respiraciones."
-      ],
-      "instructions": [
-        "1. Preparación de base: Apoya los antebrazos paralelos en el mat al ancho de los hombros con las palmas abiertas firmemente.",
-        "2. Elevación de caderas: Pasa a la postura del Delfín caminando con los pies hacia los codos elevando la pelvis.",
-        "3. Impulso: Eleva una pierna estirada e impúlsate suavemente despegando la otra pierna.",
-        "4. Equilibrio: Activa los hombros para alejar las orejas del mat, mantén la mirada entre los antebrazos y sostiene 5 respiraciones."
+        "1. Inicio y Enraizamiento: Colócate en la posición base activando la musculatura de Hombros, escápulas, core, equilibrio.",
+        "2. Alineación e Inhalación: Inhala profundo alargar la columna y alinear articulaciones evitando tensión en hombros.",
+        "3. Sostén y Respiración: Mantén la postura de forma estable respirando conscientemente mientras sientes cómo desarrolla fuerza superior de tronco, enfoque mental y equilibrio invertido..",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control abdominal."
       ]
     },
     {
@@ -1715,16 +1505,16 @@
         "yin": "N/A"
       },
       "stepByStepInstructions": [
-        "1. Inicio: De pie, da un paso atrás con el pie izquierdo (1 metro) a 45 grados, alineando talón con talón y caderas cuadradas.",
-        "2. Agarre de manos: Junta las palmas en posición de oración inversa detrás de la espalda (o toma los codos opuestos).",
-        "3. Inclinación: Inhala elevando el tórax. Exhala e inclínate hacia adelante sobre la pierna delantera manteniendo ambas piernas rectas.",
-        "4. Sostenimiento: Acerca el tórax a la espinilla derecha y sostiene de 5 a 8 respiraciones por lado."
+        "1. Posición Base: Armar la postura de Postura de la Pirámide asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Paso corto con pie izquierdo atrás a 45°, caderas alineadas adelante e inclínate sobre la pierna derecha.",
+        "3. Lado Derecho: Paso corto con pie derecho atrás, caderas neutras e inclínate sobre la pierna izquierda alineando la columna.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Inicio: De pie, da un paso atrás con el pie izquierdo (1 metro) a 45 grados, alineando talón con talón y caderas cuadradas.",
-        "2. Agarre de manos: Junta las palmas en posición de oración inversa detrás de la espalda (o toma los codos opuestos).",
-        "3. Inclinación: Inhala elevando el tórax. Exhala e inclínate hacia adelante sobre la pierna delantera manteniendo ambas piernas rectas.",
-        "4. Sostenimiento: Acerca el tórax a la espinilla derecha y sostiene de 5 a 8 respiraciones por lado."
+        "1. Posición Base: Armar la postura de Postura de la Pirámide asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Paso corto con pie izquierdo atrás a 45°, caderas alineadas adelante e inclínate sobre la pierna derecha.",
+        "3. Lado Derecho: Paso corto con pie derecho atrás, caderas neutras e inclínate sobre la pierna izquierda alineando la columna.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     },
     {
@@ -1744,16 +1534,16 @@
         "yin": "3 minutos por lado"
       },
       "stepByStepInstructions": [
-        "1. Inicio: Siéntate erguido en el mat. Flexiona la pierna izquierda apoyando la espinilla paralela al borde delantero de la colchoneta.",
-        "2. Apilamiento: Flexiona la pierna derecha y coloca la espinilla derecha justo encima de la izquierda (tobillo derecho sobre rodilla izquierda).",
-        "3. Alineación: Asegúrate de que ambas espinillas formen dos troncos apilados paralelos.",
-        "4. Flexión y sostén: Inhala alargando la columna e inclínate ligeramente hacia adelante si es cómodo. Respira durante 1 a 3 minutos por lado."
+        "1. Posición Base: Armar la postura de Postura del Fuego asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Siéntate apoyando la espinilla izquierda en el mat y coloca la espinilla derecha encima paralela.",
+        "3. Lado Derecho: Invierte el cruce colocando la espinilla derecha en la base y la espinilla izquierda encima en doble paloma.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ],
       "instructions": [
-        "1. Inicio: Siéntate erguido en el mat. Flexiona la pierna izquierda apoyando la espinilla paralela al borde delantero de la colchoneta.",
-        "2. Apilamiento: Flexiona la pierna derecha y coloca la espinilla derecha justo encima de la izquierda (tobillo derecho sobre rodilla izquierda).",
-        "3. Alineación: Asegúrate de que ambas espinillas formen dos troncos apilados paralelos.",
-        "4. Flexión y sostén: Inhala alargando la columna e inclínate ligeramente hacia adelante si es cómodo. Respira durante 1 a 3 minutos por lado."
+        "1. Posición Base: Armar la postura de Postura del Fuego asegurando estabilidad y alineación neutra de columna.",
+        "2. Lado Izquierdo: Siéntate apoyando la espinilla izquierda en el mat y coloca la espinilla derecha encima paralela.",
+        "3. Lado Derecho: Invierte el cruce colocando la espinilla derecha en la base y la espinilla izquierda encima en doble paloma.",
+        "4. Salida Consciente: Exhala suavemente al deshacer la postura regresando al centro con control corporal."
       ]
     }
   ],
@@ -1765,20 +1555,7 @@
       "ratio": "4-1-4-1 (Inhala 4s, pausa 1s, exhala 4s, pausa 1s)",
       "benefits": "Calma el sistema nervioso, genera calor interno y mejora la concentración.",
       "yogaType": "Vinyasa Yoga / Hatha",
-      "recommendedDuration": "10-60 minutos (durante toda la práctica dinámica)",
-      "instructions": [
-        "1. Postura inicial: Siéntate en una posición meditativa erguida (Padmasana, Sukhasana o en una silla) con la columna alineada y los hombros relajados.",
-        "2. Ajuste de garganta: Cierra suavemente la boca y contrae ligeramente la glotis en la parte posterior de la garganta (como la contracción que haces al susurrar o al empañar un cristal con la boca cerrada).",
-        "3. Dinámica respiratoria: Inhala y exhala lenta y profundamente a través de las fosas nasales, produciendo un sonido suave, resonante y continuo similar al murmullo de las olas del mar.",
-        "4. Sostenimiento y ritmo: Mantén la inhalación y exhalación en igual duración (ritmo 4-1-4-1) sin forzar el cuello ni la mandíbula. Aplica esta técnica durante tus secuencias dinámicas de Vinyasa Flow."
-      ],
-      "stepByStepInstructions": [
-        "1. Postura inicial: Siéntate en una posición meditativa erguida (Padmasana, Sukhasana o en una silla) con la columna alineada y los hombros relajados.",
-        "2. Ajuste de garganta: Cierra suavemente la boca y contrae ligeramente la glotis en la parte posterior de la garganta (como la contracción que haces al susurrar o al empañar un cristal con la boca cerrada).",
-        "3. Dinámica respiratoria: Inhala y exhala lenta y profundamente a través de las fosas nasales, produciendo un sonido suave, resonante y continuo similar al murmullo de las olas del mar.",
-        "4. Sostenimiento y ritmo: Mantén la inhalación y exhalación en igual duración (ritmo 4-1-4-1) sin forzar el cuello ni la mandíbula. Aplica esta técnica durante tus secuencias dinámicas de Vinyasa Flow."
-      ],
-      "imageFileName": "ujjayi_pranayama.png"
+      "recommendedDuration": "10-60 minutos (durante toda la práctica dinámica)"
     },
     {
       "id": "nadi_shodhana",
@@ -1787,22 +1564,7 @@
       "ratio": "Inhala izquierda 4s, exhala derecha 4-6s, inhala derecha 4s, exhala izquierda 4-6s",
       "benefits": "Equilibra los hemisferios cerebrales, reduce el estrés y despeja la mente.",
       "yogaType": "Hatha / Meditación",
-      "recommendedDuration": "5-10 minutos (5 a 10 rondas completas)",
-      "instructions": [
-        "1. Postura y Mudra: Siéntate en una postura meditativa con la espalda recta. Apoya la mano izquierda sobre la rodilla en Gyan Mudra y coloca la mano derecha en Vishnu Mudra (doblando dedos índice y medio hacia la palma).",
-        "2. Inhalación izquierda: Tapa la fosa nasal derecha con el pulgar derecho e inhala suave y profundamente por la fosa nasal izquierda contando 4 segundos.",
-        "3. Pausa y cambio: Tapa ambas fosas nasales usando el anular sobre la fosa nasal izquierda y haz una breve retención cómoda (de 1 a 4 segundos). Libera el pulgar.",
-        "4. Exhalación derecha e inhalación: Exhala lentamente por la fosa nasal derecha en 4 a 6 segundos. Luego, inhala de nuevo por la misma fosa nasal derecha en 4 segundos.",
-        "5. Cierre de ciclo: Tapa ambas fosas, retén brevemente, y exhala por la fosa nasal izquierda. Esto completa una ronda. Realiza de 5 a 10 ciclos continuos."
-      ],
-      "stepByStepInstructions": [
-        "1. Postura y Mudra: Siéntate en una postura meditativa con la espalda recta. Apoya la mano izquierda sobre la rodilla en Gyan Mudra y coloca la mano derecha en Vishnu Mudra (doblando dedos índice y medio hacia la palma).",
-        "2. Inhalación izquierda: Tapa la fosa nasal derecha con el pulgar derecho e inhala suave y profundamente por la fosa nasal izquierda contando 4 segundos.",
-        "3. Pausa y cambio: Tapa ambas fosas nasales usando el anular sobre la fosa nasal izquierda y haz una breve retención cómoda (de 1 a 4 segundos). Libera el pulgar.",
-        "4. Exhalación derecha e inhalación: Exhala lentamente por la fosa nasal derecha en 4 a 6 segundos. Luego, inhala de nuevo por la misma fosa nasal derecha en 4 segundos.",
-        "5. Cierre de ciclo: Tapa ambas fosas, retén brevemente, y exhala por la fosa nasal izquierda. Esto completa una ronda. Realiza de 5 a 10 ciclos continuos."
-      ],
-      "imageFileName": "nadi_shodhana_pranayama.png"
+      "recommendedDuration": "5-10 minutos (5 a 10 rondas completas)"
     },
     {
       "id": "samavritti",
@@ -1811,22 +1573,7 @@
       "ratio": "4-4-4-4 (Inhala 4s, retén 4s, exhala 4s, retén 4s)",
       "benefits": "Estabiliza el pulso cardíaco y aquieta la agitación mental.",
       "yogaType": "Hatha / Yin / Principiantes",
-      "recommendedDuration": "3-8 minutos",
-      "instructions": [
-        "1. Posición inicial: Siéntate en posición erguida y relajada, apoyando las manos en las rodillas. Cierra suavemente los ojos y estabiliza el pulso.",
-        "2. Fase 1 - Inhalación (Inspiración): Inhala lenta y profundamente por la nariz contando mentalmente 4 segundos exactos mientras el abdomen y tórax se expanden.",
-        "3. Fase 2 - Retención con aire (Antar Kumbhaka): Retén el aire en los pulmones sin tensión durante 4 segundos exactos.",
-        "4. Fase 3 - Exhalación (Espiración): Exhala de forma fluida y continua por la nariz contando 4 segundos exactos hasta vaciar el aire.",
-        "5. Fase 4 - Retención sin aire (Bahya Kumbhaka): Mantén los pulmones vacíos en quietud durante 4 segundos. Repite este ciclo 'cuadrado' durante 5 a 10 minutos."
-      ],
-      "stepByStepInstructions": [
-        "1. Posición inicial: Siéntate en posición erguida y relajada, apoyando las manos en las rodillas. Cierra suavemente los ojos y estabiliza el pulso.",
-        "2. Fase 1 - Inhalación (Inspiración): Inhala lenta y profundamente por la nariz contando mentalmente 4 segundos exactos mientras el abdomen y tórax se expanden.",
-        "3. Fase 2 - Retención con aire (Antar Kumbhaka): Retén el aire en los pulmones sin tensión durante 4 segundos exactos.",
-        "4. Fase 3 - Exhalación (Espiración): Exhala de forma fluida y continua por la nariz contando 4 segundos exactos hasta vaciar el aire.",
-        "5. Fase 4 - Retención sin aire (Bahya Kumbhaka): Mantén los pulmones vacíos en quietud durante 4 segundos. Repite este ciclo 'cuadrado' durante 5 a 10 minutos."
-      ],
-      "imageFileName": "samavritti_pranayama.jpg"
+      "recommendedDuration": "3-8 minutos"
     },
     {
       "id": "kapalabhati",
@@ -1835,22 +1582,7 @@
       "ratio": "20 a 30 bombeos rápidos por ciclo",
       "benefits": "Purifica vías respiratorias, oxigena la sangre y activa la energía (prana).",
       "yogaType": "Hatha / Kriya Energizante",
-      "recommendedDuration": "3 rondas de 20-30 bombeos (3-5 minutos)",
-      "instructions": [
-        "1. Postura de firmeza: Adopta una postura sentada erguida (Sukhasana, Vajrasana o Padmasana) con la columna perfectamente estirada y las manos sobre las rodillas.",
-        "2. Preparación: Inhala profundo y exhala por completo una vez. Inhala de nuevo hasta aproximadamente el 70% de la capacidad pulmonar.",
-        "3. Exhalación activa y rápida: Contrae enérgicamente la pared abdominal hacia adentro y hacia arriba contra la columna, expulsando el aire de forma rápida y sonora por la nariz.",
-        "4. Inhalación pasiva: Relaja inmediatamente la musculatura abdominal dejando que el aire ingrese de forma automática y pasiva sin esfuerzo.",
-        "5. Cadencia y pausas: Realiza un bombeo continuo a un ritmo de 1 exhalación por segundo (20 a 30 repeticiones por ronda). Haz una pausa con respiración completa entre cada una de las 3 rondas."
-      ],
-      "stepByStepInstructions": [
-        "1. Postura de firmeza: Adopta una postura sentada erguida (Sukhasana, Vajrasana o Padmasana) con la columna perfectamente estirada y las manos sobre las rodillas.",
-        "2. Preparación: Inhala profundo y exhala por completo una vez. Inhala de nuevo hasta aproximadamente el 70% de la capacidad pulmonar.",
-        "3. Exhalación activa y rápida: Contrae enérgicamente la pared abdominal hacia adentro y hacia arriba contra la columna, expulsando el aire de forma rápida y sonora por la nariz.",
-        "4. Inhalación pasiva: Relaja inmediatamente la musculatura abdominal dejando que el aire ingrese de forma automática y pasiva sin esfuerzo.",
-        "5. Cadencia y pausas: Realiza un bombeo continuo a un ritmo de 1 exhalación por segundo (20 a 30 repeticiones por ronda). Haz una pausa con respiración completa entre cada una de las 3 rondas."
-      ],
-      "imageFileName": "kapalabhati_pranayama.jpg"
+      "recommendedDuration": "3 rondas de 20-30 bombeos (3-5 minutos)"
     },
     {
       "id": "respiracion_completa",
@@ -1859,22 +1591,7 @@
       "ratio": "Inhalación fluida de abajo hacia arriba / Exhalación de arriba hacia abajo",
       "benefits": "Maximiza la capacidad pulmonar y masajea los órganos abdominales.",
       "yogaType": "Todos los estilos / Restaurativo",
-      "recommendedDuration": "5-15 minutos",
-      "instructions": [
-        "1. Posición inicial: Siéntate erguido o recuéstate boca arriba en Savasana. Apoya la mano derecha suavemente sobre el abdomen y la mano izquierda sobre el pecho.",
-        "2. Fase Abdominal (Inferior): Inhala por la nariz dirigiendo el aire hacia el vientre; siente cómo la mano derecha se eleva a medida que el diafragma desciende.",
-        "3. Fase Torácica y Clavicular (Media y Superior): Continúa la misma inhalación expandiendo las costillas laterales y finalmente elevando el pecho y las clavículas hasta la mano izquierda.",
-        "4. Exhalación secuencial: Exhala despacio en orden inverso: desciende primero el pecho, relaja las costillas y finalmente hunden el abdomen expulsando todo el aire estancado.",
-        "5. Fluidez: Conecta cada fase en una sola ola continua sin interrupciones durante 5 a 10 minutos."
-      ],
-      "stepByStepInstructions": [
-        "1. Posición inicial: Siéntate erguido o recuéstate boca arriba en Savasana. Apoya la mano derecha suavemente sobre el abdomen y la mano izquierda sobre el pecho.",
-        "2. Fase Abdominal (Inferior): Inhala por la nariz dirigiendo el aire hacia el vientre; siente cómo la mano derecha se eleva a medida que el diafragma desciende.",
-        "3. Fase Torácica y Clavicular (Media y Superior): Continúa la misma inhalación expandiendo las costillas laterales y finalmente elevando el pecho y las clavículas hasta la mano izquierda.",
-        "4. Exhalación secuencial: Exhala despacio en orden inverso: desciende primero el pecho, relaja las costillas y finalmente hunden el abdomen expulsando todo el aire estancado.",
-        "5. Fluidez: Conecta cada fase en una sola ola continua sin interrupciones durante 5 a 10 minutos."
-      ],
-      "imageFileName": "respiracion_completa_pranayama.png"
+      "recommendedDuration": "5-15 minutos"
     },
     {
       "id": "bhramari",
@@ -1882,22 +1599,7 @@
       "description": "Exhalación suave emitiendo un zumbido agudo como una abeja mientras se tapan suavemente los oídos con los pulgares (Shanmukhi Mudra).",
       "ratio": "Inhala profundo 4s, exhala zumbando suavemente 6-8s (5 a 10 ciclos)",
       "benefits": "Reduce el ritmo cardíaco, induce relajación profunda y estimula la liberación de óxido nítrico nasal.",
-      "yogaType": "Hatha / Yin / Restaurativo",
-      "instructions": [
-        "1. Preparación: Siéntate en una postura cómoda con la columna erguida, los hombros sueltos y los ojos cerrados en un espacio silencioso.",
-        "2. Shanmukhi Mudra: Eleva las manos y tapa suavemente el cartílago del oído (trago) con los pulgares. Apoya los dedos índices sobre las cejas y los dedos restantes flotando sobre los ojos y mejillas sin presionar.",
-        "3. Inhalación profunda: Inhala suave y profundamente por la nariz sintiendo la expansión de los pulmones.",
-        "4. Exhalación con zumbido: Mantén los labios sellados con la mandíbula relajada y los dientes ligeramente separados. Exhala produciendo un sonido grave y continuo de zumbido de abeja ('mmmm') en la garganta.",
-        "5. Resonancia: Concentra tu atención en la vibración sonora que resuena en el centro del cerebro y el cráneo. Repite de 5 a 10 veces."
-      ],
-      "stepByStepInstructions": [
-        "1. Preparación: Siéntate en una postura cómoda con la columna erguida, los hombros sueltos y los ojos cerrados en un espacio silencioso.",
-        "2. Shanmukhi Mudra: Eleva las manos y tapa suavemente el cartílago del oído (trago) con los pulgares. Apoya los dedos índices sobre las cejas y los dedos restantes flotando sobre los ojos y mejillas sin presionar.",
-        "3. Inhalación profunda: Inhala suave y profundamente por la nariz sintiendo la expansión de los pulmones.",
-        "4. Exhalación con zumbido: Mantén los labios sellados con la mandíbula relajada y los dientes ligeramente separados. Exhala produciendo un sonido grave y continuo de zumbido de abeja ('mmmm') en la garganta.",
-        "5. Resonancia: Concentra tu atención en la vibración sonora que resuena en el centro del cerebro y el cráneo. Repite de 5 a 10 veces."
-      ],
-      "imageFileName": "bhramari_pranayama.png"
+      "yogaType": "Hatha / Yin / Restaurativo"
     }
   ],
   "routines": [
@@ -1954,11 +1656,21 @@
             },
             {
               "poseId": "virabhadrasana_i",
-              "duration": "5 respiraciones por lado"
+              "duration": "5 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "ardha_matsyendrasana",
-              "duration": "3 min por lado"
+              "duration": "3 min por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             }
           ]
         },
@@ -1992,11 +1704,21 @@
         },
         {
           "poseId": "virabhadrasana_i",
-          "duration": "5 respiraciones por lado"
+          "duration": "5 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "ardha_matsyendrasana",
-          "duration": "3 min por lado"
+          "duration": "3 min por lado (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "savasana",
@@ -2053,11 +1775,21 @@
           "poses": [
             {
               "poseId": "virabhadrasana_i",
-              "duration": "8 respiraciones"
+              "duration": "8 respiraciones (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "virabhadrasana_ii",
-              "duration": "8 respiraciones"
+              "duration": "8 respiraciones (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "navasana",
@@ -2095,11 +1827,21 @@
         },
         {
           "poseId": "virabhadrasana_i",
-          "duration": "8 respiraciones"
+          "duration": "8 respiraciones (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "virabhadrasana_ii",
-          "duration": "8 respiraciones"
+          "duration": "8 respiraciones (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "navasana",
@@ -2164,11 +1906,21 @@
           "poses": [
             {
               "poseId": "vrksasana",
-              "duration": "2 min por lado"
+              "duration": "2 min por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "garudasana",
-              "duration": "1 min por lado"
+              "duration": "1 min por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "paschimottanasana",
@@ -2202,11 +1954,21 @@
         },
         {
           "poseId": "vrksasana",
-          "duration": "2 min por lado"
+          "duration": "2 min por lado (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "garudasana",
-          "duration": "1 min por lado"
+          "duration": "1 min por lado (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "paschimottanasana",
@@ -2267,11 +2029,21 @@
           "poses": [
             {
               "poseId": "utthan_pristhasana",
-              "duration": "2 min por pierna"
+              "duration": "2 min por pierna (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "eka_pada_rajakapotasana",
-              "duration": "4 min por lado"
+              "duration": "4 min por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "baddha_konasana",
@@ -2305,11 +2077,21 @@
         },
         {
           "poseId": "utthan_pristhasana",
-          "duration": "2 min por pierna"
+          "duration": "2 min por pierna (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "eka_pada_rajakapotasana",
-          "duration": "4 min por lado"
+          "duration": "4 min por lado (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "baddha_konasana",
@@ -2461,11 +2243,21 @@
           "poses": [
             {
               "poseId": "virabhadrasana_ii",
-              "duration": "5 respiraciones"
+              "duration": "5 respiraciones (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "utthan_pristhasana",
-              "duration": "5 respiraciones"
+              "duration": "5 respiraciones (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "malasana",
@@ -2473,7 +2265,12 @@
             },
             {
               "poseId": "eka_pada_rajakapotasana",
-              "duration": "3 min por lado"
+              "duration": "3 min por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             }
           ]
         },
@@ -2503,11 +2300,21 @@
         },
         {
           "poseId": "virabhadrasana_ii",
-          "duration": "5 respiraciones"
+          "duration": "5 respiraciones (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "utthan_pristhasana",
-          "duration": "5 respiraciones"
+          "duration": "5 respiraciones (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "malasana",
@@ -2515,7 +2322,12 @@
         },
         {
           "poseId": "eka_pada_rajakapotasana",
-          "duration": "3 min por lado"
+          "duration": "3 min por lado (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "savasana",
@@ -2572,7 +2384,12 @@
           "poses": [
             {
               "poseId": "virabhadrasana_i",
-              "duration": "5 respiraciones"
+              "duration": "5 respiraciones (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "dhanurasana",
@@ -2614,7 +2431,12 @@
         },
         {
           "poseId": "virabhadrasana_i",
-          "duration": "5 respiraciones"
+          "duration": "5 respiraciones (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "dhanurasana",
@@ -2683,19 +2505,39 @@
           "poses": [
             {
               "poseId": "vrksasana",
-              "duration": "5 respiraciones"
+              "duration": "5 respiraciones (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "garudasana",
-              "duration": "5 respiraciones"
+              "duration": "5 respiraciones (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "ardha_chandrasana",
-              "duration": "5 respiraciones"
+              "duration": "5 respiraciones (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "natarajasana",
-              "duration": "5 respiraciones"
+              "duration": "5 respiraciones (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             }
           ]
         },
@@ -2725,19 +2567,39 @@
         },
         {
           "poseId": "vrksasana",
-          "duration": "5 respiraciones"
+          "duration": "5 respiraciones (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "garudasana",
-          "duration": "5 respiraciones"
+          "duration": "5 respiraciones (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "ardha_chandrasana",
-          "duration": "5 respiraciones"
+          "duration": "5 respiraciones (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "natarajasana",
-          "duration": "5 respiraciones"
+          "duration": "5 respiraciones (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "savasana",
@@ -2794,11 +2656,21 @@
             },
             {
               "poseId": "eka_pada_rajakapotasana",
-              "duration": "4 min por lado"
+              "duration": "4 min por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "utthan_pristhasana",
-              "duration": "3 min por lado"
+              "duration": "3 min por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             }
           ]
         },
@@ -2828,11 +2700,21 @@
         },
         {
           "poseId": "eka_pada_rajakapotasana",
-          "duration": "4 min por lado"
+          "duration": "4 min por lado (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "utthan_pristhasana",
-          "duration": "3 min por lado"
+          "duration": "3 min por lado (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "savasana",
@@ -2889,7 +2771,12 @@
             },
             {
               "poseId": "bananasana",
-              "duration": "5 min por lado"
+              "duration": "5 min por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             }
           ]
         },
@@ -2919,7 +2806,12 @@
         },
         {
           "poseId": "bananasana",
-          "duration": "5 min por lado"
+          "duration": "5 min por lado (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "savasana",
@@ -3075,7 +2967,12 @@
             },
             {
               "poseId": "utthita_trikonasana",
-              "duration": "5 respiraciones"
+              "duration": "5 respiraciones (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "bhujangasana",
@@ -3117,7 +3014,12 @@
         },
         {
           "poseId": "utthita_trikonasana",
-          "duration": "5 respiraciones"
+          "duration": "5 respiraciones (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "bhujangasana",
@@ -3182,19 +3084,39 @@
           "poses": [
             {
               "poseId": "virabhadrasana_i",
-              "duration": "5 respiraciones"
+              "duration": "5 respiraciones (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "virabhadrasana_ii",
-              "duration": "5 respiraciones"
+              "duration": "5 respiraciones (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "ardha_matsyendrasana",
-              "duration": "5 respiraciones"
+              "duration": "5 respiraciones (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "vrksasana",
-              "duration": "5 respiraciones por lado"
+              "duration": "5 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             }
           ]
         },
@@ -3224,19 +3146,39 @@
         },
         {
           "poseId": "virabhadrasana_i",
-          "duration": "5 respiraciones"
+          "duration": "5 respiraciones (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "virabhadrasana_ii",
-          "duration": "5 respiraciones"
+          "duration": "5 respiraciones (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "ardha_matsyendrasana",
-          "duration": "5 respiraciones"
+          "duration": "5 respiraciones (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "vrksasana",
-          "duration": "5 respiraciones por lado"
+          "duration": "5 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "savasana",
@@ -3527,11 +3469,21 @@
             },
             {
               "poseId": "utthita_trikonasana",
-              "duration": "5 respiraciones por lado"
+              "duration": "5 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "virabhadrasana_ii",
-              "duration": "8 respiraciones por lado"
+              "duration": "8 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "paschimottanasana",
@@ -3539,7 +3491,12 @@
             },
             {
               "poseId": "ardha_matsyendrasana",
-              "duration": "3 min por lado"
+              "duration": "3 min por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "setu_bandhasana",
@@ -3577,11 +3534,21 @@
         },
         {
           "poseId": "utthita_trikonasana",
-          "duration": "5 respiraciones por lado"
+          "duration": "5 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "virabhadrasana_ii",
-          "duration": "8 respiraciones por lado"
+          "duration": "8 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "paschimottanasana",
@@ -3589,7 +3556,12 @@
         },
         {
           "poseId": "ardha_matsyendrasana",
-          "duration": "3 min por lado"
+          "duration": "3 min por lado (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "setu_bandhasana",
@@ -3650,11 +3622,21 @@
           "poses": [
             {
               "poseId": "virabhadrasana_i",
-              "duration": "5 respiraciones por lado"
+              "duration": "5 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "virabhadrasana_ii",
-              "duration": "5 respiraciones por lado"
+              "duration": "5 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "navasana",
@@ -3662,7 +3644,12 @@
             },
             {
               "poseId": "ardha_matsyendrasana",
-              "duration": "3 min por lado"
+              "duration": "3 min por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "setu_bandhasana",
@@ -3700,11 +3687,21 @@
         },
         {
           "poseId": "virabhadrasana_i",
-          "duration": "5 respiraciones por lado"
+          "duration": "5 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "virabhadrasana_ii",
-          "duration": "5 respiraciones por lado"
+          "duration": "5 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "navasana",
@@ -3712,7 +3709,12 @@
         },
         {
           "poseId": "ardha_matsyendrasana",
-          "duration": "3 min por lado"
+          "duration": "3 min por lado (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "setu_bandhasana",
@@ -3777,7 +3779,12 @@
             },
             {
               "poseId": "bananasana",
-              "duration": "5 min por lado"
+              "duration": "5 min por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "caterpillar_pose",
@@ -3815,7 +3822,12 @@
         },
         {
           "poseId": "bananasana",
-          "duration": "5 min por lado"
+          "duration": "5 min por lado (Lado Izquierdo + Lado Derecho)",
+          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sides": {
+            "left": "Lado Izquierdo",
+            "right": "Lado Derecho"
+          }
         },
         {
           "poseId": "caterpillar_pose",
@@ -3861,17 +3873,27 @@
           "poses": [
             {
               "poseId": "anjaneyasana",
-              "duration": "5 respiraciones por lado",
+              "duration": "5 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
               "alignmentCues": "Rodilla trasera en el suelo, pelvis descendida, brazos elevados en media luna.",
               "breathingCues": "Inhala al elevar el tórax, exhala profundizando la apertura del psoas.",
-              "stepByStep": "Paso largo atrás con pierna izquierda, apoya rodilla y eleva brazos hacia atrás formando un arco suave."
+              "stepByStep": "Paso largo atrás con pierna izquierda, apoya rodilla y eleva brazos hacia atrás formando un arco suave.",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "skandasana",
-              "duration": "5 respiraciones por lado",
+              "duration": "5 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
               "alignmentCues": "Sentadilla lateral profunda, talón apoyado, pierna opuesta extendida.",
               "breathingCues": "Exhala al descender cadera a un lado, inhala al cambiar al centro.",
-              "stepByStep": "Flexiona la rodilla derecha bajando la cadera y extiende la pierna izquierda apuntando dedos arriba."
+              "stepByStep": "Flexiona la rodilla derecha bajando la cadera y extiende la pierna izquierda apuntando dedos arriba.",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             }
           ]
         },
@@ -3881,10 +3903,15 @@
           "poses": [
             {
               "poseId": "utthita_trikonasana",
-              "duration": "5 respiraciones por lado",
+              "duration": "5 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
               "alignmentCues": "Piernas abiertas, mano a espinilla, pecho abierto al lateral.",
               "breathingCues": "Mantén inhalaciones y exhalaciones fluidas sin colapsar el costado inferior.",
-              "stepByStep": "Inclínate lateralmente sobre la pierna delantera manteniendo cadera y pecho en el mismo plano."
+              "stepByStep": "Inclínate lateralmente sobre la pierna delantera manteniendo cadera y pecho en el mismo plano.",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "baddha_konasana",
@@ -3974,10 +4001,15 @@
             },
             {
               "poseId": "supta_matsyendrasana",
-              "duration": "4 min por lado (Torsión Supina)",
+              "duration": "4 min por lado (Lado Izquierdo + Lado Derecho) (Torsión Supina)",
               "alignmentCues": "Rodillas caídas hacia un lado, mirada al lado opuesto, hombros pegados al suelo.",
               "breathingCues": "Respiraciones diafragmáticas lentas que masajean los órganos abdominales.",
-              "stepByStep": "Gira las piernas flexionadas hacia la derecha manteniendo el hombro izquierdo bien apoyado."
+              "stepByStep": "Gira las piernas flexionadas hacia la derecha manteniendo el hombro izquierdo bien apoyado.",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "viparita_karani",
@@ -4139,24 +4171,39 @@
           "poses": [
             {
               "poseId": "utthita_trikonasana",
-              "duration": "5 respiraciones por lado",
+              "duration": "5 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
               "alignmentCues": "Agarrar dedo gordo del pie (Padangusthasana), mirada a mano de arriba.",
               "breathingCues": "Mantén el ritmo de Ujjayi constante sin pausar.",
-              "stepByStep": "Abre pies, engancha el dedo gordo del pie derecho y mira hacia la mano izquierda arriba."
+              "stepByStep": "Abre pies, engancha el dedo gordo del pie derecho y mira hacia la mano izquierda arriba.",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "parsvottanasana",
-              "duration": "5 respiraciones por lado",
+              "duration": "5 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
               "alignmentCues": "Manos en Namaste inverso en la espalda, barbilla hacia la espinilla.",
               "breathingCues": "Exhala al plegar el torso sobre la pierna delantera.",
-              "stepByStep": "Gira 180° hacia atrás, junta palmas en la espalda e inclínate frontalmente."
+              "stepByStep": "Gira 180° hacia atrás, junta palmas en la espalda e inclínate frontalmente.",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "virabhadrasana_i",
-              "duration": "5 respiraciones por lado",
+              "duration": "5 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
               "alignmentCues": "Palmas juntas sobre la cabeza, mirada a pulgares (Angusthamadhye Drishti).",
               "breathingCues": "Inhala al alargar los brazos, exhala asentando la rodilla a 90°.",
-              "stepByStep": "Paso atrás, flexiona rodilla delantera a 90° y mira hacia tus pulgares elevados."
+              "stepByStep": "Paso atrás, flexiona rodilla delantera a 90° y mira hacia tus pulgares elevados.",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             }
           ]
         },
@@ -4225,10 +4272,15 @@
           "poses": [
             {
               "poseId": "janu_sirsasana",
-              "duration": "3 min por lado",
+              "duration": "3 min por lado (Lado Izquierdo + Lado Derecho)",
               "alignmentCues": "Una pierna extendida, la otra flexionada en la ingle, torso girado hacia pierna estirada.",
               "breathingCues": "Inhala alargando columna, exhala acercando el abdomen al muslo.",
-              "stepByStep": "Gira suavemente el ombligo hacia la pierna extendida e inclínate desde la pelvis."
+              "stepByStep": "Gira suavemente el ombligo hacia la pierna extendida e inclínate desde la pelvis.",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             },
             {
               "poseId": "paschimottanasana",
@@ -4239,10 +4291,15 @@
             },
             {
               "poseId": "ardha_matsyendrasana",
-              "duration": "3 min por lado",
+              "duration": "3 min por lado (Lado Izquierdo + Lado Derecho)",
               "alignmentCues": "Espina recta vertical, giro desde la base sacra hacia arriba.",
               "breathingCues": "Inhala creciendo verticalmente, exhala girando un poco más.",
-              "stepByStep": "Abraza la rodilla contra el pecho y gira los hombros hacia atrás."
+              "stepByStep": "Abraza la rodilla contra el pecho y gira los hombros hacia atrás.",
+              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
             }
           ]
         },
@@ -4256,6 +4313,195 @@
               "alignmentCues": "Total soltura física.",
               "breathingCues": "Sin esfuerzo.",
               "stepByStep": "Cierra los ojos y disfruta de la calma interior generada."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mandala_vinyasa_01",
+      "title": "Mandala Vinyasa Flow 360°: Secuencia Circular Dinámica y Creativa",
+      "style": "Mandala Vinyasa Flow",
+      "category": "Balance and Flexibility",
+      "durationMinutes": 60,
+      "durationFormatted": "60 minutos",
+      "level": "Intermedio",
+      "focus": "Movilidad circular 360° en el mat, fluidez orgánica y enfoque energético de chakras",
+      "description": "Secuencia circular que viaja por los cuatro frentes de la colchoneta conectando Guerrero II, Skandasana, Media Luna y Cosa Salvaje.",
+      "breathRoutine": "ujjayi",
+      "yogaType": "Mandala Vinyasa Flow",
+      "framework": {
+        "pranayama": "5 min de centramiento e inicio dinámico con Ujjayi Pranayama",
+        "warmupAndSunSalutations": "10 min de Saludos al Sol Circulares conectando Perro Boca Abajo y Chaturanga",
+        "mainSequenceFocus": "Móvil 360° en la colchoneta enfocada en caderas y apertura lateral",
+        "cooldownAndSavasana": "10 min de relajación final en Savasana"
+      },
+      "phases": [
+        {
+          "phaseName": "Fase 1: Pranayama y Centramiento",
+          "description": "Centramiento consciente con Ujjayi Pranayama para ritmo de fluidez circular.",
+          "poses": [
+            {
+              "poseId": "tadasana",
+              "duration": "5 min centramiento con Ujjayi"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 2: Calentamiento - Saludos al Sol Circulares",
+          "description": "Saludos al Sol A/B enlazando movimiento continuo de columna y core.",
+          "poses": [
+            {
+              "poseId": "adho_mukha_svanasana",
+              "duration": "5 respiraciones (Perro Boca Abajo)"
+            },
+            {
+              "poseId": "chaturanga_dandasana",
+              "duration": "3 vueltas de vinyasa de calentamiento"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 3: Rutina Formal (Mandala 360°)",
+          "description": "Secuencia circular recorriendo el mat por ambos lados.",
+          "poses": [
+            {
+              "poseId": "virabhadrasana_ii",
+              "duration": "5 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar del Lado Izquierdo y Lado Derecho",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
+            },
+            {
+              "poseId": "skandasana",
+              "duration": "5 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar del Lado Izquierdo y Lado Derecho",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
+            },
+            {
+              "poseId": "ardha_chandrasana",
+              "duration": "5 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar del Lado Izquierdo y Lado Derecho",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
+            },
+            {
+              "poseId": "camatkarasana",
+              "duration": "5 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar del Lado Izquierdo y Lado Derecho",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 4: Relajación Final (Savasana)",
+          "description": "Asimilación energética y quietud completa.",
+          "poses": [
+            {
+              "poseId": "savasana",
+              "duration": "10 min relajación final"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "creative_vinyasa_01",
+      "title": "Creative Vinyasa Flow: Transiciones Expresivas y Conexión de Asanas",
+      "style": "Creative Vinyasa Flow",
+      "category": "Flexibility",
+      "durationMinutes": 60,
+      "durationFormatted": "60 minutos",
+      "level": "Intermedio / Avanzado",
+      "focus": "Transiciones fluidas no convencionales, apertura de hombros, caderas y columna",
+      "description": "Práctica creativa que combina Guerrero III, Guerrero Humilde, Ángulo Lateral en Torsión y Postura de la Rueda.",
+      "breathRoutine": "respiracion_completa",
+      "yogaType": "Creative Vinyasa Flow",
+      "framework": {
+        "pranayama": "5 min de centramiento e inhalaciones profundas con Respiración Completa",
+        "warmupAndSunSalutations": "10 min de calentamiento dinámico con Cobra y Perro Boca Abajo",
+        "mainSequenceFocus": "Secuencia expresiva con enlaces creativos entre asanas de fuerza y equilibrio",
+        "cooldownAndSavasana": "10 min de descanso integrador en Savasana"
+      },
+      "phases": [
+        {
+          "phaseName": "Fase 1: Pranayama y Centramiento",
+          "description": "Conexión consciente con la respiración completa.",
+          "poses": [
+            {
+              "poseId": "tadasana",
+              "duration": "5 min centramiento con Respiración Completa"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 2: Calentamiento - Saludos al Sol Creativos",
+          "description": "Olas de movimiento en columna y preparación de articulaciones.",
+          "poses": [
+            {
+              "poseId": "bhujangasana",
+              "duration": "5 respiraciones (Cobra fluida)"
+            },
+            {
+              "poseId": "adho_mukha_svanasana",
+              "duration": "5 respiraciones (Perro Boca Abajo)"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 3: Rutina Formal (Flow Creativo)",
+          "description": "Secuencia principal de asanas con pautas por cada lado.",
+          "poses": [
+            {
+              "poseId": "virabhadrasana_iii",
+              "duration": "5 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar del Lado Izquierdo y Lado Derecho",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
+            },
+            {
+              "poseId": "humble_warrior",
+              "duration": "5 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar del Lado Izquierdo y Lado Derecho",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
+            },
+            {
+              "poseId": "parivrtta_parsvakonasana",
+              "duration": "5 respiraciones por lado (Lado Izquierdo + Lado Derecho)",
+              "sideInstruction": "Ejecutar del Lado Izquierdo y Lado Derecho",
+              "sides": {
+                "left": "Lado Izquierdo",
+                "right": "Lado Derecho"
+              }
+            },
+            {
+              "poseId": "urdhva_dhanurasana",
+              "duration": "5 respiraciones (Arco hacia arriba)"
+            }
+          ]
+        },
+        {
+          "phaseName": "Fase 4: Relajación Final (Savasana)",
+          "description": "Quietud final en Savasana.",
+          "poses": [
+            {
+              "poseId": "savasana",
+              "duration": "10 min relajación final"
             }
           ]
         }

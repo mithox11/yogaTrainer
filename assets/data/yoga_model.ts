@@ -43,9 +43,16 @@ export interface BreathRoutine {
   stepByStepInstructions: string[];
 }
 
+export interface PoseSequenceItemSides {
+  left: string;
+  right: string;
+}
+
 export interface PoseSequenceItem {
   poseId: string;
   duration: string;
+  sideInstruction?: string;
+  sides?: PoseSequenceItemSides;
 }
 
 export interface RoutineFrameworkPhase {
@@ -67,10 +74,12 @@ export interface Routine {
   style: string;
   category: RoutineCategory;
   durationMinutes: number;
+  durationFormatted?: string;
   level: string;
   focus: string;
   description: string;
   breathRoutine: string;
+  yogaType?: string;
   framework?: RoutineFramework;
   phases: RoutineFrameworkPhase[];
 }

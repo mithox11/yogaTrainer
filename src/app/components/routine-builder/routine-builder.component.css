@@ -1,26 +1,63 @@
-.builder-card {
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
-  border-radius: 12px;
-  background-color: var(--color-light-cyan);
-}
-
-mat-card-header {
-  margin-bottom: 2rem;
-  color: var(--color-ocean-blue);
-}
-
-.form-content {
+.hero-section {
   display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  padding: 2rem;
+  background: linear-gradient(135deg, var(--color-light-cyan) 0%, #e0f7fa 100%);
+  border-radius: 20px;
+  margin: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
-mat-card-actions button {
-  background-color: var(--color-olive) !important;
-  color: white !important;
-  font-size: 1.1rem;
-  padding: 0.5rem 1.5rem;
-  border-radius: 8px;
+.hero-content {
+  text-align: center;
+  max-width: 800px;
+}
+
+.hero-icon {
+  font-size: 80px;
+  height: 80px;
+  width: 80px;
+  color: var(--color-olive);
+  margin-bottom: 1.5rem;
+}
+
+.hero-content h2 {
+  font-size: 3rem;
+  color: var(--color-ocean-blue);
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 3rem;
+}
+
+.random-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.yoga-btn {
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem !important;
+  border-radius: 50px !important;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.yoga-btn mat-icon {
+  margin-right: 8px;
+}
+
+.yoga-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }

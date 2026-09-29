@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, map } from 'rxjs';
-import { YogaDatabase, Routine, Pose, BreathRoutine, RoutineCategory } from './yoga_model_v11';
+import { YogaDatabase, Routine, Pose, BreathRoutine, RoutineCategory } from './yoga_model_master';
 
 @Injectable({
   providedIn: 'root'
@@ -19,7 +19,7 @@ export class YogaService {
   }
 
   /**
-   * Obtiene la lista completa de rutinas.
+   * Obtiene el catálogo completo de las 28 rutinas de 60 min máximo.
    */
   getAllRoutines(): Observable<Routine[]> {
     return this.getDatabase().pipe(
@@ -28,7 +28,8 @@ export class YogaService {
   }
 
   /**
-   * Filtra las rutinas por su categoría / meta específica.
+   * Filtra las rutinas por su categoría / meta específica
+   * ('Relaxation', 'Core Strength', 'Balance and Flexibility', etc.).
    */
   getRoutinesByCategory(category: RoutineCategory): Observable<Routine[]> {
     return this.getAllRoutines().pipe(
@@ -37,7 +38,16 @@ export class YogaService {
   }
 
   /**
-   * Obtiene el catálogo completo de 60 posturas con instrucciones paso a paso e imágenes.
+   * Filtra las rutinas por estilo de yoga ('Hatha Yoga', 'Vinyasa Yoga', 'Yin Yoga', etc.).
+   */
+  getRoutinesByStyle(style: string): Observable<Routine[]> {
+    return this.getAllRoutines().pipe(
+      map(routines => routines.filter(r => r.style.toLowerCase().includes(style.toLowerCase())))
+    );
+  }
+
+  /**
+   * Obtiene el catálogo completo de las 60 posturas con imágenes e instrucciones por lado.
    */
   getAllPoses(): Observable<Pose[]> {
     return this.getDatabase().pipe(
@@ -46,7 +56,7 @@ export class YogaService {
   }
 
   /**
-   * Obtiene una postura específica por su ID.
+   * Obtiene una postura por su ID único.
    */
   getPoseById(id: string): Observable<Pose | undefined> {
     return this.getAllPoses().pipe(
@@ -55,7 +65,7 @@ export class YogaService {
   }
 
   /**
-   * Obtiene las técnicas de Pranayama con sus instrucciones e imágenes.
+   * Obtiene las 8 rutinas de respiración (Pranayama) con imágenes dedicadas e instrucciones paso a paso.
    */
   getBreathRoutines(): Observable<BreathRoutine[]> {
     return this.getDatabase().pipe(
@@ -64,11 +74,11 @@ export class YogaService {
   }
 
   /**
-   * Selecciona una técnica de Pranayama aleatoria para el inicio de la clase.
+   * Obtiene una técnica de Pranayama aleatoria para iniciar dinámicamente cualquier clase.
    */
   getRandomPranayama(): Observable<BreathRoutine> {
     return this.getBreathRoutines().pipe(
-      map(list => list[Math.floor(Math.random() * list.length)])
+      map(breathList => breathList[Math.floor(Math.random() * breathList.length)])
     );
   }
 }

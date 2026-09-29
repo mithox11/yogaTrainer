@@ -1,23 +1,22 @@
-<mat-card class="builder-card mat-elevation-z4">
-  <mat-card-header>
-    <mat-card-title>Create Your Routine</mat-card-title>
-    <mat-card-subtitle>Select your preferences below to generate a custom flow.</mat-card-subtitle>
-  </mat-card-header>
-  <mat-card-content class="form-content">
+<div class="hero-section">
+  <div class="hero-content">
+    <mat-icon class="hero-icon">self_improvement</mat-icon>
+    <h2>Welcome to Yoga Trainer</h2>
+    <p>Choose your preferred style and let us generate a perfectly balanced routine just for you.</p>
     
-    <mat-form-field appearance="fill">
-      <mat-label>Select Routine</mat-label>
-      <mat-select [(ngModel)]="selectedRoutineId">
-        <mat-optgroup *ngFor="let group of groupedRoutines" [label]="group.goal">
-          <mat-option *ngFor="let routine of group.routines" [value]="routine.id">
-            {{routine.title}} ({{routine.durationMinutes}} min)
-          </mat-option>
-        </mat-optgroup>
-      </mat-select>
-    </mat-form-field>
-
-  </mat-card-content>
-  <mat-card-actions align="end">
-    <button mat-raised-button color="primary" (click)="generateRoutine()">Generate Routine</button>
-  </mat-card-actions>
-</mat-card>
+    <div class="random-buttons">
+      <button mat-raised-button color="primary" class="yoga-btn" (click)="generateRandomRoutine('Vinyasa')">
+        <mat-icon>waves</mat-icon>
+        Vinyasa Flow
+      </button>
+      <button mat-raised-button color="accent" class="yoga-btn" (click)="generateRandomRoutine('Hatha')">
+        <mat-icon>wb_sunny</mat-icon>
+        Hatha Yoga
+      </button>
+      <button mat-raised-button color="warn" class="yoga-btn" (click)="generateRandomRoutine('Yin Yoga')">
+        <mat-icon>nights_stay</mat-icon>
+        Yin Yoga
+      </button>
+    </div>
+  </div>
+</div>

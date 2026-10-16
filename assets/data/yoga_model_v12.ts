@@ -48,8 +48,8 @@ export interface PoseSequenceItem {
   duration: string;
   sideInstruction?: string;
   sides?: {
-    left: string;
-    right: string;
+    left?: string;
+    right?: string;
   };
 }
 
@@ -72,13 +72,14 @@ export interface Routine {
   style: string;
   category: RoutineCategory;
   durationMinutes: number;
+  durationFormatted?: string;
   level: string;
   focus: string;
   description: string;
   breathRoutine: string;
+  yogaType?: string;
   framework?: RoutineFramework;
   phases: RoutineFrameworkPhase[];
-  posesSequence?: PoseSequenceItem[];
 }
 
 export interface YogaDatasetInfo {

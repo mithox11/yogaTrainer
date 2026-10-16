@@ -19,7 +19,7 @@ export class YogaService {
   }
 
   /**
-   * Obtiene el catálogo completo de las 28 rutinas de 60 min máximo.
+   * Obtiene la lista completa de las 31 rutinas con su categoría y fases asignadas.
    */
   getAllRoutines(): Observable<Routine[]> {
     return this.getDatabase().pipe(
@@ -47,7 +47,7 @@ export class YogaService {
   }
 
   /**
-   * Obtiene el catálogo completo de las 60 posturas con imágenes e instrucciones por lado.
+   * Obtiene el catálogo completo de las 60 posturas con sus instrucciones paso a paso.
    */
   getAllPoses(): Observable<Pose[]> {
     return this.getDatabase().pipe(
@@ -65,7 +65,7 @@ export class YogaService {
   }
 
   /**
-   * Obtiene las 8 rutinas de respiración (Pranayama) con imágenes dedicadas e instrucciones paso a paso.
+   * Obtiene las 8 técnicas de respiración (Pranayama) con sus imágenes e instrucciones.
    */
   getBreathRoutines(): Observable<BreathRoutine[]> {
     return this.getDatabase().pipe(
@@ -74,11 +74,11 @@ export class YogaService {
   }
 
   /**
-   * Obtiene una técnica de Pranayama aleatoria para iniciar dinámicamente cualquier clase.
+   * Obtiene una técnica de Pranayama de forma aleatoria para personalizar el inicio de la clase.
    */
   getRandomPranayama(): Observable<BreathRoutine> {
     return this.getBreathRoutines().pipe(
-      map(breathList => breathList[Math.floor(Math.random() * breathList.length)])
+      map(pranayamas => pranayamas[Math.floor(Math.random() * pranayamas.length)])
     );
   }
 }

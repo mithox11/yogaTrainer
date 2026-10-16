@@ -7,14 +7,7 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSliderModule } from '@angular/material/slider';
 import { YogaService } from '../../services/yoga.service';
-import { Routine, Pose, BreathRoutine } from '../../models/yoga.model';
-
-export interface DisplayPose extends Pose {
-  durationString?: string;
-  durationSeconds?: number;
-  phaseName?: string;
-  pranayamaDetails?: BreathRoutine;
-}
+import { Routine, Pose, BreathRoutine, DisplayPose } from '../../models/yoga.model';
 
 @Component({
   selector: 'app-routine-display',
@@ -56,6 +49,11 @@ export class RoutineDisplayComponent implements OnInit, OnDestroy {
   get currentPose(): DisplayPose | null {
     if (this.isFinished) return null;
     return this.routine[this.currentIndex];
+  }
+
+  get pastPoseItem(): DisplayPose | null {
+    if (this.isFinished || this.currentIndex <= 0) return null;
+    return this.routine[this.currentIndex - 1];
   }
 
   get nextPoseItem(): DisplayPose | null {

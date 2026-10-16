@@ -1,14 +1,14 @@
 <div class="player-container">
   
   <div class="top-bar">
-    <button mat-icon-button (click)="goBack()">
+    <button mat-icon-button (click)="goBack()" title="Regresar" class="back-btn">
       <mat-icon>arrow_back</mat-icon>
     </button>
     <div class="header-titles" style="display: flex; flex-direction: column; align-items: center; flex: 1;">
-      <div class="phase-indicator" *ngIf="currentPose?.phaseName" style="font-weight: bold; font-size: 1.1em; color: var(--color-primary-dark);">
+      <div class="phase-indicator" *ngIf="currentPose?.phaseName" style="font-weight: 600; font-size: 1.15em; color: var(--color-yoga-copper); letter-spacing: 0.5px;">
         {{currentPose?.phaseName}}
       </div>
-      <div class="routine-progress">
+      <div class="routine-progress" style="font-weight: 500; color: var(--color-yoga-black); font-size: 1.05em;">
         Pose {{currentIndex + 1}} of {{routine.length}}
       </div>
     </div>
@@ -16,23 +16,36 @@
 
   <mat-progress-bar mode="determinate" [value]="globalProgress" class="global-progress" style="width: 100%; margin-bottom: 10px;"></mat-progress-bar>
 
-  <mat-card class="player-card mat-elevation-z4" *ngIf="!isFinished; else finishedState">
+  <mat-card class="player-card mat-elevation-z3" *ngIf="!isFinished; else finishedState">
     
     <div class="images-container">
       <img class="main-image" [src]="'assets/images/yoga/' + currentPose?.imageFileName" alt="Yoga pose image">
-      <div class="next-image-container" *ngIf="nextPoseItem">
-        <div class="next-label">Next: {{nextPoseItem.nameSpanish}}</div>
-        <img class="next-image" [src]="'assets/images/yoga/' + nextPoseItem.imageFileName" alt="Next pose image">
+      
+      <!-- Past Pose Thumbnail -->
+      <div class="pose-thumb-container past-image-container" *ngIf="pastPoseItem" (click)="previousPose()" title="Postura anterior: {{pastPoseItem.nameSpanish}}">
+        <div class="thumb-label past-label">Past: {{pastPoseItem.nameSpanish}}</div>
+        <img class="thumb-image past-image" [src]="'assets/images/yoga/' + pastPoseItem.imageFileName" alt="Past pose image">
+      </div>
+
+      <!-- Next Pose Thumbnail -->
+      <div class="pose-thumb-container next-image-container" *ngIf="nextPoseItem" (click)="nextPose()" title="Siguiente postura: {{nextPoseItem.nameSpanish}}">
+        <div class="thumb-label next-label">Next: {{nextPoseItem.nameSpanish}}</div>
+        <img class="thumb-image next-image" [src]="'assets/images/yoga/' + nextPoseItem.imageFileName" alt="Next pose image">
       </div>
     </div>
     
     <mat-card-content>
       <h2 class="pose-name">{{currentPose?.nameSpanish}} 
-        <span style="font-size: 0.6em; color: #666; font-style: italic;">({{currentPose?.nameSanskrit}})</span>
+        <span style="font-size: 0.55em; color: var(--color-yoga-copper); font-style: italic; font-weight: normal; display: block; margin-top: 4px;">({{currentPose?.nameSanskrit}})</span>
       </h2>
       <div class="timer-display">{{timeLeft}}s</div>
-      <div class="duration-hint" style="text-align: center; color: #555; margin-bottom: 10px;">
+      <div class="duration-hint" style="text-align: center; color: var(--color-yoga-green); font-weight: 500; margin-bottom: 6px;">
         Target: {{currentPose?.durationString}}
+      </div>
+      
+      <div class="side-instruction-banner" *ngIf="currentPose?.sideInstruction">
+        <mat-icon class="side-icon">sync_alt</mat-icon>
+        <span>{{currentPose?.sideInstruction}}</span>
       </div>
       
       <mat-slider class="time-slider" [max]="currentPose?.durationSeconds || 60" [min]="0" step="1" discrete>
@@ -41,56 +54,56 @@
 
       <div class="controls-wrapper">
         <div class="controls">
-          <button mat-icon-button (click)="previousPose()" [disabled]="currentIndex === 0">
+          <button mat-icon-button (click)="previousPose()" [disabled]="currentIndex === 0" title="Anterior">
             <mat-icon>skip_previous</mat-icon>
           </button>
           
-          <button mat-fab color="primary" (click)="isPlaying ? pauseRoutine() : startRoutine()">
+          <button mat-fab (click)="isPlaying ? pauseRoutine() : startRoutine()" class="play-btn" [title]="isPlaying ? 'Pausar' : 'Iniciar'">
             <mat-icon>{{isPlaying ? 'pause' : 'play_arrow'}}</mat-icon>
           </button>
           
-          <button mat-icon-button (click)="nextPose()">
+          <button mat-icon-button (click)="nextPose()" title="Siguiente">
             <mat-icon>skip_next</mat-icon>
           </button>
         </div>
       </div>
       
-      <div class="instructions" style="text-align: left; margin-top: 15px; padding: 10px; background: rgba(255,255,255,0.7); border-radius: 8px; max-height: 200px; overflow-y: auto;">
+      <div class="instructions" style="text-align: left; margin-top: 15px; padding: 14px 18px; background: rgba(255,255,255,0.85); border-left: 4px solid var(--color-yoga-copper); border-radius: 8px; max-height: 200px; overflow-y: auto;">
         <div *ngIf="currentPose?.pranayamaDetails">
-          <h3 style="color: var(--color-primary-dark); margin-top: 0; font-size: 1.1em;">{{currentPose?.pranayamaDetails?.name}}</h3>
-          <ul style="padding-left: 20px; font-size: 0.9em; line-height: 1.4; color: #333;">
+          <h3 style="color: var(--color-yoga-copper); margin-top: 0; font-size: 1.1em; font-weight: 600;">{{currentPose?.pranayamaDetails?.name}}</h3>
+          <ul style="padding-left: 20px; font-size: 0.9em; line-height: 1.5; color: var(--color-yoga-black);">
             <li *ngFor="let step of currentPose?.pranayamaDetails?.stepByStepInstructions || currentPose?.pranayamaDetails?.instructions" style="margin-bottom: 8px;">{{step}}</li>
           </ul>
         </div>
         
         <div *ngIf="!currentPose?.pranayamaDetails && (currentPose?.stepByStepInstructions || currentPose?.instructions)">
-          <h3 style="color: var(--color-primary-dark); margin-top: 0; font-size: 1.1em;">Instrucciones Paso a Paso</h3>
-          <ul style="padding-left: 20px; font-size: 0.9em; line-height: 1.4; color: #333;">
+          <h3 style="color: var(--color-yoga-copper); margin-top: 0; font-size: 1.1em; font-weight: 600;">Instrucciones Paso a Paso</h3>
+          <ul style="padding-left: 20px; font-size: 0.9em; line-height: 1.5; color: var(--color-yoga-black);">
             <li *ngFor="let step of currentPose?.stepByStepInstructions || currentPose?.instructions" style="margin-bottom: 8px;">{{step}}</li>
           </ul>
         </div>
         
         <div *ngIf="!currentPose?.pranayamaDetails && !currentPose?.stepByStepInstructions && !currentPose?.instructions">
-          <h3 style="color: var(--color-primary-dark); margin-top: 0; font-size: 1.1em;">Beneficios:</h3>
-          <p style="font-size: 0.9em; line-height: 1.4; color: #333;">{{currentPose?.benefits}}</p>
+          <h3 style="color: var(--color-yoga-copper); margin-top: 0; font-size: 1.1em; font-weight: 600;">Beneficios:</h3>
+          <p style="font-size: 0.9em; line-height: 1.5; color: var(--color-yoga-black);">{{currentPose?.benefits}}</p>
         </div>
       </div>
     </mat-card-content>
   </mat-card>
 
   <!-- Timeline Strip -->
-  <div class="timeline-strip" *ngIf="!isFinished" style="display: flex; overflow-x: auto; gap: 15px; padding: 10px; margin-top: 15px; background: rgba(255, 255, 255, 0.6); border-radius: 8px; width: 90%; max-width: 800px;">
+  <div class="timeline-strip" *ngIf="!isFinished" style="display: flex; overflow-x: auto; gap: 15px; padding: 12px; margin-top: 15px; background: rgba(255, 255, 255, 0.85); border: 1px solid var(--color-yoga-tan); border-radius: 12px; width: 90%; max-width: 800px; box-sizing: border-box;">
     <div class="timeline-item" 
          *ngFor="let p of routine; let i = index" 
          [class.active]="i === currentIndex" 
          [class.completed]="i < currentIndex"
          (click)="jumpToPose(i)"
          style="display: flex; flex-direction: column; align-items: center; cursor: pointer; min-width: 80px; opacity: 0.6; transition: opacity 0.2s;"
-         [style.opacity]="i === currentIndex ? '1' : (i < currentIndex ? '0.8' : '0.6')">
-      <div class="timeline-dot" style="width: 12px; height: 12px; border-radius: 50%; margin-bottom: 5px;"
-           [style.backgroundColor]="i === currentIndex ? 'var(--color-accent-orange)' : (i < currentIndex ? 'var(--color-accent-teal)' : 'var(--color-primary-dark)')"
+         [style.opacity]="i === currentIndex ? '1' : (i < currentIndex ? '0.85' : '0.6')">
+      <div class="timeline-dot" style="width: 12px; height: 12px; border-radius: 50%; margin-bottom: 5px; transition: all 0.2s ease;"
+           [style.backgroundColor]="i === currentIndex ? 'var(--color-yoga-copper)' : (i < currentIndex ? 'var(--color-yoga-green)' : 'var(--color-yoga-tan)')"
            [style.transform]="i === currentIndex ? 'scale(1.3)' : 'scale(1)'"></div>
-      <span class="timeline-label" style="font-size: 0.7em; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 100%;">{{p.nameSpanish}}</span>
+      <span class="timeline-label" style="font-size: 0.75em; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 100%; color: var(--color-yoga-black); font-weight: 500;">{{p.nameSpanish}}</span>
     </div>
   </div>
 

@@ -13,127 +13,258 @@
   justify-content: space-between;
 }
 
+.back-btn {
+  color: var(--color-yoga-copper);
+}
+
 .routine-progress {
   font-weight: 500;
-  color: var(--color-ocean-blue);
-  font-size: 1.2rem;
+  color: var(--color-yoga-black);
+  font-size: 1.1rem;
+}
+
+.global-progress {
+  --mdc-linear-progress-active-indicator-color: var(--color-yoga-copper);
+  --mdc-linear-progress-track-color: rgba(186, 224, 218, 0.45);
+  border-radius: 4px;
+  height: 8px;
 }
 
 .player-card {
   border-radius: 16px;
   overflow: hidden;
-  background-color: var(--color-light-cyan);
+  background-color: #ffffff;
+  border: 1px solid rgba(217, 185, 159, 0.5);
+  box-shadow: 0 10px 28px rgba(41, 36, 33, 0.08);
 }
 
 .images-container {
   position: relative;
   width: 100%;
-  height: 400px;
-  background-color: #f0f0f0;
+  height: 420px;
+  background-color: var(--color-yoga-vanilla);
 }
 
 .main-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
+}
+
+/* Pose Thumbnail Shared Styles */
+.pose-thumb-container {
+  position: absolute;
+  bottom: 16px;
+  width: 150px;
+  height: 100px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(41, 36, 33, 0.35);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  z-index: 2;
+  background-color: var(--color-yoga-black);
+}
+
+.pose-thumb-container:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 6px 20px rgba(41, 36, 33, 0.45);
+}
+
+.past-image-container {
+  left: 16px;
 }
 
 .next-image-container {
-  position: absolute;
-  bottom: 16px;
   right: 16px;
-  width: 150px;
-  height: 100px;
-  border: 2px solid white;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
-.next-label {
+.thumb-label {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  font-size: 0.8rem;
+  background-color: rgba(41, 36, 33, 0.78);
+  color: #ffffff;
+  font-size: 0.78rem;
+  font-weight: 500;
   text-align: center;
-  padding: 2px 0;
+  padding: 3px 6px;
   z-index: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  backdrop-filter: blur(2px);
 }
 
-.next-image {
+.thumb-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
 
 .pose-name {
   margin-top: 1rem;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   text-align: center;
-  color: var(--color-ocean-blue);
+  color: var(--color-yoga-black);
+  font-weight: 600;
 }
 
 .timer-display {
   font-size: 4rem;
   font-weight: bold;
   text-align: center;
-  margin: 1rem 0 0 0;
-  color: var(--color-olive);
+  margin: 0.5rem 0 0 0;
+  color: var(--color-yoga-copper);
 }
 
 .time-slider {
   width: 100%;
   margin: 0 0 1rem 0;
+  --mdc-slider-handle-color: var(--color-yoga-copper);
+  --mdc-slider-focus-handle-color: var(--color-yoga-copper);
+  --mdc-slider-hover-handle-color: var(--color-yoga-copper);
+  --mdc-slider-active-track-color: var(--color-yoga-copper);
+  --mdc-slider-inactive-track-color: var(--color-yoga-blush);
+  --mdc-slider-with-tick-marks-active-container-color: var(--color-yoga-copper);
+}
+
+.side-instruction-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: rgba(186, 224, 218, 0.4);
+  border: 1px solid var(--color-yoga-mint);
+  border-radius: 8px;
+  padding: 8px 14px;
+  margin: 0 auto 12px auto;
+  max-width: 90%;
+  font-size: 0.92rem;
+  color: var(--color-yoga-black);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.side-instruction-banner .side-icon {
+  color: var(--color-yoga-copper);
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
 }
 
 .instructions {
   margin-top: 1.5rem;
   padding: 1.5rem;
-  background-color: white;
+  background-color: #ffffff;
   border-radius: 12px;
-  box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+  box-shadow: inset 0 2px 4px rgba(41, 36, 33, 0.04);
 }
 
 .instructions h3 {
   margin-top: 0;
   font-size: 1.2rem;
-  color: var(--color-ocean-blue);
+  color: var(--color-yoga-copper);
 }
 
-.instructions p {
-  font-size: 1.1rem;
+.instructions p, .instructions li {
+  font-size: 1.05rem;
   line-height: 1.6;
+  color: var(--color-yoga-black);
 }
 
 .controls {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 1.5rem;
-  background-color: var(--color-aqua);
-  border-radius: 12px;
+  padding: 1.2rem;
+  background: linear-gradient(135deg, rgba(186, 224, 218, 0.45) 0%, rgba(242, 214, 206, 0.4) 100%);
+  border: 1px solid var(--color-yoga-tan);
+  border-radius: 50px;
   margin-bottom: 1.5rem;
 }
 
-.controls button[mat-fab] {
-  background-color: var(--color-warm-sand) !important;
-  color: white !important;
+.controls button[mat-icon-button] {
+  color: var(--color-yoga-black);
+}
+
+.controls button.play-btn {
+  background-color: var(--color-yoga-copper) !important;
+  color: #ffffff !important;
+  transform: scale(1.15);
+  box-shadow: 0 4px 14px rgba(167, 95, 55, 0.35);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.controls button.play-btn:hover {
   transform: scale(1.2);
+  background-color: #93532f !important;
 }
 
 .finished-card {
   text-align: center;
   padding: 4rem 2rem;
   border-radius: 16px;
-  background-color: var(--color-light-cyan);
+  background: linear-gradient(135deg, #ffffff 0%, var(--color-yoga-vanilla) 100%);
+  border: 1px solid var(--color-yoga-tan);
+}
+
+.finished-card mat-card-title {
+  color: var(--color-yoga-copper);
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.finished-card mat-card-subtitle {
+  color: var(--color-yoga-black);
+  font-size: 1.15rem;
 }
 
 .finished-card button {
-  background-color: var(--color-olive) !important;
+  background-color: var(--color-yoga-copper) !important;
   color: white !important;
-  font-size: 1.2rem;
-  padding: 0.5rem 2rem;
+  font-size: 1.15rem;
+  padding: 0.6rem 2.5rem;
+  border-radius: 30px;
+  margin-top: 1rem;
 }
+
+@media (max-width: 600px) {
+  .images-container {
+    height: 320px;
+  }
+
+  .pose-thumb-container {
+    width: 110px;
+    height: 75px;
+    bottom: 10px;
+  }
+
+  .past-image-container {
+    left: 10px;
+  }
+
+  .next-image-container {
+    right: 10px;
+  }
+
+  .thumb-label {
+    font-size: 0.68rem;
+    padding: 2px 4px;
+  }
+
+  .pose-name {
+    font-size: 1.8rem;
+  }
+
+  .timer-display {
+    font-size: 3rem;
+  }
+}
+

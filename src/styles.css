@@ -1,19 +1,41 @@
-/* Global styles to match the new image theme */
+/* Yoga Color Palette (Black, Copper, Pink, Tan, Blush, Vanilla, Green, Mint) */
 :root {
-  --color-primary-dark: #2A4C8C;      /* Dark navy blue for headings and buttons */
-  --color-accent-orange: #EF7F54;     /* Orange (like the plant pot) */
-  --color-bg-blue: #C3D5F2;           /* Light periwinkle background */
-  --color-bg-peach: #C3D5F2;          /* Solid background */
-  --color-text: #2A4C8C;              /* Dark navy text */
-  --color-accent-teal: #75B5AE;       /* Soft teal/green for text accents */
-  --color-accent-yellow: #EBE82C;     /* Yellow for other accents */
+  --color-yoga-black: #292421;
+  --color-yoga-copper: #A75F37;
+  --color-yoga-pink: #CA8E82;
+  --color-yoga-tan: #D9B99F;
+  --color-yoga-blush: #F2D6CE;
+  --color-yoga-vanilla: #F2E7DD;
+  --color-yoga-green: #7A958F;
+  --color-yoga-mint: #BAE0DA;
+
+  /* Semantic Theme Mappings */
+  --color-primary-dark: var(--color-yoga-black);
+  --color-accent-orange: var(--color-yoga-copper);
+  --color-accent-teal: var(--color-yoga-green);
+  --color-accent-pink: var(--color-yoga-pink);
+  --color-bg-vanilla: var(--color-yoga-vanilla);
+  --color-bg-blush: var(--color-yoga-blush);
+  --color-text: var(--color-yoga-black);
+
+  /* Legacy variable compatibility */
+  --color-bg-blue: var(--color-yoga-vanilla);
+  --color-bg-peach: var(--color-yoga-blush);
+  --color-ocean-blue: var(--color-yoga-black);
+  --color-light-cyan: var(--color-yoga-vanilla);
+  --color-olive: var(--color-yoga-green);
+  --color-aqua: var(--color-yoga-mint);
+  --color-warm-sand: var(--color-yoga-copper);
 }
 
 html, body { 
   height: 100%; 
   margin: 0; 
-  background: var(--color-bg-blue);
+  background-color: var(--color-yoga-vanilla);
+  background-image: radial-gradient(circle at 12% 15%, rgba(242, 214, 206, 0.45) 0%, transparent 40%),
+                    radial-gradient(circle at 88% 85%, rgba(186, 224, 218, 0.35) 0%, transparent 45%);
   background-attachment: fixed;
-  color: var(--color-text);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--color-yoga-black);
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
 }
+

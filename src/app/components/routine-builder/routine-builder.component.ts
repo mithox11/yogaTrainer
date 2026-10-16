@@ -2,30 +2,25 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { MatCardModule } from '@angular/material/card';
+import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { YogaService } from '../../services/yoga.service';
 import { CommonModule } from '@angular/common';
-import { Routine, Pose, BreathRoutine, PoseSequenceItem } from '../../models/yoga.model';
-
-// Extend Pose for display purposes
-export interface DisplayPose extends Pose {
-  durationString?: string;
-  durationSeconds?: number;
-  phaseName?: string;
-  pranayamaDetails?: BreathRoutine;
-}
+import { Routine, Pose, BreathRoutine, PoseSequenceItem, DisplayPose } from '../../models/yoga.model';
 
 @Component({
   selector: 'app-routine-builder',
   standalone: true,
-  imports: [CommonModule, FormsModule, MatCardModule, MatSelectModule, MatButtonModule, MatIconModule],
+  imports: [CommonModule, FormsModule, MatCardModule, MatFormFieldModule, MatSelectModule, MatButtonModule, MatIconModule],
   templateUrl: './routine-builder.component.html',
   styleUrl: './routine-builder.component.css'
 })
 export class RoutineBuilderComponent implements OnInit {
   routines: Routine[] = [];
+  groupedRoutines: { goal: string; routines: Routine[] }[] = [];
+  selectedRoutineId: string = '';
 
   constructor(
     private yogaService: YogaService,
@@ -35,7 +30,31 @@ export class RoutineBuilderComponent implements OnInit {
   ngOnInit() {
     this.yogaService.getDatabase().subscribe(db => {
       this.routines = db.routines;
+
+      const groupMap = new Map<string, Routine[]>();
+      this.routines.forEach(r => {
+        const goal = r.category || 'General';
+        if (!groupMap.has(goal)) {
+          groupMap.set(goal, []);
+        }
+        groupMap.get(goal)!.push(r);
+      });
+
+      this.groupedRoutines = Array.from(groupMap.entries()).map(([goal, routines]) => ({
+        goal, routines
+      }));
+
+      if (this.routines.length > 0) {
+        this.selectedRoutineId = this.routines[0].id;
+      }
     });
+  }
+
+  startSelectedRoutine() {
+    const selected = this.routines.find(r => r.id === this.selectedRoutineId);
+    if (selected) {
+      this.processRoutineAndNavigate(selected);
+    }
   }
 
   parseDurationString(durationStr: string): number {
@@ -135,7 +154,9 @@ export class RoutineBuilderComponent implements OnInit {
                     imageFileName: isPranayamaPhase && pranayama?.imageFileName ? pranayama.imageFileName : p.imageFileName,
                     pranayamaDetails: isPranayamaPhase ? pranayama : undefined,
                     nameSpanish: isPranayamaPhase && pranayama ? pranayama.name : p.nameSpanish,
-                    nameSanskrit: isPranayamaPhase && pranayama ? pranayama.name : p.nameSanskrit
+                    nameSanskrit: isPranayamaPhase && pranayama ? pranayama.name : p.nameSanskrit,
+                    sideInstruction: seqItem.sideInstruction,
+                    sides: seqItem.sides
                 });
                 }
             });

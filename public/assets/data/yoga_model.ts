@@ -43,16 +43,14 @@ export interface BreathRoutine {
   stepByStepInstructions: string[];
 }
 
-export interface PoseSequenceItemSides {
-  left: string;
-  right: string;
-}
-
 export interface PoseSequenceItem {
   poseId: string;
   duration: string;
   sideInstruction?: string;
-  sides?: PoseSequenceItemSides;
+  sides?: {
+    left?: string;
+    right?: string;
+  };
 }
 
 export interface RoutineFrameworkPhase {

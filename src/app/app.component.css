@@ -3,9 +3,10 @@
 }
 
 mat-toolbar {
-  background-color: var(--color-ocean-blue) !important;
-  color: white !important;
+  background-color: var(--color-yoga-copper) !important;
+  color: #ffffff !important;
   font-weight: 500;
+  box-shadow: 0 2px 10px rgba(41, 36, 33, 0.15);
 }
 
 .content-container {

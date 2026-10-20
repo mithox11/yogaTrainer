@@ -123,6 +123,44 @@
   color: var(--color-yoga-copper);
 }
 
+.respiraciones-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.25rem 0;
+}
+
+.respiraciones-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0.75rem 2rem;
+  background: linear-gradient(135deg, rgba(242, 214, 206, 0.45) 0%, rgba(186, 224, 218, 0.4) 100%);
+  border: 2px solid var(--color-yoga-copper);
+  border-radius: 50px;
+  box-shadow: 0 4px 16px rgba(167, 95, 55, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.respiraciones-badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(167, 95, 55, 0.22);
+}
+
+.respiraciones-icon {
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  color: var(--color-yoga-copper);
+}
+
+.respiraciones-text {
+  font-size: 1.85rem;
+  font-weight: 700;
+  color: var(--color-yoga-copper);
+  letter-spacing: 0.5px;
+}
+
 .time-slider {
   width: 100%;
   margin: 0 0 1rem 0;
@@ -190,8 +228,38 @@
   margin-bottom: 1.5rem;
 }
 
-.controls button[mat-icon-button] {
-  color: var(--color-yoga-black);
+.controls button.nav-arrow-btn {
+  color: var(--color-yoga-copper);
+  background-color: #ffffff;
+  border: 1.5px solid var(--color-yoga-tan);
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(41, 36, 33, 0.08);
+  transition: all 0.2s ease;
+}
+
+.controls button.nav-arrow-btn:hover:not([disabled]) {
+  background-color: var(--color-yoga-copper);
+  color: #ffffff;
+  border-color: var(--color-yoga-copper);
+  transform: scale(1.1);
+  box-shadow: 0 6px 14px rgba(167, 95, 55, 0.3);
+}
+
+.controls button.nav-arrow-btn[disabled] {
+  opacity: 0.35;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.controls button.nav-arrow-btn mat-icon {
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .controls button.play-btn {
@@ -265,6 +333,32 @@
 
   .timer-display {
     font-size: 3rem;
+  }
+
+  .respiraciones-text {
+    font-size: 1.45rem;
+  }
+
+  .respiraciones-icon {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+  }
+
+  .respiraciones-badge {
+    padding: 0.6rem 1.4rem;
+    gap: 8px;
+  }
+
+  .controls button.nav-arrow-btn {
+    width: 44px;
+    height: 44px;
+  }
+
+  .controls button.nav-arrow-btn mat-icon {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
   }
 }
 

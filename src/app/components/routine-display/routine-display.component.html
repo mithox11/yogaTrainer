@@ -38,32 +38,45 @@
       <h2 class="pose-name">{{currentPose?.nameSpanish}} 
         <span style="font-size: 0.55em; color: var(--color-yoga-copper); font-style: italic; font-weight: normal; display: block; margin-top: 4px;">({{currentPose?.nameSanskrit}})</span>
       </h2>
-      <div class="timer-display">{{timeLeft}}s</div>
-      <div class="duration-hint" style="text-align: center; color: var(--color-yoga-green); font-weight: 500; margin-bottom: 6px;">
-        Target: {{currentPose?.durationString}}
-      </div>
+      <!-- Savasana: Timer is kept -->
+      <ng-container *ngIf="isSavasana">
+        <div class="timer-display">{{formattedTimeLeft}}</div>
+        <div class="duration-hint" style="text-align: center; color: var(--color-yoga-green); font-weight: 500; margin-bottom: 6px;">
+          Relajación Final: {{currentPose?.durationString || 'Savasana'}}
+        </div>
+        <mat-slider class="time-slider" [max]="currentPose?.durationSeconds || 300" [min]="0" step="1" discrete>
+          <input matSliderThumb [value]="(currentPose?.durationSeconds || 300) - timeLeft" (valueChange)="onSliderChange($event)">
+        </mat-slider>
+      </ng-container>
+
+      <!-- Regular Poses: Timer removed, Respiraciones count displayed -->
+      <ng-container *ngIf="!isSavasana">
+        <div class="respiraciones-container">
+          <div class="respiraciones-badge">
+            <mat-icon class="respiraciones-icon">air</mat-icon>
+            <span class="respiraciones-text">{{respiracionesText}}</span>
+          </div>
+        </div>
+      </ng-container>
       
       <div class="side-instruction-banner" *ngIf="currentPose?.sideInstruction">
         <mat-icon class="side-icon">sync_alt</mat-icon>
         <span>{{currentPose?.sideInstruction}}</span>
       </div>
-      
-      <mat-slider class="time-slider" [max]="currentPose?.durationSeconds || 60" [min]="0" step="1" discrete>
-        <input matSliderThumb [value]="(currentPose?.durationSeconds || 60) - timeLeft" (valueChange)="onSliderChange($event)">
-      </mat-slider>
 
       <div class="controls-wrapper">
-        <div class="controls">
-          <button mat-icon-button (click)="previousPose()" [disabled]="currentIndex === 0" title="Anterior">
-            <mat-icon>skip_previous</mat-icon>
+        <div class="controls" [class.controls-with-play]="isSavasana">
+          <button mat-icon-button class="nav-arrow-btn" (click)="previousPose()" [disabled]="currentIndex === 0" title="Anterior">
+            <mat-icon>arrow_back</mat-icon>
           </button>
           
-          <button mat-fab (click)="isPlaying ? pauseRoutine() : startRoutine()" class="play-btn" [title]="isPlaying ? 'Pausar' : 'Iniciar'">
+          <!-- Play / Pause button only when timer is active in Savasana -->
+          <button mat-fab *ngIf="isSavasana" (click)="isPlaying ? pauseRoutine() : startRoutine()" class="play-btn" [title]="isPlaying ? 'Pausar' : 'Iniciar'">
             <mat-icon>{{isPlaying ? 'pause' : 'play_arrow'}}</mat-icon>
           </button>
           
-          <button mat-icon-button (click)="nextPose()" title="Siguiente">
-            <mat-icon>skip_next</mat-icon>
+          <button mat-icon-button class="nav-arrow-btn" (click)="nextPose()" title="Siguiente">
+            <mat-icon>arrow_forward</mat-icon>
           </button>
         </div>
       </div>

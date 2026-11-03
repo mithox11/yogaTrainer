@@ -581,12 +581,12 @@
       "targetArea": "Psoas, cuádriceps, tórax",
       "benefits": "Extensión frontal y alineación de la pelvis.",
       "imageFileName": "anjaneyasana_crescent_lunge.png",
-      "yogaType": "Hatha / Vinyasa (Lunge Bajo)",
+      "yogaType": "Hatha / Vinyasa / Yin (Lunge Bajo / Dragon)",
       "recommendedDuration": "5-8 respiraciones por lado (30-45 s)",
       "holdTimeByStyle": {
         "hatha": "45 - 60 segundos por lado",
         "vinyasa": "5 respiraciones por lado",
-        "yin": "2 - 4 minutos (Lunge pasivo)"
+        "yin": "3 - 4 minutos por lado (Low Dragon pasivo)"
       },
       "stepByStepInstructions": [
         "1. Posición base: Desde Perro Boca Abajo, adelanta un pie entre las manos asegurando que la rodilla quede directamente alineada sobre el tobillo.",
@@ -958,12 +958,12 @@
       "targetArea": "Caja torácica, garganta",
       "benefits": "Expande la capacidad pulmonar y estimula la glándula tiroides.",
       "imageFileName": "matsyasana_fish_pose.png",
-      "yogaType": "Hatha Yoga (Contrapostura / Apertura)",
+      "yogaType": "Hatha / Yin (Contrapostura / Pez con Soporte)",
       "recommendedDuration": "5-8 respiraciones (30-60 s)",
       "holdTimeByStyle": {
         "hatha": "45 - 60 segundos",
         "vinyasa": "5 respiraciones",
-        "yin": "3 - 5 minutos (Sustentado con bloque)"
+        "yin": "3 - 5 minutos (Pez con soporte sobre bloques/bolster)"
       },
       "stepByStepInstructions": [
         "1. Posición base: Tiéndete boca arriba con las piernas estiradas y juntas; desliza las manos debajo de los glúteos con las palmas hacia abajo y los codos cerca del cuerpo.",
@@ -4644,28 +4644,37 @@
             {
               "poseId": "virabhadrasana_i",
               "duration": "5 respiraciones por lado",
-              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
               "sides": {
-                "left": "Lado Izquierdo",
-                "right": "Lado Derecho"
+                "left": "Da un paso largo adelante con el pie izquierdo flexionando la rodilla a 90° sobre el tobillo; apoya el talón derecho atrás a 45° con la pierna estirada y eleva los brazos al cielo.",
+                "right": "Da un paso largo adelante con el pie derecho flexionando la rodilla a 90° sobre el tobillo; enraíza el talón izquierdo atrás a 45° manteniendo la pelvis perpendicular al frente y brazos elevados."
               }
             },
             {
               "poseId": "virabhadrasana_ii",
               "duration": "5 respiraciones por lado",
-              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
               "sides": {
-                "left": "Lado Izquierdo",
-                "right": "Lado Derecho"
+                "left": "Gira el pie izquierdo 90° al frente y el pie derecho perpendicular; flexiona la rodilla izquierda a 90° sobre el tobillo y mira sobre los dedos de la mano izquierda.",
+                "right": "Gira el pie derecho 90° al frente y el pie izquierdo perpendicular; flexiona la rodilla derecha a 90° sobre el tobillo, manteniendo el tronco vertical y mirando sobre la mano derecha."
               }
             },
             {
               "poseId": "ardha_chandrasana",
               "duration": "5 respiraciones por lado",
-              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
               "sides": {
-                "left": "Lado Izquierdo",
-                "right": "Lado Derecho"
+                "left": "Enraíza el pie y la mano izquierda; despega la pierna derecha elevándola paralela al suelo con el pie en flex activo, y abre la cadera y el pecho al costado elevando el brazo derecho.",
+                "right": "Enraíza el pie y la mano derecha; despega la pierna izquierda elevándola paralela al suelo con el pie en flex activo, y abre la cadera y el pecho al costado elevando el brazo izquierdo."
+              }
+            },
+            {
+              "poseId": "parivrtta_parsvakonasana",
+              "duration": "5 respiraciones por lado",
+              "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
+              "sides": {
+                "left": "Da un paso adelante con el pie izquierdo flexionando la rodilla a 90°; junta las palmas al pecho en Anjali Mudra, exhala rotando el torso hacia la izquierda y engancha el codo derecho por fuera del muslo izquierdo.",
+                "right": "Da un paso adelante con el pie derecho flexionando la rodilla a 90°; junta las palmas al pecho en Anjali Mudra, exhala rotando el torso hacia la derecha y engancha el codo izquierdo por fuera del muslo derecho."
               }
             }
           ]
@@ -4697,28 +4706,37 @@
         {
           "poseId": "virabhadrasana_i",
           "duration": "5 respiraciones por lado",
-          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
           "sides": {
-            "left": "Lado Izquierdo",
-            "right": "Lado Derecho"
+            "left": "Da un paso largo adelante con el pie izquierdo flexionando la rodilla a 90° sobre el tobillo; apoya el talón derecho atrás a 45° con la pierna estirada y eleva los brazos al cielo.",
+            "right": "Da un paso largo adelante con el pie derecho flexionando la rodilla a 90° sobre el tobillo; enraíza el talón izquierdo atrás a 45° manteniendo la pelvis perpendicular al frente y brazos elevados."
           }
         },
         {
           "poseId": "virabhadrasana_ii",
           "duration": "5 respiraciones por lado",
-          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
           "sides": {
-            "left": "Lado Izquierdo",
-            "right": "Lado Derecho"
+            "left": "Gira el pie izquierdo 90° al frente y el pie derecho perpendicular; flexiona la rodilla izquierda a 90° sobre el tobillo y mira sobre los dedos de la mano izquierda.",
+            "right": "Gira el pie derecho 90° al frente y el pie izquierdo perpendicular; flexiona la rodilla derecha a 90° sobre el tobillo, manteniendo el tronco vertical y mirando sobre la mano derecha."
           }
         },
         {
           "poseId": "ardha_chandrasana",
           "duration": "5 respiraciones por lado",
-          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
           "sides": {
-            "left": "Lado Izquierdo",
-            "right": "Lado Derecho"
+            "left": "Enraíza el pie y la mano izquierda; despega la pierna derecha elevándola paralela al suelo con el pie en flex activo, y abre la cadera y el pecho al costado elevando el brazo derecho.",
+            "right": "Enraíza el pie y la mano derecha; despega la pierna izquierda elevándola paralela al suelo con el pie en flex activo, y abre la cadera y el pecho al costado elevando el brazo izquierdo."
+          }
+        },
+        {
+          "poseId": "parivrtta_parsvakonasana",
+          "duration": "5 respiraciones por lado",
+          "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
+          "sides": {
+            "left": "Da un paso adelante con el pie izquierdo flexionando la rodilla a 90°; junta las palmas al pecho en Anjali Mudra, exhala rotando el torso hacia la izquierda y engancha el codo derecho por fuera del muslo izquierdo.",
+            "right": "Da un paso adelante con el pie derecho flexionando la rodilla a 90°; junta las palmas al pecho en Anjali Mudra, exhala rotando el torso hacia la derecha y engancha el codo izquierdo por fuera del muslo derecho."
           }
         },
         {
@@ -4775,12 +4793,16 @@
           "description": "Secuencia encadenada de asanas en movimiento constante y transiciones en Vinyasa.",
           "poses": [
             {
+              "poseId": "utkatasana",
+              "duration": "5 respiraciones"
+            },
+            {
               "poseId": "vasisthasana",
               "duration": "5 respiraciones por lado",
-              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
               "sides": {
-                "left": "Lado Izquierdo",
-                "right": "Lado Derecho"
+                "left": "Gira el cuerpo hacia la izquierda sobre el borde externo del pie derecho (apilando el pie izquierdo encima); eleva el brazo izquierdo hacia el techo alineando ambos brazos en cruz.",
+                "right": "Gira el cuerpo hacia la derecha sobre el borde externo del pie izquierdo (apilando el pie derecho encima); eleva el brazo derecho hacia el techo alineando ambos brazos en cruz."
               }
             },
             {
@@ -4790,10 +4812,10 @@
             {
               "poseId": "camatkarasana",
               "duration": "5 respiraciones por lado",
-              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
               "sides": {
-                "left": "Lado Izquierdo",
-                "right": "Lado Derecho"
+                "left": "Desde plancha lateral sobre mano izquierda, flexiona la pierna derecha y apoya los metatarsos del pie derecho por detrás de la rodilla izquierda; empuja la pelvis al cielo abriendo el pecho y extiende el brazo derecho atrás.",
+                "right": "Desde plancha lateral sobre mano derecha, flexiona la pierna izquierda y apoya los metatarsos del pie izquierdo por detrás de la rodilla derecha; empuja la pelvis al cielo abriendo el pecho y extiende el brazo izquierdo atrás."
               }
             }
           ]
@@ -4823,12 +4845,16 @@
           "duration": "3 rondas de transición"
         },
         {
+          "poseId": "utkatasana",
+          "duration": "5 respiraciones"
+        },
+        {
           "poseId": "vasisthasana",
           "duration": "5 respiraciones por lado",
-          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
           "sides": {
-            "left": "Lado Izquierdo",
-            "right": "Lado Derecho"
+            "left": "Gira el cuerpo hacia la izquierda sobre el borde externo del pie derecho (apilando el pie izquierdo encima); eleva el brazo izquierdo hacia el techo alineando ambos brazos en cruz.",
+            "right": "Gira el cuerpo hacia la derecha sobre el borde externo del pie izquierdo (apilando el pie derecho encima); eleva el brazo derecho hacia el techo alineando ambos brazos en cruz."
           }
         },
         {
@@ -4838,10 +4864,10 @@
         {
           "poseId": "camatkarasana",
           "duration": "5 respiraciones por lado",
-          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
           "sides": {
-            "left": "Lado Izquierdo",
-            "right": "Lado Derecho"
+            "left": "Desde plancha lateral sobre mano izquierda, flexiona la pierna derecha y apoya los metatarsos del pie derecho por detrás de la rodilla izquierda; empuja la pelvis al cielo abriendo el pecho y extiende el brazo derecho atrás.",
+            "right": "Desde plancha lateral sobre mano derecha, flexiona la pierna izquierda y apoya los metatarsos del pie izquierdo por detrás de la rodilla derecha; empuja la pelvis al cielo abriendo el pecho y extiende el brazo izquierdo atrás."
           }
         },
         {
@@ -5035,10 +5061,28 @@
             {
               "poseId": "virabhadrasana_i",
               "duration": "5 respiraciones por lado",
-              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
               "sides": {
-                "left": "Lado Izquierdo",
-                "right": "Lado Derecho"
+                "left": "Da un paso largo adelante con el pie izquierdo flexionando la rodilla a 90° sobre el tobillo; apoya el talón derecho atrás a 45° con la pierna estirada y eleva los brazos al cielo.",
+                "right": "Da un paso largo adelante con el pie derecho flexionando la rodilla a 90° sobre el tobillo; enraíza el talón izquierdo atrás a 45° manteniendo la pelvis perpendicular al frente y brazos elevados."
+              }
+            },
+            {
+              "poseId": "virabhadrasana_ii",
+              "duration": "5 respiraciones por lado",
+              "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
+              "sides": {
+                "left": "Gira el pie izquierdo 90° al frente y el pie derecho perpendicular; flexiona la rodilla izquierda a 90° sobre el tobillo y mira sobre los dedos de la mano izquierda.",
+                "right": "Gira el pie derecho 90° al frente y el pie izquierdo perpendicular; flexiona la rodilla derecha a 90° sobre el tobillo, manteniendo el tronco vertical y mirando sobre la mano derecha."
+              }
+            },
+            {
+              "poseId": "utthita_trikonasana",
+              "duration": "5 respiraciones por lado",
+              "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
+              "sides": {
+                "left": "Gira el pie izquierdo 90° al frente y el pie derecho a 45°; alarga el torso hacia la izquierda y desciende la mano izquierda a la espinilla o bloque, extendiendo el brazo derecho vertical al cielo.",
+                "right": "Gira el pie derecho 90° al frente y el pie izquierdo a 45°; alarga el torso hacia la derecha y desciende la mano derecha a la espinilla o bloque, extendiendo el brazo izquierdo vertical al cielo."
               }
             }
           ]
@@ -5074,10 +5118,28 @@
         {
           "poseId": "virabhadrasana_i",
           "duration": "5 respiraciones por lado",
-          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
           "sides": {
-            "left": "Lado Izquierdo",
-            "right": "Lado Derecho"
+            "left": "Da un paso largo adelante con el pie izquierdo flexionando la rodilla a 90° sobre el tobillo; apoya el talón derecho atrás a 45° con la pierna estirada y eleva los brazos al cielo.",
+            "right": "Da un paso largo adelante con el pie derecho flexionando la rodilla a 90° sobre el tobillo; enraíza el talón izquierdo atrás a 45° manteniendo la pelvis perpendicular al frente y brazos elevados."
+          }
+        },
+        {
+          "poseId": "virabhadrasana_ii",
+          "duration": "5 respiraciones por lado",
+          "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
+          "sides": {
+            "left": "Gira el pie izquierdo 90° al frente y el pie derecho perpendicular; flexiona la rodilla izquierda a 90° sobre el tobillo y mira sobre los dedos de la mano izquierda.",
+            "right": "Gira el pie derecho 90° al frente y el pie izquierdo perpendicular; flexiona la rodilla derecha a 90° sobre el tobillo, manteniendo el tronco vertical y mirando sobre la mano derecha."
+          }
+        },
+        {
+          "poseId": "utthita_trikonasana",
+          "duration": "5 respiraciones por lado",
+          "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
+          "sides": {
+            "left": "Gira el pie izquierdo 90° al frente y el pie derecho a 45°; alarga el torso hacia la izquierda y desciende la mano izquierda a la espinilla o bloque, extendiendo el brazo derecho vertical al cielo.",
+            "right": "Gira el pie derecho 90° al frente y el pie izquierdo a 45°; alarga el torso hacia la derecha y desciende la mano derecha a la espinilla o bloque, extendiendo el brazo izquierdo vertical al cielo."
           }
         },
         {
@@ -5106,7 +5168,7 @@
       },
       "phases": [
         {
-          "phaseName": "Fase 1: Pranayama y Centramiento (Ujjayi)",
+          "phaseName": "Fase 1: Pranayama y Centramiento (Kapalabhati)",
           "description": "Establecimiento de la respiración sonora Ujjayi y anclaje mental.",
           "poses": [
             {
@@ -5120,8 +5182,16 @@
           "description": "Surya Namaskar A y B fluidos coordinando una respiración por movimiento.",
           "poses": [
             {
+              "poseId": "adho_mukha_svanasana",
+              "duration": "5 respiraciones (Perro Boca Abajo)"
+            },
+            {
               "poseId": "chaturanga_dandasana",
-              "duration": "5 transiciones lentas"
+              "duration": "3 vueltas Saludos al Sol A y B"
+            },
+            {
+              "poseId": "bhujangasana",
+              "duration": "5 respiraciones (Apertura en Vinyasa)"
             }
           ]
         },
@@ -5130,12 +5200,16 @@
           "description": "Secuencia encadenada de asanas en movimiento constante y transiciones en Vinyasa.",
           "poses": [
             {
+              "poseId": "utkatasana",
+              "duration": "5 respiraciones"
+            },
+            {
               "poseId": "vasisthasana",
               "duration": "5 respiraciones por lado",
-              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
               "sides": {
-                "left": "Lado Izquierdo",
-                "right": "Lado Derecho"
+                "left": "Gira el cuerpo hacia la izquierda sobre el borde externo del pie derecho (apilando el pie izquierdo encima); eleva el brazo izquierdo hacia el techo alineando ambos brazos en cruz.",
+                "right": "Gira el cuerpo hacia la derecha sobre el borde externo del pie izquierdo (apilando el pie derecho encima); eleva el brazo derecho hacia el techo alineando ambos brazos en cruz."
               }
             },
             {
@@ -5165,16 +5239,28 @@
           "duration": "5 min (Kapalabhati)"
         },
         {
+          "poseId": "adho_mukha_svanasana",
+          "duration": "5 respiraciones (Perro Boca Abajo)"
+        },
+        {
           "poseId": "chaturanga_dandasana",
-          "duration": "5 transiciones lentas"
+          "duration": "3 vueltas Saludos al Sol A y B"
+        },
+        {
+          "poseId": "bhujangasana",
+          "duration": "5 respiraciones (Apertura en Vinyasa)"
+        },
+        {
+          "poseId": "utkatasana",
+          "duration": "5 respiraciones"
         },
         {
           "poseId": "vasisthasana",
           "duration": "5 respiraciones por lado",
-          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
           "sides": {
-            "left": "Lado Izquierdo",
-            "right": "Lado Derecho"
+            "left": "Gira el cuerpo hacia la izquierda sobre el borde externo del pie derecho (apilando el pie izquierdo encima); eleva el brazo izquierdo hacia el techo alineando ambos brazos en cruz.",
+            "right": "Gira el cuerpo hacia la derecha sobre el borde externo del pie izquierdo (apilando el pie derecho encima); eleva el brazo derecho hacia el techo alineando ambos brazos en cruz."
           }
         },
         {
@@ -5226,7 +5312,15 @@
           "poses": [
             {
               "poseId": "adho_mukha_svanasana",
-              "duration": "5 respiraciones"
+              "duration": "5 respiraciones (Perro Boca Abajo)"
+            },
+            {
+              "poseId": "chaturanga_dandasana",
+              "duration": "3 vueltas Saludos al Sol A y B"
+            },
+            {
+              "poseId": "bhujangasana",
+              "duration": "5 respiraciones (Apertura en Vinyasa)"
             }
           ]
         },
@@ -5285,7 +5379,15 @@
         },
         {
           "poseId": "adho_mukha_svanasana",
-          "duration": "5 respiraciones"
+          "duration": "5 respiraciones (Perro Boca Abajo)"
+        },
+        {
+          "poseId": "chaturanga_dandasana",
+          "duration": "3 vueltas Saludos al Sol A y B"
+        },
+        {
+          "poseId": "bhujangasana",
+          "duration": "5 respiraciones (Apertura en Vinyasa)"
         },
         {
           "poseId": "utthan_pristhasana",
@@ -5344,7 +5446,7 @@
       },
       "phases": [
         {
-          "phaseName": "Fase 1: Pranayama y Centramiento (Ujjayi)",
+          "phaseName": "Fase 1: Pranayama y Centramiento (Samavritti)",
           "description": "Establecimiento de la respiración sonora Ujjayi y anclaje mental.",
           "poses": [
             {
@@ -5358,8 +5460,16 @@
           "description": "Surya Namaskar A y B fluidos coordinando una respiración por movimiento.",
           "poses": [
             {
+              "poseId": "adho_mukha_svanasana",
+              "duration": "5 respiraciones (Perro Boca Abajo)"
+            },
+            {
+              "poseId": "chaturanga_dandasana",
+              "duration": "3 vueltas Saludos al Sol A y B"
+            },
+            {
               "poseId": "bhujangasana",
-              "duration": "3 transiciones de Vinyasa"
+              "duration": "5 respiraciones (Apertura en Vinyasa)"
             }
           ]
         },
@@ -5407,8 +5517,16 @@
           "duration": "5 min"
         },
         {
+          "poseId": "adho_mukha_svanasana",
+          "duration": "5 respiraciones (Perro Boca Abajo)"
+        },
+        {
+          "poseId": "chaturanga_dandasana",
+          "duration": "3 vueltas Saludos al Sol A y B"
+        },
+        {
           "poseId": "bhujangasana",
-          "duration": "3 transiciones de Vinyasa"
+          "duration": "5 respiraciones (Apertura en Vinyasa)"
         },
         {
           "poseId": "camatkarasana",
@@ -5457,7 +5575,7 @@
       },
       "phases": [
         {
-          "phaseName": "Fase 1: Pranayama y Centramiento (Ujjayi)",
+          "phaseName": "Fase 1: Pranayama y Centramiento (Nadi Shodhana)",
           "description": "Establecimiento de la respiración sonora Ujjayi y anclaje mental.",
           "poses": [
             {
@@ -5472,7 +5590,15 @@
           "poses": [
             {
               "poseId": "adho_mukha_svanasana",
-              "duration": "5 respiraciones"
+              "duration": "5 respiraciones (Perro Boca Abajo)"
+            },
+            {
+              "poseId": "chaturanga_dandasana",
+              "duration": "3 vueltas Saludos al Sol A y B"
+            },
+            {
+              "poseId": "bhujangasana",
+              "duration": "5 respiraciones (Apertura en Vinyasa)"
             }
           ]
         },
@@ -5536,7 +5662,15 @@
         },
         {
           "poseId": "adho_mukha_svanasana",
-          "duration": "5 respiraciones"
+          "duration": "5 respiraciones (Perro Boca Abajo)"
+        },
+        {
+          "poseId": "chaturanga_dandasana",
+          "duration": "3 vueltas Saludos al Sol A y B"
+        },
+        {
+          "poseId": "bhujangasana",
+          "duration": "5 respiraciones (Apertura en Vinyasa)"
         },
         {
           "poseId": "vrksasana",
@@ -5614,8 +5748,16 @@
           "description": "Surya Namaskar A y B fluidos coordinando una respiración por movimiento.",
           "poses": [
             {
+              "poseId": "adho_mukha_svanasana",
+              "duration": "5 respiraciones (Perro Boca Abajo)"
+            },
+            {
               "poseId": "chaturanga_dandasana",
-              "duration": "3 vueltas Saludo al Sol"
+              "duration": "3 vueltas Saludos al Sol A y B"
+            },
+            {
+              "poseId": "bhujangasana",
+              "duration": "5 respiraciones (Apertura en Vinyasa)"
             }
           ]
         },
@@ -5678,8 +5820,16 @@
           "duration": "5 min"
         },
         {
+          "poseId": "adho_mukha_svanasana",
+          "duration": "5 respiraciones (Perro Boca Abajo)"
+        },
+        {
           "poseId": "chaturanga_dandasana",
-          "duration": "3 vueltas Saludo al Sol"
+          "duration": "3 vueltas Saludos al Sol A y B"
+        },
+        {
+          "poseId": "bhujangasana",
+          "duration": "5 respiraciones (Apertura en Vinyasa)"
         },
         {
           "poseId": "parivrtta_trikonasana",
@@ -5757,8 +5907,16 @@
           "description": "Surya Namaskar A y B fluidos coordinando una respiración por movimiento.",
           "poses": [
             {
+              "poseId": "adho_mukha_svanasana",
+              "duration": "5 respiraciones (Perro Boca Abajo)"
+            },
+            {
               "poseId": "chaturanga_dandasana",
-              "duration": "3 transiciones de Vinyasa"
+              "duration": "3 vueltas Saludos al Sol A y B"
+            },
+            {
+              "poseId": "bhujangasana",
+              "duration": "5 respiraciones (Apertura en Vinyasa)"
             }
           ]
         },
@@ -5766,6 +5924,10 @@
           "phaseName": "Fase 3: Rutina Formal - Flujo Dinámico Vinyasa",
           "description": "Secuencia encadenada de asanas en movimiento constante y transiciones en Vinyasa.",
           "poses": [
+            {
+              "poseId": "prasarita_padottanasana",
+              "duration": "5 respiraciones"
+            },
             {
               "poseId": "pincha_mayurasana",
               "duration": "5-8 respiraciones"
@@ -5776,7 +5938,7 @@
             },
             {
               "poseId": "balasana",
-              "duration": "3 minutos"
+              "duration": "3 minutos (Descanso y regulación)"
             }
           ]
         },
@@ -5797,8 +5959,20 @@
           "duration": "5 min"
         },
         {
+          "poseId": "adho_mukha_svanasana",
+          "duration": "5 respiraciones (Perro Boca Abajo)"
+        },
+        {
           "poseId": "chaturanga_dandasana",
-          "duration": "3 transiciones de Vinyasa"
+          "duration": "3 vueltas Saludos al Sol A y B"
+        },
+        {
+          "poseId": "bhujangasana",
+          "duration": "5 respiraciones (Apertura en Vinyasa)"
+        },
+        {
+          "poseId": "prasarita_padottanasana",
+          "duration": "5 respiraciones"
         },
         {
           "poseId": "pincha_mayurasana",
@@ -5810,7 +5984,7 @@
         },
         {
           "poseId": "balasana",
-          "duration": "3 minutos"
+          "duration": "3 minutos (Descanso y regulación)"
         },
         {
           "poseId": "savasana",
@@ -5852,8 +6026,16 @@
           "description": "Surya Namaskar A y B fluidos coordinando una respiración por movimiento.",
           "poses": [
             {
+              "poseId": "adho_mukha_svanasana",
+              "duration": "5 respiraciones (Perro Boca Abajo)"
+            },
+            {
               "poseId": "chaturanga_dandasana",
-              "duration": "3 vueltas de Vinyasa"
+              "duration": "3 vueltas Saludos al Sol A y B"
+            },
+            {
+              "poseId": "bhujangasana",
+              "duration": "5 respiraciones (Apertura en Vinyasa)"
             }
           ]
         },
@@ -5916,8 +6098,16 @@
           "duration": "5 min"
         },
         {
+          "poseId": "adho_mukha_svanasana",
+          "duration": "5 respiraciones (Perro Boca Abajo)"
+        },
+        {
           "poseId": "chaturanga_dandasana",
-          "duration": "3 vueltas de Vinyasa"
+          "duration": "3 vueltas Saludos al Sol A y B"
+        },
+        {
+          "poseId": "bhujangasana",
+          "duration": "5 respiraciones (Apertura en Vinyasa)"
         },
         {
           "poseId": "virabhadrasana_i",
@@ -5996,7 +6186,15 @@
           "poses": [
             {
               "poseId": "adho_mukha_svanasana",
-              "duration": "5 respiraciones"
+              "duration": "5 respiraciones (Perro Boca Abajo)"
+            },
+            {
+              "poseId": "chaturanga_dandasana",
+              "duration": "3 vueltas Saludos al Sol A y B"
+            },
+            {
+              "poseId": "bhujangasana",
+              "duration": "5 respiraciones (Apertura en Vinyasa)"
             }
           ]
         },
@@ -6005,12 +6203,21 @@
           "description": "Secuencia encadenada de asanas en movimiento constante y transiciones en Vinyasa.",
           "poses": [
             {
+              "poseId": "anjaneyasana",
+              "duration": "5 respiraciones por lado",
+              "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
+              "sides": {
+                "left": "Apoya la rodilla derecha y el empeine en el suelo atrás; con el pie izquierdo adelante a 90°, inhala elevando el torso y los brazos al cielo mientras la pelvis desciende hacia la tierra.",
+                "right": "Apoya la rodilla izquierda y el empeine en el suelo atrás; con el pie derecho adelante a 90°, inhala elevando el torso y los brazos al cielo mientras la pelvis desciende hacia la tierra."
+              }
+            },
+            {
               "poseId": "parsvottanasana",
               "duration": "5 respiraciones por lado",
-              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
               "sides": {
-                "left": "Lado Izquierdo",
-                "right": "Lado Derecho"
+                "left": "Con pie izquierdo al frente y pie derecho atrás a 45°, junta las palmas en la espalda en saludo invertido (Paschima Namaskarasana); inhala alargando el torso y exhala plegándote sobre la pierna izquierda.",
+                "right": "Con pie derecho al frente y pie izquierdo atrás a 45°, junta las palmas en la espalda en saludo invertido (Paschima Namaskarasana); inhala alargando el torso y exhala plegándote sobre la pierna derecha."
               }
             },
             {
@@ -6020,10 +6227,10 @@
             {
               "poseId": "hanumanasana",
               "duration": "5 respiraciones por lado",
-              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
               "sides": {
-                "left": "Lado Izquierdo",
-                "right": "Lado Derecho"
+                "left": "Desliza el talón izquierdo hacia adelante con el pie en flex y alarga la pierna derecha recta hacia atrás apoyando el empeine, descendiendo la pelvis hacia el suelo con caderas cuadradas.",
+                "right": "Desliza el talón derecho hacia adelante con el pie en flex y alarga la pierna izquierda recta hacia atrás apoyando el empeine, descendiendo la pelvis hacia el suelo con caderas cuadradas."
               }
             }
           ]
@@ -6046,15 +6253,32 @@
         },
         {
           "poseId": "adho_mukha_svanasana",
-          "duration": "5 respiraciones"
+          "duration": "5 respiraciones (Perro Boca Abajo)"
+        },
+        {
+          "poseId": "chaturanga_dandasana",
+          "duration": "3 vueltas Saludos al Sol A y B"
+        },
+        {
+          "poseId": "bhujangasana",
+          "duration": "5 respiraciones (Apertura en Vinyasa)"
+        },
+        {
+          "poseId": "anjaneyasana",
+          "duration": "5 respiraciones por lado",
+          "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
+          "sides": {
+            "left": "Apoya la rodilla derecha y el empeine en el suelo atrás; con el pie izquierdo adelante a 90°, inhala elevando el torso y los brazos al cielo mientras la pelvis desciende hacia la tierra.",
+            "right": "Apoya la rodilla izquierda y el empeine en el suelo atrás; con el pie derecho adelante a 90°, inhala elevando el torso y los brazos al cielo mientras la pelvis desciende hacia la tierra."
+          }
         },
         {
           "poseId": "parsvottanasana",
           "duration": "5 respiraciones por lado",
-          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
           "sides": {
-            "left": "Lado Izquierdo",
-            "right": "Lado Derecho"
+            "left": "Con pie izquierdo al frente y pie derecho atrás a 45°, junta las palmas en la espalda en saludo invertido (Paschima Namaskarasana); inhala alargando el torso y exhala plegándote sobre la pierna izquierda.",
+            "right": "Con pie derecho al frente y pie izquierdo atrás a 45°, junta las palmas en la espalda en saludo invertido (Paschima Namaskarasana); inhala alargando el torso y exhala plegándote sobre la pierna derecha."
           }
         },
         {
@@ -6064,10 +6288,10 @@
         {
           "poseId": "hanumanasana",
           "duration": "5 respiraciones por lado",
-          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
           "sides": {
-            "left": "Lado Izquierdo",
-            "right": "Lado Derecho"
+            "left": "Desliza el talón izquierdo hacia adelante con el pie en flex y alarga la pierna derecha recta hacia atrás apoyando el empeine, descendiendo la pelvis hacia el suelo con caderas cuadradas.",
+            "right": "Desliza el talón derecho hacia adelante con el pie en flex y alarga la pierna izquierda recta hacia atrás apoyando el empeine, descendiendo la pelvis hacia el suelo con caderas cuadradas."
           }
         },
         {
@@ -6096,7 +6320,7 @@
       },
       "phases": [
         {
-          "phaseName": "Fase 1: Pranayama y Centramiento (Ujjayi)",
+          "phaseName": "Fase 1: Pranayama y Centramiento (Respiración Completa)",
           "description": "Establecimiento de la respiración sonora Ujjayi y anclaje mental.",
           "poses": [
             {
@@ -6111,7 +6335,11 @@
           "poses": [
             {
               "poseId": "marjaryasana_bitilasana",
-              "duration": "10 respiraciones"
+              "duration": "10 respiraciones fluidas"
+            },
+            {
+              "poseId": "adho_mukha_svanasana",
+              "duration": "5 respiraciones lentas"
             }
           ]
         },
@@ -6122,15 +6350,24 @@
             {
               "poseId": "anjaneyasana",
               "duration": "5 respiraciones pasivas por lado",
-              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones pasivas por lado)",
               "sides": {
-                "left": "Lado Izquierdo",
-                "right": "Lado Derecho"
+                "left": "Apoya la rodilla derecha y el empeine en el suelo atrás; con el pie izquierdo adelante a 90°, inhala elevando el torso y los brazos al cielo mientras la pelvis desciende hacia la tierra.",
+                "right": "Apoya la rodilla izquierda y el empeine en el suelo atrás; con el pie derecho adelante a 90°, inhala elevando el torso y los brazos al cielo mientras la pelvis desciende hacia la tierra."
               }
             },
             {
               "poseId": "baddha_konasana",
               "duration": "5 respiraciones fluidas"
+            },
+            {
+              "poseId": "supta_matsyendrasana",
+              "duration": "5 respiraciones por lado",
+              "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
+              "sides": {
+                "left": "Abraza la rodilla izquierda al pecho; exhala cruzando la rodilla izquierda hacia el suelo sobre el lado derecho del cuerpo, mientras giras la cabeza suavemente hacia la izquierda manteniendo el omóplato izquierdo pegado al mat.",
+                "right": "Abraza la rodilla derecha al pecho; exhala cruzando la rodilla derecha hacia el suelo sobre el lado izquierdo del cuerpo, mientras giras la cabeza suavemente hacia la derecha manteniendo el omóplato derecho pegado al mat."
+              }
             },
             {
               "poseId": "viparita_karani",
@@ -6156,20 +6393,33 @@
         },
         {
           "poseId": "marjaryasana_bitilasana",
-          "duration": "10 respiraciones"
+          "duration": "10 respiraciones fluidas"
+        },
+        {
+          "poseId": "adho_mukha_svanasana",
+          "duration": "5 respiraciones lentas"
         },
         {
           "poseId": "anjaneyasana",
           "duration": "5 respiraciones pasivas por lado",
-          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones pasivas por lado)",
           "sides": {
-            "left": "Lado Izquierdo",
-            "right": "Lado Derecho"
+            "left": "Apoya la rodilla derecha y el empeine en el suelo atrás; con el pie izquierdo adelante a 90°, inhala elevando el torso y los brazos al cielo mientras la pelvis desciende hacia la tierra.",
+            "right": "Apoya la rodilla izquierda y el empeine en el suelo atrás; con el pie derecho adelante a 90°, inhala elevando el torso y los brazos al cielo mientras la pelvis desciende hacia la tierra."
           }
         },
         {
           "poseId": "baddha_konasana",
           "duration": "5 respiraciones fluidas"
+        },
+        {
+          "poseId": "supta_matsyendrasana",
+          "duration": "5 respiraciones por lado",
+          "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 respiraciones por lado)",
+          "sides": {
+            "left": "Abraza la rodilla izquierda al pecho; exhala cruzando la rodilla izquierda hacia el suelo sobre el lado derecho del cuerpo, mientras giras la cabeza suavemente hacia la izquierda manteniendo el omóplato izquierdo pegado al mat.",
+            "right": "Abraza la rodilla derecha al pecho; exhala cruzando la rodilla derecha hacia el suelo sobre el lado izquierdo del cuerpo, mientras giras la cabeza suavemente hacia la derecha manteniendo el omóplato derecho pegado al mat."
+          }
         },
         {
           "poseId": "viparita_karani",
@@ -6755,7 +7005,7 @@
       },
       "phases": [
         {
-          "phaseName": "Fase 1: Pranayama y Centramiento (Ujjayi)",
+          "phaseName": "Fase 1: Pranayama y Centramiento (Nadi Shodhana)",
           "description": "Establecimiento de la respiración sonora Ujjayi y anclaje mental.",
           "poses": [
             {
@@ -6866,7 +7116,7 @@
       },
       "phases": [
         {
-          "phaseName": "Fase 1: Pranayama y Centramiento (Ujjayi)",
+          "phaseName": "Fase 1: Pranayama y Centramiento (Samavritti)",
           "description": "Establecimiento de la respiración sonora Ujjayi y anclaje mental.",
           "poses": [
             {
@@ -6989,7 +7239,7 @@
       },
       "phases": [
         {
-          "phaseName": "Fase 1: Centramiento Meditativo y Respiración Consciente",
+          "phaseName": "Fase 1: Pranayama, Centramiento Meditativo y Respiración Consciente",
           "description": "Aterrizaje en el cuerpo y activación parasimpática sin esfuerzo muscular.",
           "poses": [
             {
@@ -7104,7 +7354,7 @@
       },
       "phases": [
         {
-          "phaseName": "Fase 1: Centramiento Meditativo y Respiración Consciente",
+          "phaseName": "Fase 1: Pranayama, Centramiento Meditativo y Respiración Consciente",
           "description": "Aterrizaje en el cuerpo y activación parasimpática sin esfuerzo muscular.",
           "poses": [
             {
@@ -7134,10 +7384,19 @@
             {
               "poseId": "bananasana",
               "duration": "5 min por lado estiramiento lateral",
-              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 min por lado estiramiento lateral)",
               "sides": {
-                "left": "Lado Izquierdo",
-                "right": "Lado Derecho"
+                "left": "Mantén la pelvis anclada; desplaza ambos pies hacia la esquina izquierda del mat cruzando el tobillo derecho sobre el izquierdo, y mueve el torso y brazos hacia la izquierda formando una 'C' con el cuerpo.",
+                "right": "Mantén la pelvis anclada; desplaza ambos pies hacia la esquina derecha del mat cruzando el tobillo izquierdo sobre el derecho, y mueve el torso y brazos hacia la derecha formando una 'C' con el cuerpo."
+              }
+            },
+            {
+              "poseId": "supta_matsyendrasana",
+              "duration": "4 min por lado torsión pasiva",
+              "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (4 min por lado torsión pasiva)",
+              "sides": {
+                "left": "Abraza la rodilla izquierda al pecho; exhala cruzando la rodilla izquierda hacia el suelo sobre el lado derecho del cuerpo, mientras giras la cabeza suavemente hacia la izquierda manteniendo el omóplato izquierdo pegado al mat.",
+                "right": "Abraza la rodilla derecha al pecho; exhala cruzando la rodilla derecha hacia el suelo sobre el lado izquierdo del cuerpo, mientras giras la cabeza suavemente hacia la derecha manteniendo el omóplato derecho pegado al mat."
               }
             }
           ]
@@ -7169,10 +7428,19 @@
         {
           "poseId": "bananasana",
           "duration": "5 min por lado estiramiento lateral",
-          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 min por lado estiramiento lateral)",
           "sides": {
-            "left": "Lado Izquierdo",
-            "right": "Lado Derecho"
+            "left": "Mantén la pelvis anclada; desplaza ambos pies hacia la esquina izquierda del mat cruzando el tobillo derecho sobre el izquierdo, y mueve el torso y brazos hacia la izquierda formando una 'C' con el cuerpo.",
+            "right": "Mantén la pelvis anclada; desplaza ambos pies hacia la esquina derecha del mat cruzando el tobillo izquierdo sobre el derecho, y mueve el torso y brazos hacia la derecha formando una 'C' con el cuerpo."
+          }
+        },
+        {
+          "poseId": "supta_matsyendrasana",
+          "duration": "4 min por lado torsión pasiva",
+          "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (4 min por lado torsión pasiva)",
+          "sides": {
+            "left": "Abraza la rodilla izquierda al pecho; exhala cruzando la rodilla izquierda hacia el suelo sobre el lado derecho del cuerpo, mientras giras la cabeza suavemente hacia la izquierda manteniendo el omóplato izquierdo pegado al mat.",
+            "right": "Abraza la rodilla derecha al pecho; exhala cruzando la rodilla derecha hacia el suelo sobre el lado izquierdo del cuerpo, mientras giras la cabeza suavemente hacia la derecha manteniendo el omóplato derecho pegado al mat."
           }
         },
         {
@@ -7201,7 +7469,7 @@
       },
       "phases": [
         {
-          "phaseName": "Fase 1: Centramiento Meditativo y Respiración Consciente",
+          "phaseName": "Fase 1: Pranayama, Centramiento Meditativo y Respiración Consciente",
           "description": "Aterrizaje en el cuerpo y activación parasimpática sin esfuerzo muscular.",
           "poses": [
             {
@@ -7296,7 +7564,7 @@
       },
       "phases": [
         {
-          "phaseName": "Fase 1: Centramiento Meditativo y Respiración Consciente",
+          "phaseName": "Fase 1: Pranayama, Centramiento Meditativo y Respiración Consciente",
           "description": "Aterrizaje en el cuerpo y activación parasimpática sin esfuerzo muscular.",
           "poses": [
             {
@@ -7409,7 +7677,7 @@
       },
       "phases": [
         {
-          "phaseName": "Fase 1: Centramiento Meditativo y Respiración Consciente",
+          "phaseName": "Fase 1: Pranayama, Centramiento Meditativo y Respiración Consciente",
           "description": "Aterrizaje en el cuerpo y activación parasimpática sin esfuerzo muscular.",
           "poses": [
             {
@@ -7532,7 +7800,7 @@
       },
       "phases": [
         {
-          "phaseName": "Fase 1: Centramiento Meditativo y Respiración Consciente",
+          "phaseName": "Fase 1: Pranayama, Centramiento Meditativo y Respiración Consciente",
           "description": "Aterrizaje en el cuerpo y activación parasimpática sin esfuerzo muscular.",
           "poses": [
             {
@@ -7627,7 +7895,7 @@
       },
       "phases": [
         {
-          "phaseName": "Fase 1: Centramiento Meditativo y Respiración Consciente",
+          "phaseName": "Fase 1: Pranayama, Centramiento Meditativo y Respiración Consciente",
           "description": "Aterrizaje en el cuerpo y activación parasimpática sin esfuerzo muscular.",
           "poses": [
             {
@@ -7742,7 +8010,7 @@
       },
       "phases": [
         {
-          "phaseName": "Fase 1: Centramiento Meditativo y Respiración Consciente",
+          "phaseName": "Fase 1: Pranayama, Centramiento Meditativo y Respiración Consciente",
           "description": "Aterrizaje en el cuerpo y activación parasimpática sin esfuerzo muscular.",
           "poses": [
             {
@@ -7768,20 +8036,24 @@
             {
               "poseId": "utthan_pristhasana",
               "duration": "4 min por lado (Dragón)",
-              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (4 min por lado (Dragón))",
               "sides": {
-                "left": "Lado Izquierdo",
-                "right": "Lado Derecho"
+                "left": "Da un paso al frente con el pie izquierdo colocándolo por fuera de la mano izquierda; desciende la pelvis hacia el suelo manteniendo la rodilla derecha extendida o apoyada con empeine.",
+                "right": "Da un paso al frente con el pie derecho colocándolo por fuera de la mano derecha; desciende la pelvis hacia el suelo manteniendo la rodilla izquierda extendida o apoyada con empeine."
               }
             },
             {
               "poseId": "eka_pada_rajakapotasana",
               "duration": "5 min por lado (Cisne Durmiente)",
-              "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+              "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 min por lado (Cisne Durmiente))",
               "sides": {
-                "left": "Lado Izquierdo",
-                "right": "Lado Derecho"
+                "left": "Desliza la rodilla izquierda hacia la muñeca izquierda colocando la espinilla en diagonal; estira la pierna derecha recta hacia atrás apoyando el empeine y desciende la pelvis al suelo.",
+                "right": "Desliza la rodilla derecha hacia la muñeca derecha colocando la espinilla en diagonal; estira la pierna izquierda recta hacia atrás apoyando el empeine y desciende la pelvis al suelo."
               }
+            },
+            {
+              "poseId": "mandukasana",
+              "duration": "4 min (Postura de la Rana)"
             }
           ]
         },
@@ -7808,20 +8080,24 @@
         {
           "poseId": "utthan_pristhasana",
           "duration": "4 min por lado (Dragón)",
-          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (4 min por lado (Dragón))",
           "sides": {
-            "left": "Lado Izquierdo",
-            "right": "Lado Derecho"
+            "left": "Da un paso al frente con el pie izquierdo colocándolo por fuera de la mano izquierda; desciende la pelvis hacia el suelo manteniendo la rodilla derecha extendida o apoyada con empeine.",
+            "right": "Da un paso al frente con el pie derecho colocándolo por fuera de la mano derecha; desciende la pelvis hacia el suelo manteniendo la rodilla izquierda extendida o apoyada con empeine."
           }
         },
         {
           "poseId": "eka_pada_rajakapotasana",
           "duration": "5 min por lado (Cisne Durmiente)",
-          "sideInstruction": "Ejecutar secuencialmente primero del Lado Izquierdo y posteriormente del Lado Derecho.",
+          "sideInstruction": "Realizar ambos lados: Izquierdo y Derecho (5 min por lado (Cisne Durmiente))",
           "sides": {
-            "left": "Lado Izquierdo",
-            "right": "Lado Derecho"
+            "left": "Desliza la rodilla izquierda hacia la muñeca izquierda colocando la espinilla en diagonal; estira la pierna derecha recta hacia atrás apoyando el empeine y desciende la pelvis al suelo.",
+            "right": "Desliza la rodilla derecha hacia la muñeca derecha colocando la espinilla en diagonal; estira la pierna izquierda recta hacia atrás apoyando el empeine y desciende la pelvis al suelo."
           }
+        },
+        {
+          "poseId": "mandukasana",
+          "duration": "4 min (Postura de la Rana)"
         },
         {
           "poseId": "savasana",
@@ -7849,7 +8125,7 @@
       },
       "phases": [
         {
-          "phaseName": "Fase 1: Centramiento Meditativo y Respiración Consciente",
+          "phaseName": "Fase 1: Pranayama, Centramiento Meditativo y Respiración Consciente",
           "description": "Aterrizaje en el cuerpo y activación parasimpática sin esfuerzo muscular.",
           "poses": [
             {
@@ -7954,7 +8230,7 @@
       },
       "phases": [
         {
-          "phaseName": "Fase 1: Centramiento Meditativo y Respiración Consciente",
+          "phaseName": "Fase 1: Pranayama, Centramiento Meditativo y Respiración Consciente",
           "description": "Aterrizaje en el cuerpo y activación parasimpática sin esfuerzo muscular.",
           "poses": [
             {
@@ -8049,7 +8325,7 @@
       },
       "phases": [
         {
-          "phaseName": "Fase 1: Centramiento Meditativo y Respiración Consciente",
+          "phaseName": "Fase 1: Pranayama, Centramiento Meditativo y Respiración Consciente",
           "description": "Aterrizaje en el cuerpo y activación parasimpática sin esfuerzo muscular.",
           "poses": [
             {
@@ -8144,7 +8420,7 @@
       },
       "phases": [
         {
-          "phaseName": "Fase 1: Centramiento Meditativo y Respiración Consciente",
+          "phaseName": "Fase 1: Pranayama, Centramiento Meditativo y Respiración Consciente",
           "description": "Aterrizaje en el cuerpo y activación parasimpática sin esfuerzo muscular.",
           "poses": [
             {
@@ -8259,7 +8535,7 @@
       },
       "phases": [
         {
-          "phaseName": "Fase 1: Centramiento Meditativo y Respiración Consciente",
+          "phaseName": "Fase 1: Pranayama, Centramiento Meditativo y Respiración Consciente",
           "description": "Aterrizaje en el cuerpo y activación parasimpática sin esfuerzo muscular.",
           "poses": [
             {
@@ -8384,7 +8660,7 @@
       },
       "phases": [
         {
-          "phaseName": "Fase 1: Centramiento Meditativo y Respiración Consciente",
+          "phaseName": "Fase 1: Pranayama, Centramiento Meditativo y Respiración Consciente",
           "description": "Aterrizaje en el cuerpo y activación parasimpática sin esfuerzo muscular.",
           "poses": [
             {
@@ -8489,7 +8765,7 @@
       },
       "phases": [
         {
-          "phaseName": "Fase 1: Centramiento Meditativo y Respiración Consciente",
+          "phaseName": "Fase 1: Pranayama, Centramiento Meditativo y Respiración Consciente",
           "description": "Aterrizaje en el cuerpo y activación parasimpática sin esfuerzo muscular.",
           "poses": [
             {

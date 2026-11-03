@@ -94,54 +94,194 @@ export class RoutineBuilderComponent implements OnInit {
     return 60; // default 60s
   }
 
+  private buildSequenceItem(pose: Pose, duration: string): PoseSequenceItem {
+    const steps = pose.stepByStepInstructions || [];
+    const leftStep = steps.find(s => s.includes('Lado Izquierdo:'));
+    const rightStep = steps.find(s => s.includes('Lado Derecho:'));
+
+    if (leftStep && rightStep) {
+      return {
+        poseId: pose.id,
+        duration,
+        sideInstruction: `Realizar ambos lados: Izquierdo y Derecho (${duration})`,
+        sides: {
+          left: leftStep.replace(/^\d+\.\s*Lado Izquierdo:\s*/i, '').trim(),
+          right: rightStep.replace(/^\d+\.\s*Lado Derecho:\s*/i, '').trim()
+        }
+      };
+    }
+
+    return { poseId: pose.id, duration };
+  }
+
+  private isBilateralPose(pose: Pose): boolean {
+    const text = (pose.stepByStepInstructions || []).join(' ');
+    return text.includes('Lado Izquierdo:') || text.includes('Lado Derecho:') || (pose.recommendedDuration || '').includes('por lado');
+  }
+
   generateRandomRoutine(yogaType: string) {
     this.yogaService.getAllPoses().subscribe(allPoses => {
       this.yogaService.getBreathRoutines().subscribe(breathRoutines => {
-        
-        const randomBreath = breathRoutines[Math.floor(Math.random() * breathRoutines.length)];
-        
-        const warmupPosesPool = allPoses.filter(p => p.category.toLowerCase().includes('calentamiento') || p.category.toLowerCase().includes('transición') || p.id === 'adho_mukha_svanasana' || p.id === 'marjaryasana_bitilasana' || p.id === 'bhujangasana' || p.id === 'balasana');
-        
-        const mainPosesPool = allPoses.filter(p => p.yogaType.toLowerCase().includes(yogaType.toLowerCase()));
-        
-        // Pick random items
-        const pickedWarmup = this.pickRandomPoses(warmupPosesPool, 3);
-        const pickedMain = this.pickRandomPoses(mainPosesPool, 5);
+        const styleLower = yogaType.toLowerCase();
+        const isYin = styleLower.includes('yin');
+        const isVinyasa = styleLower.includes('vinyasa');
+        const poseMap = new Map<string, Pose>(allPoses.map(p => [p.id, p]));
 
-        const phases = [
-          {
-            phaseName: 'Fase 1: Pranayama',
-            description: 'Centramiento',
-            poses: [{ poseId: 'tadasana', duration: '3 min' }]
-          },
-          {
-            phaseName: 'Fase 2: Saludos al Sol / Calentamiento',
-            description: 'Calentamiento dinámico',
-            poses: pickedWarmup.map(p => ({ poseId: p.id, duration: '5 respiraciones' }))
-          },
-          {
-            phaseName: 'Fase 3: Rutina Formal',
-            description: 'Posturas principales de ' + yogaType,
-            poses: pickedMain.map(p => ({ poseId: p.id, duration: '5 respiraciones por lado' }))
-          },
-          {
-            phaseName: 'Fase 4: Savasana',
-            description: 'Relajación Final',
-            poses: [{ poseId: 'savasana', duration: '5 min' }]
-          }
-        ];
+        let phases: any[] = [];
+        let selectedBreath: BreathRoutine = breathRoutines[0];
+        let styleTitle = yogaType;
+        let focusText = '';
+        let descriptionText = '';
+
+        if (isYin) {
+          styleTitle = 'Yin Yoga';
+          focusText = 'Tejido Conectivo, Fascia y Meridianos';
+          descriptionText = 'Rutina de Yin Yoga con músculos fríos, sin Saludos al Sol y permanencias pasivas de 3 a 5 minutos.';
+
+          const yinBreaths = breathRoutines.filter(b =>
+            ['respiracion_completa', 'bhramari', 'samavritti', 'nadi_shodhana'].includes(b.id)
+          );
+          selectedBreath = yinBreaths[Math.floor(Math.random() * yinBreaths.length)] || breathRoutines[0];
+
+          const centeringIds = ['balasana', 'padmasana', 'supta_baddha_konasana'];
+          const centeringId = centeringIds[Math.floor(Math.random() * centeringIds.length)];
+          const prepId = centeringId === 'supta_baddha_konasana' ? 'sphinx_pose' : 'supta_baddha_konasana';
+
+          const excludedIds = new Set([centeringId, prepId, 'savasana', 'tadasana']);
+          const yinPool = allPoses.filter(p =>
+            !excludedIds.has(p.id) &&
+            (p.yogaType.toLowerCase().includes('yin') || (p.holdTimeByStyle?.yin && p.holdTimeByStyle.yin !== 'N/A'))
+          );
+          const pickedMain = this.pickRandomPoses(yinPool, 4);
+
+          phases = [
+            {
+              phaseName: 'Fase 1: Pranayama, Centramiento Meditativo y Respiración Consciente',
+              description: 'Respiración consciente en quietud total',
+              poses: [{ poseId: centeringId, duration: '5 min centramiento meditativo' }]
+            },
+            {
+              phaseName: 'Fase 2: Preparación Fascial y Apertura Pasiva',
+              description: 'Entrada suave a nivel del suelo con músculos fríos y relajados (sin Saludos al Sol)',
+              poses: [this.buildSequenceItem(poseMap.get(prepId)!, '5 min apertura pasiva')]
+            },
+            {
+              phaseName: 'Fase 3: Rutina Formal - Tejido Conectivo y Meridianos',
+              description: 'Permanencia prolongada de 3 a 5 minutos por postura en el suelo',
+              poses: pickedMain.map(p =>
+                this.buildSequenceItem(p, this.isBilateralPose(p) ? '4 min por lado' : '4 min')
+              )
+            },
+            {
+              phaseName: 'Fase 4: Relajación Final y Rebote Asimilativo (Savasana)',
+              description: 'Rehidratación de la matriz extracelular y silencio profundo',
+              poses: [{ poseId: 'savasana', duration: '10 min relajación e integración fascial' }]
+            }
+          ];
+        } else if (isVinyasa) {
+          styleTitle = 'Vinyasa Yoga';
+          focusText = 'Flujo Dinámico Sincronizado (Ujjayi & Vinyasa Krama)';
+          descriptionText = 'Secuencia encadenada continua de Vinyasa Flow con Saludos al Sol A y B y transiciones dinámicas.';
+
+          selectedBreath = breathRoutines.find(b => b.id === 'ujjayi') || breathRoutines[0];
+
+          const warmupIds = ['marjaryasana_bitilasana', 'adho_mukha_svanasana', 'chaturanga_dandasana', 'bhujangasana'];
+          const excludedIds = new Set([...warmupIds, 'tadasana', 'savasana', 'balasana']);
+          const vinyasaPool = allPoses.filter(p =>
+            !excludedIds.has(p.id) && p.yogaType.toLowerCase().includes('vinyasa')
+          );
+          const pickedMain = this.pickRandomPoses(vinyasaPool, 5);
+
+          phases = [
+            {
+              phaseName: 'Fase 1: Pranayama y Centramiento (Ujjayi)',
+              description: 'Instalación de la respiración oceánica Ujjayi Pranayama',
+              poses: [{ poseId: 'tadasana', duration: '5 min centramiento con Ujjayi' }]
+            },
+            {
+              phaseName: 'Fase 2: Calentamiento Dinámico - Saludos al Sol A y B',
+              description: 'Surya Namaskar A y B sincronizando respiración y movimiento',
+              poses: [
+                { poseId: 'marjaryasana_bitilasana', duration: '5 respiraciones dinámicas' },
+                { poseId: 'adho_mukha_svanasana', duration: '5 respiraciones' },
+                { poseId: 'chaturanga_dandasana', duration: '3 vueltas Saludos al Sol A y B' },
+                { poseId: 'bhujangasana', duration: '5 respiraciones' }
+              ]
+            },
+            {
+              phaseName: 'Fase 3: Rutina Formal - Flujo Dinámico Vinyasa',
+              description: 'Secuencia encadenada continua y transiciones de Vinyasa',
+              poses: pickedMain.map(p =>
+                this.buildSequenceItem(p, this.isBilateralPose(p) ? '5 respiraciones por lado' : '5 respiraciones')
+              )
+            },
+            {
+              phaseName: 'Fase 4: Enfriamiento y Relajación Final (Savasana)',
+              description: 'Desaceleración metabólica progresiva y reposo reparador',
+              poses: [
+                { poseId: 'balasana', duration: '2 min enfriamiento' },
+                { poseId: 'savasana', duration: '8 min relajación final' }
+              ]
+            }
+          ];
+        } else {
+          styleTitle = 'Hatha Yoga';
+          focusText = 'Alineación Estática, Equilibrio y Fuerza Base';
+          descriptionText = 'Rutina clásica de Hatha Yoga con Pranayama, Saludo al Sol tradicional y asanas sostenidas estáticamente.';
+
+          const hathaBreaths = breathRoutines.filter(b =>
+            ['nadi_shodhana', 'samavritti', 'kapalabhati', 'respiracion_completa', 'bhramari'].includes(b.id)
+          );
+          selectedBreath = hathaBreaths[Math.floor(Math.random() * hathaBreaths.length)] || breathRoutines[0];
+
+          const warmupIds = ['marjaryasana_bitilasana', 'bhujangasana', 'adho_mukha_svanasana'];
+          const excludedIds = new Set([...warmupIds, 'tadasana', 'savasana']);
+          const hathaPool = allPoses.filter(p =>
+            !excludedIds.has(p.id) && p.yogaType.toLowerCase().includes('hatha')
+          );
+          const pickedMain = this.pickRandomPoses(hathaPool, 5);
+
+          phases = [
+            {
+              phaseName: 'Fase 1: Pranayama y Centramiento',
+              description: 'Respiración consciente y alineación inicial',
+              poses: [{ poseId: 'tadasana', duration: '5 min centramiento' }]
+            },
+            {
+              phaseName: 'Fase 2: Calentamiento Articular y Saludos al Sol',
+              description: 'Movilidad Gato-Vaca y Surya Namaskar clásico pausado',
+              poses: [
+                { poseId: 'marjaryasana_bitilasana', duration: '2 min movilidad articular' },
+                { poseId: 'bhujangasana', duration: '5 respiraciones (Cobra en Saludo al Sol)' },
+                { poseId: 'adho_mukha_svanasana', duration: '5 respiraciones (Perro Boca Abajo)' }
+              ]
+            },
+            {
+              phaseName: 'Fase 3: Rutina Formal - Asanas Estáticas Sostenidas',
+              description: 'Posturas sostenidas estáticamente entre 45s y 2 min',
+              poses: pickedMain.map(p =>
+                this.buildSequenceItem(p, this.isBilateralPose(p) ? '1 min por lado' : '1 min')
+              )
+            },
+            {
+              phaseName: 'Fase 4: Relajación Final (Savasana)',
+              description: 'Integración neuromuscular y calma parasimpática',
+              poses: [{ poseId: 'savasana', duration: '10 min relajación final' }]
+            }
+          ];
+        }
 
         const customRoutine: Routine = {
           id: 'custom_random_' + Date.now(),
-          title: 'Random ' + yogaType + ' Routine',
-          style: yogaType,
-          category: 'Exercise',
-          durationMinutes: 30,
-          durationFormatted: '30 min',
+          title: 'Rutina Aleatoria de ' + styleTitle,
+          style: styleTitle,
+          category: isYin ? 'Relaxation' : 'Exercise',
+          durationMinutes: 60,
+          durationFormatted: '60 min',
           level: 'Todos los niveles',
-          focus: 'Generated Random Flow',
-          description: 'A dynamically generated ' + yogaType + ' routine.',
-          breathRoutine: randomBreath.id,
+          focus: focusText,
+          description: descriptionText,
+          breathRoutine: selectedBreath.id,
           phases: phases,
           posesSequence: phases.flatMap(ph => ph.poses)
         };
@@ -169,7 +309,8 @@ export class RoutineBuilderComponent implements OnInit {
             phase.poses.forEach(seqItem => {
                 const p = allPoses.find(x => x.id === seqItem.poseId);
                 if (p) {
-                const isPranayamaPhase = phase.phaseName.toLowerCase().includes('pranayama');
+                const phaseLower = phase.phaseName.toLowerCase();
+                const isPranayamaPhase = phaseLower.includes('pranayama') || phaseLower.includes('fase 1');
                 sequenceItems.push({
                     ...p,
                     durationString: seqItem.duration,
